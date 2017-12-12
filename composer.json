@@ -1,0 +1,13 @@
+{
+	"name": "mediawiki/blue-spice-insert-category",
+	"type": "mediawiki-extension",
+	"description": "Dialog to enter a category link",
+	"license": "GPL-3.0",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-4": {
+		}
+	}
+}
