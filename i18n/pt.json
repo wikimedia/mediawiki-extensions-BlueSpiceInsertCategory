@@ -6,7 +6,7 @@
 			"Hamilton Abreu"
 		]
 	},
-	"bs-insertcategory-desc": "Diálogo para inserir uma ligação à categoria",
+	"bs-insertcategory-desc": "Diálogo para inserir uma hiperligação para uma categoria",
 	"bs-insertcategory-insertcat": "Inserir categoria",
 	"prefs-insertcategory": "Inserir categoria",
 	"bs-insertcategory-pref-withparents": "Inserir categoria com as suas parentes",
