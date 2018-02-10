@@ -41,7 +41,6 @@ class InsertCategory extends BsExtensionMW {
 	 * Initialise the InsertCategory extension
 	 */
 	protected function initExt() {
-		wfProfileIn( 'BS::' . __METHOD__ );
 		$this->setHook( 'SkinTemplateNavigation' );
 		$this->setHook( 'BSExtendedEditBarBeforeEditToolbar' );
 		$this->setHook( 'BeforePageDisplay' );
@@ -49,8 +48,6 @@ class InsertCategory extends BsExtensionMW {
 
 		BsConfig::registerVar( 'MW::InsertCategory::WithParents', false, BsConfig::LEVEL_PUBLIC | BsConfig::RENDER_AS_JAVASCRIPT | BsConfig::TYPE_BOOL, 'bs-insertcategory-pref-withparents', 'toggle' );
 		BsConfig::registerVar( 'MW::InsertCategory::UploadPanelIntegration', false, BsConfig::LEVEL_PUBLIC | BsConfig::RENDER_AS_JAVASCRIPT | BsConfig::TYPE_BOOL, 'bs-insertcategory-pref-uploadpanelintegration', 'toggle' );
-
-		wfProfileOut( 'BS::' . __METHOD__ );
 	}
 
 	/**
