@@ -10,16 +10,27 @@
 	],
 	"descriptionmsg": "bs-insertcategory-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceInsertCategory": {
-			"className": "InsertCategory",
-			"extPath": "/BlueSpiceInsertCategory"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceInsertCategory": {
+					"className": "InsertCategory",
+					"extPath": "/BlueSpiceInsertCategory",
+					"configDefinitions": {
+						"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
+						"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
+					}
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
 		"BlueSpiceInsertCategory": [
 			"i18n"
 		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\InsertCategory\\": "src/"
 	},
 	"AutoloadClasses": {
 		"InsertCategory": "InsertCategory.class.php"
@@ -56,6 +67,17 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceInsertCategory/resources"
 	},
+	"config_prefix": "bsg",
+	"config": {
+		"InsertCategoryWithParents": {
+			"value": false,
+			"descriptionmsg": "bs-insertcategory-pref-withparents"
+		},
+		"InsertCategoryUploadPanelIntegration": {
+			"value": false,
+			"descriptionmsg": "bs-insertcategory-pref-uploadpanelintegration"
+		}
+	},
 	"load_composer_autoloader": true,
-	"manifest_version": 1
+	"manifest_version": 2
 }

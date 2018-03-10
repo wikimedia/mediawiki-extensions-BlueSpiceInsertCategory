@@ -56,7 +56,7 @@ Ext.define( 'BS.InsertCategory.Dialog', {
 	},
 	onItemClick: function( tree, record, item, index, e, eOpts ) {
 		this.isDirty = true;
-		if ( mw.config.get( 'BSInsertCategoryWithParents' ) ) {
+		if ( mw.config.get( 'bsgInsertCategoryWithParents' ) ) {
 			this.addValuesFromRecord( record );
 		}
 		else {
