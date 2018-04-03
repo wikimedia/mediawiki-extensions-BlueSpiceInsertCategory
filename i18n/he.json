@@ -4,5 +4,15 @@
 			"Guycn2"
 		]
 	},
-	"bs-insertcategory-hint": "הערה: כדי להוסיף קטגוריה, יש להקיש על Enter."
+	"bs-insertcategory-desc": "תיבת דו־שיח להוספת קישורים לקטגוריות",
+	"bs-insertcategory-insertcat": "הוספת קטגוריה",
+	"prefs-insertcategory": "הוספת קטגוריה",
+	"bs-insertcategory-pref-withparents": "הוספת קטגוריה יחד עם קטגוריות ההורה שלה",
+	"bs-insertcategory-pref-uploadpanelintegration": "הגדרת דפי קטגוריות כברירת מחדל בתיבת הדו־שיח של ההעלאה",
+	"bs-insertcategory-title": "הוספת קטגוריה",
+	"bs-insertcategory-cat-label": "משויכות:",
+	"bs-insertcategory-success": "הקטגוריה נוספה",
+	"bs-insertcategory-failure": "שגיאה",
+	"bs-insertcategory-hint": "הערה: כדי להוסיף קטגוריה, יש להקיש על Enter.",
+	"bs-insertcategory-panel-title": "קטגוריות"
 }
