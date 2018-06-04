@@ -3,8 +3,6 @@ $(document).bind('BsVisualEditorActionsInit', function( events, plugin, buttons,
 	var t = plugin;
 	var ed = t.getEditor();
 
-	var currentImagePath = mw.config.get('wgScriptPath') + '/extensions/BlueSpiceExtensions/InsertCategory/resources/images';
-
 	buttons.push( {
 		buttonId: 'bsinsertcategory',
 		buttonConfig: {
