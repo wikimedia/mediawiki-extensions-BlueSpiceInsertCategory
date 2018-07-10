@@ -1,16 +1,11 @@
 Ext.define( 'BS.InsertCategory.AsyncCategoryTreePanel', {
 	extend: 'Ext.tree.Panel',
-	/*viewConfig: {
-		plugins: {
-			ptype: 'treeviewdragdrop'
-		}
-	},*/
+	requires:[ 'BS.model.Category' ],
 	width: 300,
 	title: mw.message( 'bs-insertcategory-panel-title' ).plain(),
 	useArrows: true,
 	rootVisible: false,
 	displayField: 'text',
-
 	initComponent: function() {
 		this.store = Ext.create('Ext.data.TreeStore', {
 			proxy: {

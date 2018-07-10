@@ -28,6 +28,14 @@
 					}
 				}
 			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {
+				"insert_category": {
+					"module": "ext.bluespice.insertcategory.flyout",
+					"make-items-callback": "bs.insertcategory.flyout.makeItems"
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -65,6 +73,18 @@
 			"scripts": "bluespice.insertCategory.uploadPanelIntegration.js",
 			"targets": [ "desktop", "mobile" ],
 			"dependencies": [
+				"ext.bluespice.insertcategory"
+			]
+		},
+		"ext.bluespice.insertcategory.flyout": {
+			"scripts": "bluespice.insertcategory.flyout.js",
+			"messages": [
+				"bs-insertcategory-category-editor-title",
+				"bs-insertcategory-category-editor-implicit-categories-title",
+				"bs-insertcategory-category-editor-implicit-categories-help"
+			],
+			"dependencies": [
+				"ext.bluespice.insertcategory.styles",
 				"ext.bluespice.insertcategory"
 			]
 		}

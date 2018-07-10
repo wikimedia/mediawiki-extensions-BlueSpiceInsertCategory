@@ -11,3 +11,13 @@ i.mce-i-bsinsertcategory {
 	padding: 3px;
 	background-color: #e3e5eb;
 }
+
+/*
+ * This is an ugly workaround. When "InsertCategory" is enabled it replaces
+ * the default category list from "ArticleInfo". For the future we plan to
+ * _integrate_ into the category list "ArticleInfo" and just add an "edit"
+ * button that switches the UI.
+ */
+.bs-articleinfo-flyout-categorylist-cnt {
+	display: none;
+}

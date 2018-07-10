@@ -15,5 +15,8 @@
 	"bs-insertcategory-success": "Text for add category successful",
 	"bs-insertcategory-failure": "Text for error.\n{{Identical|Error}}",
 	"bs-insertcategory-hint": "Text for note: to add a category, you have to press enter.",
-	"bs-insertcategory-panel-title": "Title for categories.\n{{Identical|Category}}"
+	"bs-insertcategory-panel-title": "Title for categories.\n{{Identical|Category}}",
+	"bs-insertcategory-category-editor-title":"Label of an input field that allows modification of the categories of a page",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Label of a ready only field that lists categories that can not be changed directly",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Tooltip text for a list of categories that can not be changed directly"
 }

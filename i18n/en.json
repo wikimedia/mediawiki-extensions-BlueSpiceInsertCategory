@@ -14,5 +14,8 @@
 	"bs-insertcategory-success": "The category was added",
 	"bs-insertcategory-failure": "Error",
 	"bs-insertcategory-hint": "Note: to add a category, you have to press enter.",
-	"bs-insertcategory-panel-title": "Categories"
+	"bs-insertcategory-panel-title": "Categories",
+	"bs-insertcategory-category-editor-title":"Categories",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Implicit categories",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Those categories are not defined within the wikitext content of the page. Most likely they are set from within a template."
 }
