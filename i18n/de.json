@@ -17,7 +17,7 @@
 	"bs-insertcategory-failure": "Fehler",
 	"bs-insertcategory-hint": "Hinweis: Bestätige mit der Taste Enter, um die Kategorie hinzuzufügen.",
 	"bs-insertcategory-panel-title": "Kategorien",
-	"bs-insertcategory-category-editor-title":"Kategorien",
+	"bs-insertcategory-category-editor-title": "Kategorien",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Implizite Kategorien",
-	"bs-insertcategory-category-editor-implicit-categories-help": "Diese Kategorien sind nicht im WikiText der Seite definiert. Sehr wahrscheinlich werden sie in einer Vorlage gesetzt."
+	"bs-insertcategory-category-editor-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt."
 }
