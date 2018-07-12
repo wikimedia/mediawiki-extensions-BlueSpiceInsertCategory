@@ -3,7 +3,8 @@
 		"authors": [
 			"Okras",
 			"Alexandr Efremov",
-			"Kareyac"
+			"Kareyac",
+			"Vlad5250"
 		]
 	},
 	"bs-insertcategory-desc": "Диалог ввода ссылки на категорию",
@@ -16,5 +17,6 @@
 	"bs-insertcategory-success": "Категория была добавлена",
 	"bs-insertcategory-failure": "Ошибка",
 	"bs-insertcategory-hint": "Примечание: чтобы добавить категорию, необходимо нажать клавишу Enter.",
-	"bs-insertcategory-panel-title": "Категории"
+	"bs-insertcategory-panel-title": "Категории",
+	"bs-insertcategory-category-editor-title": "Категории"
 }

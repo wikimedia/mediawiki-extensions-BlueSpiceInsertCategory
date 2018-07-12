@@ -16,5 +16,7 @@
 	"bs-insertcategory-success": "Categoria adicionada",
 	"bs-insertcategory-failure": "Erro",
 	"bs-insertcategory-hint": "Nota: para adicionar uma categoria, deve pressionar \"enter\".",
-	"bs-insertcategory-panel-title": "Categorias"
+	"bs-insertcategory-panel-title": "Categorias",
+	"bs-insertcategory-category-editor-title": "Categorias",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Categorias implícitas"
 }

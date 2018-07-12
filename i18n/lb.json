@@ -11,5 +11,7 @@
 	"bs-insertcategory-success": "D'Kategorie gouf dobäigesat",
 	"bs-insertcategory-failure": "Feeler",
 	"bs-insertcategory-hint": "Informatioun: fir eng Kategorie dobäizesetze klickt 'Enter'.",
-	"bs-insertcategory-panel-title": "Kategorien"
+	"bs-insertcategory-panel-title": "Kategorien",
+	"bs-insertcategory-category-editor-title": "Kategorien",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Implizit Kategorien"
 }
