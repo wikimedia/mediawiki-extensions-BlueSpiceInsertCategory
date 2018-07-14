@@ -15,5 +15,7 @@
 	"bs-insertcategory-success": "Kategorin lades till",
 	"bs-insertcategory-failure": "Fel",
 	"bs-insertcategory-hint": "OBS: För att lägga till en kategori måste du trycka på enter.",
-	"bs-insertcategory-panel-title": "Kategorier"
+	"bs-insertcategory-panel-title": "Kategorier",
+	"bs-insertcategory-category-editor-title": "Kategorier",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Uttryckliga kategorier"
 }
