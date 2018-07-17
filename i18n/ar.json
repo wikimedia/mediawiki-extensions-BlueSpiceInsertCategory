@@ -15,5 +15,6 @@
 	"bs-insertcategory-success": "أضيف التصنيف",
 	"bs-insertcategory-failure": "خطأ",
 	"bs-insertcategory-hint": "ملاحظة: لإضافة تصنيف; عليك الضغط على Enter.",
-	"bs-insertcategory-panel-title": "التصنيفات"
+	"bs-insertcategory-panel-title": "التصنيفات",
+	"bs-insertcategory-category-editor-title": "التصنيفات"
 }
