@@ -16,5 +16,7 @@
 	"bs-insertcategory-failure": "خطأ",
 	"bs-insertcategory-hint": "ملاحظة: لإضافة تصنيف; عليك الضغط على Enter.",
 	"bs-insertcategory-panel-title": "التصنيفات",
-	"bs-insertcategory-category-editor-title": "التصنيفات"
+	"bs-insertcategory-category-editor-title": "التصنيفات",
+	"bs-insertcategory-category-editor-implicit-categories-title": "التصنيفات الضمنية",
+	"bs-insertcategory-category-editor-implicit-categories-help": "لا يتم تعريف تلك التصنيفات ضمن محتوى نص ويكي الصفحة; على الأرجح يتم تعيينها ضمن قالب."
 }

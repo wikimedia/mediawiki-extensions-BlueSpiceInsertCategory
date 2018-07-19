@@ -18,5 +18,6 @@
 	"bs-insertcategory-failure": "Ошибка",
 	"bs-insertcategory-hint": "Примечание: чтобы добавить категорию, необходимо нажать клавишу Enter.",
 	"bs-insertcategory-panel-title": "Категории",
-	"bs-insertcategory-category-editor-title": "Категории"
+	"bs-insertcategory-category-editor-title": "Категории",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Неявные категории"
 }
