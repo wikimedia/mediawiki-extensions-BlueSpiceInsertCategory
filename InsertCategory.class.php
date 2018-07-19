@@ -112,7 +112,8 @@ class InsertCategory extends BsExtensionMW {
 			'text' => wfMessage( 'bs-insertcategory-insertcat' )->text(),
 			'href' => '#',
 			'class' => false,
-			'id' => 'ca-insertcategory'
+			'id' => 'ca-insertcategory',
+			'bs-group' => 'hidden'
 		);
 
 		return true;
