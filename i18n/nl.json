@@ -17,5 +17,7 @@
 	"bs-insertcategory-success": "De categorie is toegevoegd",
 	"bs-insertcategory-failure": "Fout",
 	"bs-insertcategory-hint": "Let op: voor het toevoegen van een categorie drukt u op <kbd>Enter<kbd> of beëindigt u uw invoer met een komma.",
-	"bs-insertcategory-panel-title": "Categorieën"
+	"bs-insertcategory-panel-title": "Categorieën",
+	"bs-insertcategory-category-editor-title": "Categorieën",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Impliciete categorieën"
 }
