@@ -14,5 +14,8 @@
 	"bs-insertcategory-success": "'A categorije ha state aggiunde",
 	"bs-insertcategory-failure": "Errore",
 	"bs-insertcategory-hint": "NB: pe aggiungere 'na categorije, tu a cazzà invie.",
-	"bs-insertcategory-panel-title": "Categorije"
+	"bs-insertcategory-panel-title": "Categorije",
+	"bs-insertcategory-category-editor-title": "Categorije",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Categorije implicite",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Ste categorije non g'avenene definite jndr'à 'u uicchi teste ca ste jndr'à pàgene. Normalmende stonne jndr'à 'nu template."
 }
