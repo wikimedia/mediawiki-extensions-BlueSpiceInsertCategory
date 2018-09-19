@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Pwirth"
+			"Pwirth",
+			"Hwboehm"
 		]
 	},
-	"bs-insertcategory-hint": "Hinweis: Bestätigen Sie mit der Taste Enter, um die Eingabe abzuschließen und die Kategorie hinzuzufügen."
+	"bs-insertcategory-hint": "Hinweis: Bestätigen Sie mit der Taste Enter, um die Kategorie hinzuzufügen."
 }
