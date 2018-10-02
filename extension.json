@@ -81,7 +81,9 @@
 			"messages": [
 				"bs-insertcategory-category-editor-title",
 				"bs-insertcategory-category-editor-implicit-categories-title",
-				"bs-insertcategory-category-editor-implicit-categories-help"
+				"bs-insertcategory-category-editor-implicit-categories-help",
+				"bs-insertcategory-category-editor-explicit-categories-edit",
+				"bs-insertcategory-category-editor-button-label-clear-all"
 			],
 			"dependencies": [
 				"ext.bluespice.insertcategory.styles",

@@ -7,12 +7,65 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 
 	pageId: -1,
 	allCategories: [],
+	userCanEdit: false,
+	parentFlyout: null,
 
 	initComponent: function() {
+		if( this.userCanEdit ) {
+			this.tools = [{
+				type: 'gear',
+				tooltip: mw.message(
+					'bs-insertcategory-category-editor-explicit-categories-edit'
+				).plain(),
+				handler: function() {
+					this.switchToEditor();
+				},
+				scope: this
+			}];
+		}
+
+		this.btnSave = new Ext.button.Button( {
+			text: mw.message( 'bs-extjs-save' ).plain(),
+			disabled: true,
+			cls: 'editor-button'
+		} );
+		this.btnSave.on( 'click', this.btnSaveClick, this );
+
+		this.btnCancel = new Ext.button.Button( {
+			text: mw.message( 'bs-extjs-cancel' ).plain(),
+			cls: 'editor-button'
+		} );
+		this.btnCancel.on( 'click', this.btnCancelClick, this );
+
+		this.btnClearAll = new Ext.button.Button( {
+			text: mw.message( 'bs-insertcategory-category-editor-button-label-clear-all' ).plain(),
+			cls: 'editor-button'
+		} );
+		this.btnClearAll.on( 'click', this.btnClearAllClick, this );
+
 		this.cbCategories = new BS.form.field.CategoryTag({
 			showTreeTrigger: true
 		});
 		this.cbCategories.on( 'change', this.cbCategoriesChange, this );
+
+		this.pnlExplcitCategoriesList = new Ext.panel.Panel();
+		this.pnlExplcitCategoriesEditor = new Ext.form.Panel( {
+			cls: 'category-editor-form',
+			items: [
+				this.cbCategories,
+				this.btnSave,
+				this.btnCancel,
+				this.btnClearAll
+			],
+			hidden: true
+		} );
+
+		this.pnlExplcitCategories = new Ext.panel.Panel( {
+			items: [
+				this.pnlExplcitCategoriesList,
+				this.pnlExplcitCategoriesEditor
+			]
+		} );
 
 		this.pnlImplcitCategories = new Ext.panel.Panel( {
 			title: mw.message(
@@ -28,20 +81,8 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 		} );
 
 		this.items = [
-			this.cbCategories,
+			this.pnlExplcitCategories,
 			this.pnlImplcitCategories
-		];
-
-		this.btnSave = new Ext.button.Button( {
-			text: mw.message( 'bs-extjs-save' ).plain(),
-			disabled: true,
-			hidden:true
-		} );
-
-		this.btnSave.on( 'click', this.btnSaveClick, this );
-
-		this.buttons = [
-			this.btnSave
 		];
 
 		this.loadCategories();
@@ -59,6 +100,7 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 			me.cbCategories.setValue( result.payload );
 			me.cbCategories.resumeEvent( 'change' );
 
+			me.showExplicitCategories( result.payload );
 			me.showImplicitCategories( result.payload );
 		});
 	},
@@ -71,15 +113,29 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 	btnSaveClick:function() {
 		var me = this;
 		var categories = this.cbCategories.getValue();
+		this.setLoading( true );
 
 		bs.api.tasks.exec( 'wikipage', 'setCategories', {
 			page_id: this.pageId,
 			categories: categories
 		} )
 		.done( function( result ) {
-			me.btnSave.disable();
-			me.btnSave.setHidden( true );
+			me.showExplicitCategories( categories );
+			me.switchToView();
+			me.setLoading( false );
+		})
+		.fail( function() {
+			me.setLoading( false );
 		});
+	},
+
+	btnClearAllClick: function() {
+		this.cbCategories.reset();
+		this.btnSave.enable();
+	},
+
+	btnCancelClick: function() {
+		this.switchToView();
 	},
 
 	showImplicitCategories: function( explicitCategories ) {
@@ -95,23 +151,29 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 			return;
 		}
 
-		var html = this.renderImplicitCategoryLinklist( implicitCategories );
+		var html = this.renderCategoryLinklist( implicitCategories );
 
 		this.pnlImplcitCategories.update( html );
 		this.pnlImplcitCategories.show();
 	},
 
-	renderImplicitCategoryLinklist: function( categories ) {
+	showExplicitCategories: function( explicitCategories ) {
+		var html = this.renderCategoryLinklist( explicitCategories );
+		this.pnlExplcitCategoriesList.update( html );
+	},
+
+	renderCategoryLinklist: function( categories ) {
 		var links = [];
 		for( var i = 0; i < categories.length; i++ ) {
 			var categoryName = categories[i];
-			var title = mw.Title.newFromText( categoryName );
+			var title = mw.Title.makeTitle( bs.ns.NS_CATEGORY, categoryName );
 			var link = mw.html.element(
 				'a',
 				{
 					href: title.getUrl(),
 					title: categoryName,
-					'bs-data-title': title.getPrefixedDb()
+					'bs-data-title': title.getPrefixedDb(),
+					'class': 'pill'
 				},
 				categoryName
 			);
@@ -119,6 +181,27 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 			links.push( link );
 		}
 
-		return links.join( ', ' );
+		var html = '<div class="bs-articleinfo-flyout-linklist">' + links.join( '' ) + '</div>';
+
+		return html;
+	},
+
+	setLoading: function( state ) {
+		if( this.parentFlyout && this.parentFlyout.setLoading ) {
+			this.parentFlyout.setLoading( state );
+		}
+		else {
+			this.callParent( arguments );
+		}
+	},
+
+	switchToEditor: function() {
+		this.pnlExplcitCategoriesList.hide();
+		this.pnlExplcitCategoriesEditor.show();
+	},
+
+	switchToView: function() {
+		this.pnlExplcitCategoriesList.show();
+		this.pnlExplcitCategoriesEditor.hide();
 	}
 });
