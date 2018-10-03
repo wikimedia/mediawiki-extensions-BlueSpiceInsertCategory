@@ -5,7 +5,8 @@
 			"Sjoerddebruin",
 			"Siebrand",
 			"Esketti",
-			"Mainframe98"
+			"Mainframe98",
+			"Jeroen N"
 		]
 	},
 	"bs-insertcategory-desc": "Het dialoogvenster voor het invoeren van een categoriekoppeling",
@@ -19,5 +20,7 @@
 	"bs-insertcategory-hint": "Let op: voor het toevoegen van een categorie drukt u op <kbd>Enter<kbd> of beëindigt u uw invoer met een komma.",
 	"bs-insertcategory-panel-title": "Categorieën",
 	"bs-insertcategory-category-editor-title": "Categorieën",
-	"bs-insertcategory-category-editor-implicit-categories-title": "Impliciete categorieën"
+	"bs-insertcategory-category-editor-implicit-categories-title": "Impliciete categorieën",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen",
+	"bs-insertcategory-category-editor-explicit-categories-edit": "Categorieën bewerken"
 }

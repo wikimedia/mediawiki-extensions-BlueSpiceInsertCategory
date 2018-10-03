@@ -14,5 +14,6 @@
 	"bs-insertcategory-success": "Η κατηγορία προστέθηκε",
 	"bs-insertcategory-failure": "Σφάλμα",
 	"bs-insertcategory-hint": "Σημείωση: Για να προσθέσετε μια κατηγορία, πρέπει να πατήσετε enter.",
-	"bs-insertcategory-panel-title": "Κατηγορίες"
+	"bs-insertcategory-panel-title": "Κατηγορίες",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Αφαίρεση Όλων"
 }

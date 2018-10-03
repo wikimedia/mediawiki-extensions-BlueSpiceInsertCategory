@@ -18,5 +18,7 @@
 	"bs-insertcategory-panel-title": "التصنيفات",
 	"bs-insertcategory-category-editor-title": "التصنيفات",
 	"bs-insertcategory-category-editor-implicit-categories-title": "التصنيفات الضمنية",
-	"bs-insertcategory-category-editor-implicit-categories-help": "لا يتم تعريف تلك التصنيفات ضمن محتوى نص ويكي الصفحة; على الأرجح يتم تعيينها ضمن قالب."
+	"bs-insertcategory-category-editor-implicit-categories-help": "لا يتم تعريف تلك التصنيفات ضمن محتوى نص ويكي الصفحة; على الأرجح يتم تعيينها ضمن قالب.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "إزالة الكل",
+	"bs-insertcategory-category-editor-explicit-categories-edit": "عدل التصنيفات"
 }

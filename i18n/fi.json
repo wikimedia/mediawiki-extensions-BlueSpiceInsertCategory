@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Nike"
 		]
 	},
-	"bs-insertcategory-panel-title": "Luokat"
+	"bs-insertcategory-panel-title": "Luokat",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Poista kaikki",
+	"bs-insertcategory-category-editor-explicit-categories-edit": "Muokkaa luokkia"
 }

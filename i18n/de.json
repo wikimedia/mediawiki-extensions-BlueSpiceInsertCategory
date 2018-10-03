@@ -19,5 +19,7 @@
 	"bs-insertcategory-panel-title": "Kategorien",
 	"bs-insertcategory-category-editor-title": "Kategorien",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Implizite Kategorien",
-	"bs-insertcategory-category-editor-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt."
+	"bs-insertcategory-category-editor-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Alle entfernen",
+	"bs-insertcategory-category-editor-explicit-categories-edit": "Kategorien bearbeiten"
 }

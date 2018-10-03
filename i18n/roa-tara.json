@@ -17,5 +17,7 @@
 	"bs-insertcategory-panel-title": "Categorije",
 	"bs-insertcategory-category-editor-title": "Categorije",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorije implicite",
-	"bs-insertcategory-category-editor-implicit-categories-help": "Ste categorije non g'avenene definite jndr'à 'u uicchi teste ca ste jndr'à pàgene. Normalmende stonne jndr'à 'nu template."
+	"bs-insertcategory-category-editor-implicit-categories-help": "Ste categorije non g'avenene definite jndr'à 'u uicchi teste ca ste jndr'à pàgene. Normalmende stonne jndr'à 'nu template.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Live tutte",
+	"bs-insertcategory-category-editor-explicit-categories-edit": "Cange le categorije"
 }
