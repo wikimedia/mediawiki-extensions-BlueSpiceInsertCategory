@@ -1,6 +1,7 @@
 Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 	extend: 'Ext.panel.Panel',
 	requires: [ 'BS.form.field.CategoryTag' ],
+	cls: 'bs-insertcategory-category-editor',
 	title: mw.message(
 		'bs-insertcategory-category-editor-title'
 	).plain(),
@@ -12,16 +13,26 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 
 	initComponent: function() {
 		if( this.userCanEdit ) {
-			this.tools = [{
-				type: 'gear',
-				tooltip: mw.message(
-					'bs-insertcategory-category-editor-explicit-categories-edit'
-				).plain(),
-				handler: function() {
-					this.switchToEditor();
-				},
-				scope: this
-			}];
+			/* Ugly hack: We want to have a little link directly behind the panel title text. The
+			* title uses `flex:1` and it is hard to override this behavior. Therefore we inject our
+			* own little link
+			*/
+			var me = this;
+			var currentTitle = this.getTitle();
+			var editToolLink = '<a class="tool-link edit" title="{0}" href="#">{1}</a>'.format(
+				mw.message( 'bs-insertcategory-category-editor-explicit-categories-edit-tooltip' ).plain(),
+				mw.message( 'bs-insertcategory-category-editor-explicit-categories-edit-label' ).plain()
+			);
+			$(document).on(
+				'click',
+				'.bs-insertcategory-category-editor .tool-link.edit',
+				function ( e ) {
+					me.switchToEditor();
+					e.defaultPrevented = true;
+					return false;
+			} );
+
+			this.setTitle( currentTitle + editToolLink );
 		}
 
 		this.btnSave = new Ext.button.Button( {

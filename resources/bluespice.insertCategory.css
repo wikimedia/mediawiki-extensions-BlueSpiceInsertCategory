@@ -25,3 +25,14 @@ i.mce-i-bsinsertcategory {
 .category-editor-form .editor-button {
 	margin-left: 0.2em;
 }
+
+.bs-insertcategory-category-editor .x-panel-header-title .tool-link {
+	font-size: small;
+	margin-left: 0.5em;
+	display: none;
+}
+
+.bs-insertcategory-category-editor:hover .x-panel-header-title .tool-link {
+	margin-left: 0.5em;
+	display: inline;
+}
