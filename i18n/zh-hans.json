@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"D41D8CD98F"
+			"D41D8CD98F",
+			"A Chinese Wikipedian"
 		]
 	},
 	"bs-insertcategory-desc": "对话框中输入分类链接",
@@ -18,5 +19,6 @@
 	"bs-insertcategory-panel-title": "分类",
 	"bs-insertcategory-category-editor-title": "分类",
 	"bs-insertcategory-category-editor-implicit-categories-title": "固有分类",
-	"bs-insertcategory-category-editor-implicit-categories-help": "这些分类尚未在页面的wiki文本内容中定义。它们很可能在模板中设置。"
+	"bs-insertcategory-category-editor-implicit-categories-help": "这些分类尚未在页面的wiki文本内容中定义。它们很可能在模板中设置。",
+	"bs-insertcategory-category-editor-button-label-clear-all": "全部删除"
 }

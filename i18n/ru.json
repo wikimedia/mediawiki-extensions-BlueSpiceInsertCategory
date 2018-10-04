@@ -20,6 +20,5 @@
 	"bs-insertcategory-panel-title": "Категории",
 	"bs-insertcategory-category-editor-title": "Категории",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Неявные категории",
-	"bs-insertcategory-category-editor-button-label-clear-all": "Удалить все",
-	"bs-insertcategory-category-editor-explicit-categories-edit": "Редактировать категории"
+	"bs-insertcategory-category-editor-button-label-clear-all": "Удалить все"
 }

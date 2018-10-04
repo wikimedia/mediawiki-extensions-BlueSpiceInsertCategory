@@ -12,6 +12,5 @@
 	"bs-insertcategory-failure": "Błąd",
 	"bs-insertcategory-panel-title": "Kategorie",
 	"bs-insertcategory-category-editor-title": "Kategorie",
-	"bs-insertcategory-category-editor-button-label-clear-all": "Usuń wszystkie",
-	"bs-insertcategory-category-editor-explicit-categories-edit": "Edytuj kategorie"
+	"bs-insertcategory-category-editor-button-label-clear-all": "Usuń wszystkie"
 }

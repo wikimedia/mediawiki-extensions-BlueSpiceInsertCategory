@@ -13,5 +13,6 @@
 	"bs-insertcategory-hint": "Informatioun: fir eng Kategorie dobäizesetze klickt 'Enter'.",
 	"bs-insertcategory-panel-title": "Kategorien",
 	"bs-insertcategory-category-editor-title": "Kategorien",
-	"bs-insertcategory-category-editor-implicit-categories-title": "Implizit Kategorien"
+	"bs-insertcategory-category-editor-implicit-categories-title": "Implizit Kategorien",
+	"bs-insertcategory-category-editor-button-label-clear-all": "All ewechhuelen"
 }

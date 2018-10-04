@@ -20,6 +20,5 @@
 	"bs-insertcategory-category-editor-title": "Catégories",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Catégories implicites",
 	"bs-insertcategory-category-editor-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu wikitexte de la page. Très vraisemblablement, elles sont déclarées depuis un modèle.",
-	"bs-insertcategory-category-editor-button-label-clear-all": "Supprimer tout",
-	"bs-insertcategory-category-editor-explicit-categories-edit": "Modifier les catégories"
+	"bs-insertcategory-category-editor-button-label-clear-all": "Supprimer tout"
 }
