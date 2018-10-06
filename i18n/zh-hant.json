@@ -21,5 +21,7 @@
 	"bs-insertcategory-category-editor-title": "分類",
 	"bs-insertcategory-category-editor-implicit-categories-title": "固有分類",
 	"bs-insertcategory-category-editor-implicit-categories-help": "這些分類尚未以頁面的 wiki 文字內容定義。它們有可能是從模版所設定。",
-	"bs-insertcategory-category-editor-button-label-clear-all": "全部移除"
+	"bs-insertcategory-category-editor-button-label-clear-all": "全部移除",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "編輯",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "編輯此頁面的分類"
 }

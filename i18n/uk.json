@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ата",
-			"Piramidion"
+			"Piramidion",
+			"Viiictorrr"
 		]
 	},
 	"bs-insertcategory-desc": "Діалог введення посилання на категорію",
@@ -15,5 +16,7 @@
 	"bs-insertcategory-success": "Категорію додано",
 	"bs-insertcategory-failure": "Помилка",
 	"bs-insertcategory-hint": "Примітка: щоб додати категорію, необхідно натиснути клавішу enter.",
-	"bs-insertcategory-panel-title": "Категорії"
+	"bs-insertcategory-panel-title": "Категорії",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "редагувати",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Редагувати категорії сторінки"
 }
