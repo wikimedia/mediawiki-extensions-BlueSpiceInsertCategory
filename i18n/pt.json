@@ -19,5 +19,8 @@
 	"bs-insertcategory-panel-title": "Categorias",
 	"bs-insertcategory-category-editor-title": "Categorias",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorias implícitas",
-	"bs-insertcategory-category-editor-implicit-categories-help": "Essas categorias não estão definidas no conteúdo de texto wiki da página. É provável que sejam definidas dentro de uma predefinição."
+	"bs-insertcategory-category-editor-implicit-categories-help": "Essas categorias não estão definidas no conteúdo de texto wiki da página. É provável que sejam definidas dentro de uma predefinição.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Remover todas",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar as categorias desta página"
 }
