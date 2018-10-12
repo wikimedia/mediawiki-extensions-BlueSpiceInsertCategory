@@ -107,6 +107,11 @@
 			"descriptionmsg": "bs-insertcategory-pref-uploadpanelintegration"
 		}
 	},
+	"Hooks": {
+		"SkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
+		]
+	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
