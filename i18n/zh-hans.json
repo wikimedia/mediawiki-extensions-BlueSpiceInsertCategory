@@ -20,5 +20,7 @@
 	"bs-insertcategory-category-editor-title": "分类",
 	"bs-insertcategory-category-editor-implicit-categories-title": "固有分类",
 	"bs-insertcategory-category-editor-implicit-categories-help": "这些分类尚未在页面的wiki文本内容中定义。它们很可能在模板中设置。",
-	"bs-insertcategory-category-editor-button-label-clear-all": "全部删除"
+	"bs-insertcategory-category-editor-button-label-clear-all": "全部删除",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "编辑",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "编辑此页面的分类"
 }
