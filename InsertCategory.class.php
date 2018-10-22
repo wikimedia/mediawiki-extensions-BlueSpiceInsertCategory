@@ -42,7 +42,6 @@ class InsertCategory extends BsExtensionMW {
 	 */
 	protected function initExt() {
 		$this->setHook( 'SkinTemplateNavigation' );
-		$this->setHook( 'BSExtendedEditBarBeforeEditToolbar' );
 		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'VisualEditorConfig' );
 	}
@@ -80,18 +79,6 @@ class InsertCategory extends BsExtensionMW {
 		if( $config->get( 'InsertCategoryUploadPanelIntegration' ) ) {
 			$out->addModules( 'ext.bluespice.insertCategory.uploadPanelIntegration' );
 		}
-		return true;
-	}
-
-	public function onBSExtendedEditBarBeforeEditToolbar( &$aRows, &$aButtonCfgs ) {
-		$this->getOutput()->addModuleStyles('ext.bluespice.insertcategory.styles');
-		$this->getOutput()->addModules('ext.bluespice.insertcategory');
-
-		$aRows[0]['dialogs'][10] = 'bs-editbutton-insertcategory';
-
-		$aButtonCfgs['bs-editbutton-insertcategory'] = array(
-			'tip' => wfMessage( 'bs-insertcategory-insertcat' )->plain()
-		);
 		return true;
 	}
 
