@@ -20,7 +20,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceInsertCategory": {
-					"className": "InsertCategory",
+					"className": "\\BlueSpice\\InsertCategory\\Extension",
 					"extPath": "/BlueSpiceInsertCategory",
 					"configDefinitions": {
 						"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
@@ -45,9 +45,6 @@
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\InsertCategory\\": "src/"
-	},
-	"AutoloadClasses": {
-		"InsertCategory": "InsertCategory.class.php"
 	},
 	"ResourceModules": {
 		"ext.bluespice.insertcategory": {
@@ -110,7 +107,9 @@
 	"Hooks": {
 		"SkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
-		]
+		],
+		"SkinTemplateNavigation": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigation\\AddInsertCategoryAction::callback",
+		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
