@@ -43,25 +43,6 @@ class InsertCategory extends BsExtensionMW {
 	protected function initExt() {
 		$this->setHook( 'SkinTemplateNavigation' );
 		$this->setHook( 'BeforePageDisplay' );
-		$this->setHook( 'VisualEditorConfig' );
-	}
-
-	/**
-	 * adds the button that was added in the javascript
-	 * @param type $aConfigStandard
-	 * @param type $aConfigOverwrite
-	 * @param Array &$aLoaderUsingDeps reference
-	 * @return boolean
-	 */
-	public function onVisualEditorConfig( &$aConfigStandard, &$aConfigOverwrite, &$aLoaderUsingDeps ) {
-		$aLoaderUsingDeps[] = 'ext.bluespice.insertcategory';
-
-		$iIndexStandard = array_search( 'unlink',$aConfigStandard["toolbar1"] );
-		array_splice( $aConfigStandard["toolbar1"], $iIndexStandard + 1, 0, "bsinsertcategory" );
-
-		$iIndexOverwrite = array_search( 'unlink',$aConfigOverwrite["toolbar2"] );
-		array_splice( $aConfigOverwrite["toolbar2"], $iIndexOverwrite + 1, 0, "bsinsertcategory" );
-		return true;
 	}
 
 	/**
