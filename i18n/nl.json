@@ -6,7 +6,8 @@
 			"Siebrand",
 			"Esketti",
 			"Mainframe98",
-			"Jeroen N"
+			"Jeroen N",
+			"Ndecouck"
 		]
 	},
 	"bs-insertcategory-desc": "Het dialoogvenster voor het invoeren van een categoriekoppeling",
@@ -21,5 +22,6 @@
 	"bs-insertcategory-panel-title": "Categorieën",
 	"bs-insertcategory-category-editor-title": "Categorieën",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Impliciete categorieën",
-	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen"
+	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Bewerken"
 }
