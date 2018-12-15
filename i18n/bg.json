@@ -4,5 +4,6 @@
 			"StanProg"
 		]
 	},
-	"bs-insertcategory-failure": "Грешка"
+	"bs-insertcategory-failure": "Грешка",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Редактиране"
 }
