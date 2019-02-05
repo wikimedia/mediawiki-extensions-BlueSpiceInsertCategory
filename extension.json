@@ -56,9 +56,6 @@
 				"bs-insertcategory-failure",
 				"bs-insertcategory-hint",
 				"bs-insertcategory-panel-title"
-			],
-			"dependencies": [
-				"ext.bluespice.extjs"
 			]
 		},
 		"ext.bluespice.insertcategory.styles": {
