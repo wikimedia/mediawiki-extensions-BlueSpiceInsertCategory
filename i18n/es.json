@@ -17,5 +17,8 @@
 	"bs-insertcategory-hint": "Nota: para añadir una categoría, oprime la tecla Intro.",
 	"bs-insertcategory-panel-title": "Categorías",
 	"bs-insertcategory-category-editor-title": "Categorías",
-	"bs-insertcategory-category-editor-implicit-categories-title": "Categorías implícitas"
+	"bs-insertcategory-category-editor-implicit-categories-title": "Categorías implícitas",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página"
 }
