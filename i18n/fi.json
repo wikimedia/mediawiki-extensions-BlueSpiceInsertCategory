@@ -5,6 +5,7 @@
 			"Nike"
 		]
 	},
+	"bs-insertcategory-failure": "Virhe",
 	"bs-insertcategory-panel-title": "Luokat",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Poista kaikki"
 }
