@@ -8,7 +8,7 @@ class AddResources extends \BlueSpice\Hook\BeforePageDisplay {
 		$this->out->addModuleStyles( 'ext.bluespice.insertcategory.styles' );
 		$this->out->addModules( 'ext.bluespice.insertcategory' );
 
-		if( $this->getConfig()->get( 'InsertCategoryUploadPanelIntegration' ) ) {
+		if ( $this->getConfig()->get( 'InsertCategoryUploadPanelIntegration' ) ) {
 			$this->out->addModules(
 				'ext.bluespice.insertCategory.uploadPanelIntegration'
 			);
