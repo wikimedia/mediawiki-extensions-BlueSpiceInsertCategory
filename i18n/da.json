@@ -4,6 +4,9 @@
 			"Saederup92"
 		]
 	},
+	"prefs-insertcategory": "Indsæt kategori",
+	"bs-insertcategory-title": "Indsæt kategori",
+	"bs-insertcategory-success": "Kategorien blev tilføjet",
 	"bs-insertcategory-failure": "Fejl",
 	"bs-insertcategory-panel-title": "Kategorier",
 	"bs-insertcategory-category-editor-title": "Kategorier",
