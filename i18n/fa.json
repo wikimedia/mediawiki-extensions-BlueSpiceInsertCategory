@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alirezaaa"
+			"Alirezaaa",
+			"FarsiNevis"
 		]
 	},
 	"bs-insertcategory-desc": "پنجره محاوره‌ای برای واردکردن پیوند یک رده",
@@ -10,7 +11,7 @@
 	"bs-insertcategory-pref-withparents": "درج رده همراه والدینش",
 	"bs-insertcategory-title": "درج رده",
 	"bs-insertcategory-cat-label": "اختصاص‌یافته:",
-	"bs-insertcategory-success": "افزودن رده باموفقیت صورت پذیرفت",
+	"bs-insertcategory-success": "ردهٔ مورد نظر، افزوده شد",
 	"bs-insertcategory-failure": "خطا",
 	"bs-insertcategory-hint": "توجه: برای افزودن یک رده، باید اینتر را بفشارید یا به ثبت با ویرگول پایان دهید.",
 	"bs-insertcategory-panel-title": "رده‌ها"
