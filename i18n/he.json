@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"Erelon"
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"bs-insertcategory-desc": "תיבת דו־שיח להוספת קישורים לקטגוריות",
@@ -19,5 +20,7 @@
 	"bs-insertcategory-category-editor-title": "קטגוריות",
 	"bs-insertcategory-category-editor-implicit-categories-title": "קטגוריות מובנות",
 	"bs-insertcategory-category-editor-implicit-categories-help": "קטגוריות אלו אינן מוגדרות בטקסט הוויקי של הדף. כנראה שהן מוגדרות בתבנית.",
-	"bs-insertcategory-category-editor-explicit-categories-edit-label": "עריכה"
+	"bs-insertcategory-category-editor-button-label-clear-all": "להסיר הכל",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "עריכה",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "עריכת הקטגוריות של הדף"
 }
