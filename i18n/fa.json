@@ -14,5 +14,7 @@
 	"bs-insertcategory-success": "ردهٔ مورد نظر، افزوده شد",
 	"bs-insertcategory-failure": "خطا",
 	"bs-insertcategory-hint": "توجه: برای افزودن یک رده، باید اینتر را بفشارید یا به ثبت با ویرگول پایان دهید.",
-	"bs-insertcategory-panel-title": "رده‌ها"
+	"bs-insertcategory-panel-title": "رده‌ها",
+	"bs-insertcategory-category-editor-title": "رده‌ها",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "ویرایش"
 }
