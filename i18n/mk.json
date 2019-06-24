@@ -14,5 +14,9 @@
 	"bs-insertcategory-success": "Категоријата е додадена",
 	"bs-insertcategory-failure": "Грешка",
 	"bs-insertcategory-hint": "Напомена: за да додадете категорија, ќе треба да стиснете на Enter.",
-	"bs-insertcategory-panel-title": "Категории"
+	"bs-insertcategory-panel-title": "Категории",
+	"bs-insertcategory-category-editor-title": "Категории",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Отстрани ги сите",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "уреди",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уреди ги категориите на страницава"
 }

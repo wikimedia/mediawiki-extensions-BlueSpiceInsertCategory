@@ -4,5 +4,7 @@
 			"Dr Lotus Black"
 		]
 	},
-	"bs-insertcategory-panel-title": "ကဏ္ဍများ"
+	"bs-insertcategory-failure": "အမှား",
+	"bs-insertcategory-panel-title": "ကဏ္ဍများ",
+	"bs-insertcategory-category-editor-title": "ကဏ္ဍများ"
 }
