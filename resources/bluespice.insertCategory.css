@@ -26,13 +26,74 @@ i.mce-i-bsinsertcategory {
 	margin-left: 0.2em;
 }
 
+.bs-insertcategory-category-inline-editor .x-panel-header-title .tool-link,
 .bs-insertcategory-category-editor .x-panel-header-title .tool-link {
 	font-size: small;
 	margin-left: 0.5em;
 	display: none;
 }
 
+.bs-insertcategory-category-inline-editor:hover .x-panel-header-title .tool-link,
 .bs-insertcategory-category-editor:hover .x-panel-header-title .tool-link {
 	margin-left: 0.5em;
 	display: inline;
+}
+
+.bs-form-trigger {
+	background: 0 center #AAAAAA !important;
+	vertical-align: middle !important;
+}
+
+.bs-form-trigger::before {
+	font-family: 'fontawesome';
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.bs-form-cancel-trigger {
+	border-right: 1px solid #FFFFFF;
+}
+.bs-form-cancel-trigger::before {
+	content: '\f00d';
+}
+
+.bs-form-implicitcategories-trigger {
+	background: 0 center #FFFFFF !important;;
+}
+.bs-form-implicitcategories-trigger::before {
+	font-family: 'icomoon';
+	content: '\ea0c';
+	color: #CFCFCF;
+	font-size: 15px;
+}
+
+.bs-form-save-trigger::before {
+	content: '\f00c';
+}
+
+.bs-form-save-trigger:hover::before,
+.bs-form-cancel-trigger:hover::before {
+	color: #DDDDDD;
+}
+
+.bs-form-save-trigger:hover,
+.bs-form-cancel-trigger:hover {
+	background: 0 center #888888 !important;
+}
+
+.bs-insertcategory-category-inline-editor {
+	padding: 0px;
+	margin: 0px;
+}
+
+.bs-insertcategory-category-inline-editor-icon {
+	display: inline-block;
+}
+
+.bs-content-row {
+	height: 41px;
+}
+
+.bs-insertcategory-category-container-editlink {
+	padding-left: 3px;
 }

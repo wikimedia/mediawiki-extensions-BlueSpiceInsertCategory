@@ -27,6 +27,9 @@
 						"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
 					}
 				}
+			},
+			"RendererRegistry": {
+				"pageheader-category": "\\BlueSpice\\InsertCategory\\Renderer\\PageHeader\\Category::factory"
 			}
 		},
 		"BlueSpiceArticleInfo": {
@@ -55,7 +58,9 @@
 				"bs-insertcategory-success",
 				"bs-insertcategory-failure",
 				"bs-insertcategory-hint",
-				"bs-insertcategory-panel-title"
+				"bs-insertcategory-panel-title",
+				"bs-insertcategory-category-editor-implicit-categories-title",
+				"bs-insertcategory-category-editor-implicit-categories-help"
 			]
 		},
 		"ext.bluespice.insertcategory.styles": {
