@@ -42,7 +42,7 @@ class Category extends CategoryBase {
 	 * @return string
 	 */
 	private function makeChangeLink( Title $title ) {
-		$html .= Html::openElement(
+		$html = Html::openElement(
 				'div',
 				[
 					'class' => 'bs-insertcategory-category-container-editlink'
