@@ -94,6 +94,30 @@ i.mce-i-bsinsertcategory {
 	height: 41px;
 }
 
+.bs-category-container-add-category {
+	.bs-insertcategory-category-inline-editor {
+		.x-form-text-wrap {
+			.x-form-empty-field-default + .x-placeholder-label-default {
+				line-height: 1.75rem;
+				font-size: 0.75rem;
+				font-weight: normal;
+			}
+		}
+		.x-form-trigger {
+			&.x-form-arrow-trigger {}
+			&.bs-form-tree-trigger.bs-form-tree-trigger{}
+			&.bs-form-trigger {
+				&.bs-form-cancel-trigger {}
+				&.bs-form-save-trigger {}
+				&::before {
+					font-size: 1.1rem;
+					line-height: 1.875rem;
+				}
+			}
+		}
+	}
+}
+
 .bs-insertcategory-category-container-editlink {
 	padding-left: 3px;
 }

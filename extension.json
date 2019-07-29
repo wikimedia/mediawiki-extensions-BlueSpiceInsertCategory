@@ -65,7 +65,7 @@
 		},
 		"ext.bluespice.insertcategory.styles": {
 			"styles": [
-				"bluespice.insertCategory.css"
+				"bluespice.insertCategory.less"
 			]
 		},
 		"ext.bluespice.insertCategory.uploadPanelIntegration": {
