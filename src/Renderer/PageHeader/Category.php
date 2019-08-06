@@ -45,7 +45,7 @@ class Category extends CategoryBase {
 		$html = Html::openElement(
 				'div',
 				[
-					'class' => 'bs-insertcategory-category-container-editlink'
+					'class' => 'bs-insertcategory-category-container-editlink visible-xs visible-sm visible-md'
 				]
 			);
 
