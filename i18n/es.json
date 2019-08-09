@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Macofe",
-			"Themasterriot"
+			"Themasterriot",
+			"Agusbou2015"
 		]
 	},
 	"bs-insertcategory-desc": "Cuadro de diálogo para escribir un enlace a categoría",
@@ -20,5 +21,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorías implícitas",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página",
+	"bs-insertcategory-pref-uploadpanelintegration": "Establecer categorías de páginas como predeterminadas en el cuadro de diálogo de carga"
 }

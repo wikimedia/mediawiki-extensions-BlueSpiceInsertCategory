@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-insertcategory-failure": "Eraro",
+	"bs-insertcategory-panel-title": "Kategorioj",
+	"bs-insertcategory-category-editor-title": "Kategorioj",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "redakti"
+}
