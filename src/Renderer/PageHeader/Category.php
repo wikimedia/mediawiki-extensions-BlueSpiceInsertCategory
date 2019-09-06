@@ -88,8 +88,8 @@ class Category extends CategoryBase {
 				'a',
 				[
 					'class' => 'bs-category-add-category',
-					'href' => '#',
-					'title' => $this->msg( 'bs-insertcategory-category-editor-explicit-categories-edit-label' )->plain()
+					'title' => $this->msg( 'bs-insertcategory-page-header-categories-edit-tooltip' )->plain(),
+					'aria-label' => $this->msg( 'bs-insertcategory-page-header-categories-edit-tooltip' )->plain()
 				]
 			);
 
