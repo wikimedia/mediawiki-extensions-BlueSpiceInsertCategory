@@ -31,8 +31,64 @@ class Category extends CategoryBase {
 	 * @return string
 	 */
 	public function render() {
-		$html = parent::render();
+		$html = '';
+
+		$title = $this->getContext()->getTitle();
+
+		if ( !$title || $title->isSpecialPage() ) {
+			return $html;
+		}
+
+		$html .= parent::makeCategorySectionOpener( $title );
+		$html .= $this->makeCategoryLinks( $title );
+
+		return $html;
+	}
+
+	/**
+	 *
+	 * @param Title $title
+	 * @return string
+	 */
+	protected function makeCategoryLinks( Title $title ) {
+		$html = '';
+
+		$categoryLinks = [];
+		foreach ( $this->args[parent::PARAM_CATEGORY_NAMES] as $categoryName ) {
+			$title = Title::makeTitle( NS_CATEGORY, $categoryName );
+			if ( !$title ) {
+				continue;
+			}
+			$categoryLinks[] = $this->linkRenderer->makeLink(
+				$title,
+				new \HtmlArmor( $title->getText() ),
+				[ 'class' => 'pill' ]
+			);
+		}
+
+		$html .= Html::openElement(
+				'div',
+				[
+					'class' => 'bs-category-container-categories'
+				]
+			);
+
+		$html .= implode( '', $categoryLinks );
+
+		if ( empty( $categoryLinks ) ) {
+			$html .= Html::element(
+					'span',
+					[
+						'class' => 'bs-category-no-categories'
+					],
+					$this->msg( 'bs-calumma-category-no-categories' )->plain() . ' '
+				);
+		}
+
 		$html .= $this->makeChangeLink( $this->getContext()->getTitle() );
+
+		$html .= Html::closeElement( 'div' );
+
 		return $html;
 	}
 
@@ -56,7 +112,7 @@ class Category extends CategoryBase {
 						'class' => 'bs-category-add-category',
 						'href' => '#'
 					],
-					'(' . $this->msg( 'bs-insertcategory-category-editor-explicit-categories-edit-label' )->plain() . ')'
+					$this->msg( 'bs-insertcategory-category-editor-explicit-categories-edit-label' )->plain()
 				);
 		}
 
