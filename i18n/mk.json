@@ -18,5 +18,6 @@
 	"bs-insertcategory-category-editor-title": "Категории",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Отстрани ги сите",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "уреди",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уреди ги категориите на страницава"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уреди ги категориите на страницава",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Уреди ги категориите на страницава"
 }

@@ -20,5 +20,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-title": "Uttryckliga kategorier",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Ta bort alla",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "redigera",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Redigera sidans kategorier"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Redigera sidans kategorier",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Redigera kategorierna för denna sida"
 }
