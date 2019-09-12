@@ -21,5 +21,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-help": "Essas categorias não estão definidas no conteúdo do wikitext da página. O mais provável é que eles sejam definidos dentro de um modelo.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Remover todos",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Edite as categorias desta página"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Edite as categorias desta página",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Edite as categorias desta página"
 }

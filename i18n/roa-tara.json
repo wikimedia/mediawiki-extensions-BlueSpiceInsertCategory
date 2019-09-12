@@ -20,5 +20,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-help": "Ste categorije non g'avenene definite jndr'à 'u uicchi teste ca ste jndr'à pàgene. Normalmende stonne jndr'à 'nu template.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Live tutte",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "cange",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Cange le categorije de sta pàgene"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Cange le categorije de sta pàgene",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Cange le categorije de sta pàgene"
 }
