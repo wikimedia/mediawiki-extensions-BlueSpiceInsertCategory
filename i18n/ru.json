@@ -6,7 +6,8 @@
 			"Kareyac",
 			"Vlad5250",
 			"Diralik",
-			"Katunchik"
+			"Katunchik",
+			"Movses"
 		]
 	},
 	"bs-insertcategory-desc": "Диалог ввода ссылки на категорию",
@@ -22,6 +23,7 @@
 	"bs-insertcategory-panel-title": "Категории",
 	"bs-insertcategory-category-editor-title": "Категории",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Неявные категории",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Эти категории отсутствуют в викитексте страницы. Скорее всего они прописаны в шаблоне.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Удалить все",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "править",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Править категории на этой странице",
