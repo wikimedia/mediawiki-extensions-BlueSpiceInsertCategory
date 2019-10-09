@@ -4,13 +4,14 @@
 			"Okras",
 			"Alexandr Efremov",
 			"Kareyac",
-			"Vlad5250"
+			"Vlad5250",
+			"Diralik"
 		]
 	},
 	"bs-insertcategory-desc": "Диалог ввода ссылки на категорию",
 	"bs-insertcategory-insertcat": "Добавить категорию",
 	"prefs-insertcategory": "Добавить категорию",
-	"bs-insertcategory-pref-withparents": "Вставить категорию с ее родительскими категориями",
+	"bs-insertcategory-pref-withparents": "Вставить категорию с её родительскими категориями",
 	"bs-insertcategory-pref-uploadpanelintegration": "Набор категорий по умолчанию в диалоговом окне загрузки",
 	"bs-insertcategory-title": "Добавить категорию",
 	"bs-insertcategory-cat-label": "Назначение:",

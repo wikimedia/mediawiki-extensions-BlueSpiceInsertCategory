@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceInsertCategory",
 	"license-name": "GPL-3.0-only",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:InsertCategory",
 	"author": [
 		"Markus Glaser",
@@ -11,9 +11,9 @@
 	"descriptionmsg": "bs-insertcategory-desc",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.31.0",
+		"MediaWiki": "~1.31",
 		"extensions": {
-			"BlueSpiceFoundation": "*"
+			"BlueSpiceFoundation": "~3.1"
 		}
 	},
 	"attributes": {
@@ -27,6 +27,9 @@
 						"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
 					}
 				}
+			},
+			"RendererRegistry": {
+				"pageheader-category": "\\BlueSpice\\InsertCategory\\Renderer\\PageHeader\\Category::factory"
 			}
 		},
 		"BlueSpiceArticleInfo": {
@@ -55,7 +58,9 @@
 				"bs-insertcategory-success",
 				"bs-insertcategory-failure",
 				"bs-insertcategory-hint",
-				"bs-insertcategory-panel-title"
+				"bs-insertcategory-panel-title",
+				"bs-insertcategory-category-editor-implicit-categories-title",
+				"bs-insertcategory-category-editor-implicit-categories-help"
 			],
 			"dependencies": [
 				"ext.bluespice"
@@ -63,7 +68,7 @@
 		},
 		"ext.bluespice.insertcategory.styles": {
 			"styles": [
-				"bluespice.insertCategory.css"
+				"bluespice.insertCategory.less"
 			]
 		},
 		"ext.bluespice.insertCategory.uploadPanelIntegration": {
