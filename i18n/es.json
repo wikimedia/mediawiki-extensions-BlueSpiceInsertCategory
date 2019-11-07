@@ -4,7 +4,8 @@
 			"Fitoschido",
 			"Macofe",
 			"Themasterriot",
-			"Agusbou2015"
+			"Agusbou2015",
+			"Madamebiblio"
 		]
 	},
 	"bs-insertcategory-desc": "Cuadro de diálogo para escribir un enlace a categoría",
@@ -22,5 +23,6 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página",
-	"bs-insertcategory-pref-uploadpanelintegration": "Establecer categorías de páginas como predeterminadas en el cuadro de diálogo de carga"
+	"bs-insertcategory-pref-uploadpanelintegration": "Establecer categorías de páginas como predeterminadas en el cuadro de diálogo de carga",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar las categorías de esta página"
 }
