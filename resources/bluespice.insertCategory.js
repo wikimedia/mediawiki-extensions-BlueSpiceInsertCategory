@@ -23,9 +23,9 @@ $(document).on('click', 'a.bs-category-add-category', function(e) {
 	e.preventDefault();
 	var me = $(this).find('a');
 	me.categoryEditor = null;
-	mw.loader.using( 'ext.bluespice.extjs' ).done(function( me ){
+	mw.loader.using( 'ext.bluespice.extjs' ).done(function(){
 
-		Ext.require( 'BS.InsertCategory.panel.CategoryInlineEditor', function( me ){
+		Ext.require( 'BS.InsertCategory.panel.CategoryInlineEditor', function(){
 			//Prevent a second toggle when category field is already visible.
 			//Element id is set in CategoryInlineEditor
 			if ( $( '.bs-insertcategory-category-inline-editor-icon' ).is( ':visible' ) ) {
@@ -37,6 +37,7 @@ $(document).on('click', 'a.bs-category-add-category', function(e) {
 
 			if ( me.categoryEditor == null ) {
 				me.categoryEditor = new BS.InsertCategory.panel.CategoryInlineEditor({
+					id: 'bs-insertcategory-inlineeditor',
 					pageId: mw.config.get( 'wgArticleId' ),
 					allCategories: mw.config.get( 'wgCategories' ),
 					renderTo: 'bs-category-container-add-category'
