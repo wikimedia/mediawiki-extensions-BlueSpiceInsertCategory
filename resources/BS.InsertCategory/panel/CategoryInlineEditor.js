@@ -24,6 +24,7 @@ Ext.define( 'BS.InsertCategory.panel.CategoryInlineEditor', {
 		this.btnCancel.on( 'click', this.btnCancelClick, this );
 
 		this.cbCategories = new BS.form.field.CategoryTag({
+			id: this.getId() + '-categories',
 			showTreeTrigger: true,
 			labelSeparator: '',
 			labelStyle: 'width:25px',
