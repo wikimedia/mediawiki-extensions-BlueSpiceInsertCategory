@@ -24,5 +24,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-title": "Impliciete categorieën",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Bewerken",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bewerk de categorieën van deze pagina"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bewerk de categorieën van deze pagina",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Bewerk de categorieën van deze pagina"
 }
