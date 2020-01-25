@@ -2,13 +2,13 @@
 
 namespace BlueSpice\InsertCategory\Renderer\PageHeader;
 
-use Html;
-use Title;
+use BlueSpice\Calumma\Renderer\PageHeader\Category as CategoryBase;
+use BlueSpice\Renderer\Params;
 use Config;
+use Html;
 use IContextSource;
 use MediaWiki\Linker\LinkRenderer;
-use BlueSpice\Renderer\Params;
-use BlueSpice\Calumma\Renderer\PageHeader\Category as CategoryBase;
+use Title;
 
 class Category extends CategoryBase {
 
