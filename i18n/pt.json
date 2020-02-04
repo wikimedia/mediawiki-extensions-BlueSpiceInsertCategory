@@ -3,7 +3,8 @@
 		"authors": [
 			"Vitorvicentevalente",
 			"Fúlvio",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Mansil alfalb"
 		]
 	},
 	"bs-insertcategory-desc": "Diálogo para inserir uma hiperligação para uma categoria",
@@ -22,5 +23,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-help": "Essas categorias não estão definidas no conteúdo de texto wiki da página. É provável que sejam definidas dentro de uma predefinição.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Remover todas",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar as categorias desta página"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar as categorias desta página",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar as categorias desta página"
 }
