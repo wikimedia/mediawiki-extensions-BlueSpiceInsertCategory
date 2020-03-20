@@ -105,7 +105,9 @@ class Category extends CategoryBase {
 				]
 			);
 
-		if ( $title->userCan( 'edit' ) ) {
+		if ( \MediaWiki\MediaWikiServices::getInstance()->getPermissionManager()
+			->userCan( 'edit', $this->getContext()->getUser(), $title )
+		) {
 			$html .= Html::element(
 					'a',
 					[
@@ -127,7 +129,9 @@ class Category extends CategoryBase {
 	 * @return string
 	 */
 	protected function makeIcon( $title ) {
-		if ( $title->userCan( 'edit' ) ) {
+		if ( \MediaWiki\MediaWikiServices::getInstance()->getPermissionManager()
+			->userCan( 'edit', $this->getContext()->getUser(), $title )
+		) {
 			$html = $this->makeLinkedIcon();
 		} else {
 			$html = parent::makeIcon( $title );

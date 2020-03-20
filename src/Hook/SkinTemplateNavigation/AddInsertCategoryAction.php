@@ -8,7 +8,13 @@ class AddInsertCategoryAction extends \BlueSpice\Hook\SkinTemplateNavigation {
 		if ( $this->getContext()->getRequest()->getVal( 'action', 'view' ) != 'view' ) {
 			return true;
 		}
-		if ( !$this->sktemplate->getTitle()->userCan( 'edit' ) ) {
+		if ( !\MediaWiki\MediaWikiServices::getInstance()->getPermissionManager()
+			->userCan(
+				'edit',
+				$this->sktemplate->getUser(),
+				$this->sktemplate->getTitle()
+			)
+		) {
 			return true;
 		}
 		return false;
