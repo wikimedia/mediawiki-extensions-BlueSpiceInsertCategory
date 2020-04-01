@@ -7,5 +7,6 @@
 		]
 	},
 	"bs-insertcategory-success": "Kategoriy debyayê",
-	"bs-insertcategory-panel-title": "Kategoriyi"
+	"bs-insertcategory-panel-title": "Kategoriyi",
+	"bs-insertcategory-failure": "Xeta"
 }
