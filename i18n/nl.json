@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"SPQRobin",
-			"Sjoerddebruin",
-			"Siebrand",
 			"Esketti",
-			"Mainframe98",
 			"Jeroen N",
-			"Ndecouck"
+			"Mainframe98",
+			"Ndecouck",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-insertcategory-desc": "Het dialoogvenster voor het invoeren van een categoriekoppeling",

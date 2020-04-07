@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Metalhead64",
-			"Pwirth"
+			"Pwirth",
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-insertcategory-desc": "Über ein Dialogfeld lassen sich Kategorien in eine Wikiseite einfügen",

@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente",
 			"Fúlvio",
 			"Hamilton Abreu",
-			"Mansil alfalb"
+			"Mansil alfalb",
+			"Vitorvicentevalente"
 		]
 	},
 	"bs-insertcategory-desc": "Diálogo para inserir uma hiperligação para uma categoria",

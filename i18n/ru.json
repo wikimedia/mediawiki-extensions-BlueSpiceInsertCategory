@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
-			"Kareyac",
-			"Vlad5250",
 			"Diralik",
+			"Kareyac",
 			"Katunchik",
-			"Movses"
+			"Movses",
+			"Okras",
+			"Vlad5250"
 		]
 	},
 	"bs-insertcategory-desc": "Диалог ввода ссылки на категорию",
