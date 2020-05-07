@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Shirayuki",
+			"Robby",
 			"SPQRobin",
-			"Robby"
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-insertcategory-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of insert category extension",
