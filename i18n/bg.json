@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"Ted Masters"
 		]
 	},
 	"bs-insertcategory-failure": "Грешка",
-	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Редактиране"
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "редактиране"
 }
