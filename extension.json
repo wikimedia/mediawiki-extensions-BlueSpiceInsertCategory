@@ -36,7 +36,8 @@
 			"FlyoutModules": {
 				"insert_category": {
 					"module": "ext.bluespice.insertcategory.flyout",
-					"make-items-callback": "bs.insertcategory.flyout.makeItems"
+					"make-items-callback": "bs.insertcategory.flyout.makeItems",
+					"skip-callback": "\\BlueSpice\\InsertCategory\\Extension::flyoutModuleSkip"
 				}
 			}
 		}
