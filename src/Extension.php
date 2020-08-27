@@ -34,9 +34,31 @@
 
 namespace BlueSpice\InsertCategory;
 
+use IContextSource;
+use WikiPage;
+use WikiTextContent;
+
 /**
  * Class for category management assistent
  * @package BlueSpiceInsertCategory
  */
 class Extension extends \BlueSpice\Extension {
+	/**
+	 *
+	 * @param IContextSource $context
+	 * @return bool
+	 */
+	public static function flyoutModuleSkip( IContextSource $context ) {
+		if ( !$context->getTitle() || !$context->getTitle()->exists() ) {
+			return false;
+		}
+		$wikiPage = WikiPage::factory( $context->getTitle() );
+		if ( !$wikiPage ) {
+			return false;
+		}
+		if ( !$wikiPage->getContent() ) {
+			return false;
+		}
+		return $wikiPage->getContent() instanceof WikiTextContent;
+	}
 }
