@@ -1,14 +1,16 @@
 <?php
 
-namespace BlueSpice\InsertCategory\Hook\SkinTemplateNavigation;
+namespace BlueSpice\InsertCategory\Hook\SkinTemplateNavigationUniversal;
 
-class AddInsertCategoryAction extends \BlueSpice\Hook\SkinTemplateNavigation {
+use BlueSpice\Hook\SkinTemplateNavigationUniversal;
+
+class AddInsertCategoryAction extends SkinTemplateNavigationUniversal {
 
 	protected function skipProcessing() {
 		if ( $this->getContext()->getRequest()->getVal( 'action', 'view' ) != 'view' ) {
 			return true;
 		}
-		if ( !\MediaWiki\MediaWikiServices::getInstance()->getPermissionManager()
+		if ( !$this->getServices()->getPermissionManager()
 			->userCan(
 				'edit',
 				$this->sktemplate->getUser(),
@@ -21,9 +23,8 @@ class AddInsertCategoryAction extends \BlueSpice\Hook\SkinTemplateNavigation {
 	}
 
 	protected function doProcess() {
-		$msg = \Message::newFromKey( 'bs-insertcategory-insertcat' );
 		$this->links['actions']['insert_category'] = [
-			'text' => $msg->text(),
+			'text' => $this->msg( 'bs-insertcategory-insertcat' )->text(),
 			'href' => '#',
 			'class' => false,
 			'id' => 'ca-insertcategory',

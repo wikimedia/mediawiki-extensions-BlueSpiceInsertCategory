@@ -115,7 +115,7 @@
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\InsertCategory\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
 		],
-		"SkinTemplateNavigation": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigation\\AddInsertCategoryAction::callback",
+		"SkinTemplateNavigation::Universal": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigationUniversal\\AddInsertCategoryAction::callback",
 		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback"
 	},
 	"load_composer_autoloader": true,
