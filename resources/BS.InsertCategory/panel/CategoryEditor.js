@@ -102,18 +102,46 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 	},
 
 	loadCategories: function() {
-		var me = this;
-		bs.api.tasks.exec( 'wikipage', 'getExplicitCategories', {
-			page_id: this.pageId
-		} )
-		.done( function( result ) {
-			me.cbCategories.suspendEvent( 'change' );
-			me.cbCategories.setValue( result.payload );
-			me.cbCategories.resumeEvent( 'change' );
-
-			me.showExplicitCategories( result.payload );
-			me.showImplicitCategories( result.payload );
+		this.store = Ext.create( 'BS.store.BSApi', {
+			apiAction: 'bs-categorylinks-store',
+			fields: [ 'category_title', 'category_link', 'category_is_explicit' ],
+			filters: [ {
+				"type": "numeric",
+				"operator": "eq",
+				"property": "page_id",
+				"value": mw.config.get( 'wgArticleId' )
+			} ],
+			limit: -1,
+			autoLoad: false
 		});
+
+		this.store.on( 'load', this.onStoreLoad, this );
+		this.store.load();
+	},
+
+	onStoreLoad: function ( store, records, successful, eOpts ) {
+		var explicitCategoryTitles = [];
+		var explicitCategoryLinks = [];
+		var implicitCategoryLinks = [];
+
+		for ( var i = 0; i < records.length; i++ ) {
+			var record = records[i];
+			var isexplicit = record.get( 'category_is_explicit' );
+
+			if ( isexplicit === true ) {
+				explicitCategoryTitles.push( record.get( 'category_title' ) );
+				explicitCategoryLinks.push( record.get( 'category_link' ) );
+			} else {
+				implicitCategoryLinks.push( record.get( 'category_link' ) );
+			}
+		}
+
+		this.cbCategories.suspendEvent( 'change' );
+		this.cbCategories.setValue( explicitCategoryTitles );
+		this.cbCategories.resumeEvent( 'change' );
+
+		this.showExplicitCategories( explicitCategoryLinks );
+		this.showImplicitCategories( implicitCategoryLinks );
 	},
 
 	cbCategoriesChange: function() {
@@ -131,7 +159,7 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 			categories: categories
 		} )
 		.done( function( result ) {
-			me.showExplicitCategories( categories );
+			me.store.load();
 			me.switchToView();
 			me.setLoading( false );
 		})
@@ -149,50 +177,32 @@ Ext.define( 'BS.InsertCategory.panel.CategoryEditor', {
 		this.switchToView();
 	},
 
-	showImplicitCategories: function( explicitCategories ) {
-		var implicitCategories = [];
-		for( var i = 0; i < this.allCategories.length; i++ ) {
-			var currentCategory = this.allCategories[i];
-			if( explicitCategories.indexOf( currentCategory ) === -1 ) {
-				implicitCategories.push( currentCategory );
-			}
-		}
-
+	showImplicitCategories: function( implicitCategories ) {
 		if( implicitCategories.length === 0 ) {
 			return;
 		}
 
 		var html = this.renderCategoryLinklist( implicitCategories );
-
 		this.pnlImplcitCategories.update( html );
 		this.pnlImplcitCategories.show();
 	},
 
 	showExplicitCategories: function( explicitCategories ) {
+		if ( explicitCategories.length === 0 ) {
+			return;
+		}
+
 		var html = this.renderCategoryLinklist( explicitCategories );
 		this.pnlExplcitCategoriesList.update( html );
+		this.pnlExplcitCategories.show();
 	},
 
 	renderCategoryLinklist: function( categories ) {
-		var links = [];
-		for( var i = 0; i < categories.length; i++ ) {
-			var categoryName = categories[i];
-			var title = mw.Title.makeTitle( bs.ns.NS_CATEGORY, categoryName );
-			var link = mw.html.element(
-				'a',
-				{
-					href: title.getUrl(),
-					title: categoryName,
-					'bs-data-title': title.getPrefixedDb(),
-					'class': 'pill'
-				},
-				categoryName
-			);
-
-			links.push( link );
+		if ( categories.length === 0 ) {
+			return;
 		}
 
-		var html = '<div class="bs-articleinfo-flyout-linklist">' + links.join( '' ) + '</div>';
+		var html = '<div class="bs-articleinfo-flyout-linklist pills">' + categories.join( '' ) + '</div>';
 
 		return html;
 	},
