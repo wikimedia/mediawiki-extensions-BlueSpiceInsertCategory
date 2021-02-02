@@ -8,8 +8,10 @@
 			"아라"
 		]
 	},
+	"bs-insertcategory-desc": "분류 링크 입력 대화 상자",
 	"bs-insertcategory-insertcat": "분류 넣기",
 	"prefs-insertcategory": "분류 넣기",
+	"bs-insertcategory-pref-withparents": "부모 분류와 함께 분류 추가",
 	"bs-insertcategory-title": "분류 넣기",
 	"bs-insertcategory-success": "카테고리가 추가되었습니다.",
 	"bs-insertcategory-failure": "오류",
