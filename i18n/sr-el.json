@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-insertcategory-desc": "Dijalog za unošenje linka ka kategoriji",
 	"bs-insertcategory-insertcat": "Unesi kategoriju",
 	"prefs-insertcategory": "Unesi kategoriju",

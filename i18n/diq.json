@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gorizon",
 			"1917 Ekim Devrimi",
+			"Gorizon",
 			"Mirzali"
 		]
 	},
 	"bs-insertcategory-success": "Kategoriy debyayê",
-	"bs-insertcategory-panel-title": "Kategoriyi"
+	"bs-insertcategory-panel-title": "Kategoriyi",
+	"bs-insertcategory-failure": "Xeta"
 }

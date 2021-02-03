@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"EagerLin",
 			"Cwlin0416",
-			"LNDDYL",
-			"Kly"
+			"EagerLin",
+			"Kly",
+			"LNDDYL"
 		]
 	},
 	"bs-insertcategory-desc": "對話方塊中輸入分類連結",

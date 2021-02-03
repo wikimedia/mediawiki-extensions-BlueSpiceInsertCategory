@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arifin.wijaya"
+			"Arifin.wijaya",
+			"Diki Ananta",
+			"Sumbukompor"
 		]
 	},
 	"bs-insertcategory-desc": "Dialog untuk memasukkan pranala kategori",
@@ -10,8 +12,8 @@
 	"bs-insertcategory-pref-withparents": "Masukkan kategori dengan induknya",
 	"bs-insertcategory-title": "Masukkan kategori",
 	"bs-insertcategory-cat-label": "Ditetapkan:",
-	"bs-insertcategory-success": "Menambahkan kategori berhasil",
+	"bs-insertcategory-success": "Kategori telah ditambahkan",
 	"bs-insertcategory-failure": "Kesalahan",
-	"bs-insertcategory-hint": "Catatan: untuk menambahkan kategori, Anda harus tekan enter atau mengakhiri entri Anda dengan tanda koma.",
+	"bs-insertcategory-hint": "Catatan: untuk menambahkan kategori, Anda harus tekan enter.",
 	"bs-insertcategory-panel-title": "Kategori"
 }
