@@ -21,8 +21,7 @@ $(document).on('click', '#ca-insert_category', function(e) {
 
 $(document).on('click', 'a.bs-category-add-category', function(e) {
 	e.preventDefault();
-	var me = $(this).find('a');
-	me.categoryEditor = null;
+	var me = this;
 	mw.loader.using( 'ext.bluespice.extjs' ).done(function(){
 
 		Ext.require( 'BS.InsertCategory.panel.CategoryInlineEditor', function(){
@@ -35,7 +34,7 @@ $(document).on('click', 'a.bs-category-add-category', function(e) {
 			$( '.bs-category-add-category' ).hide();
 			$( '.bs-category-container-categories' ).hide();
 
-			if ( me.categoryEditor == null ) {
+			if ( !me.categoryEditor ) {
 				me.categoryEditor = new BS.InsertCategory.panel.CategoryInlineEditor({
 					id: 'bs-insertcategory-inlineeditor',
 					pageId: mw.config.get( 'wgArticleId' ),
