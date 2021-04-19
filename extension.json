@@ -21,12 +21,12 @@
 			"Extensions": {
 				"BlueSpiceInsertCategory": {
 					"className": "\\BlueSpice\\InsertCategory\\Extension",
-					"extPath": "/BlueSpiceInsertCategory",
-					"configDefinitions": {
-						"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
-						"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
-					}
+					"extPath": "/BlueSpiceInsertCategory"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
+				"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
 			},
 			"RendererRegistry": {
 				"pageheader-category": "\\BlueSpice\\InsertCategory\\Renderer\\PageHeader\\Category::factory"
