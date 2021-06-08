@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joquliina",
 			"Nike",
 			"Pyscowicz"
 		]
 	},
 	"bs-insertcategory-failure": "Virhe",
 	"bs-insertcategory-panel-title": "Luokat",
-	"bs-insertcategory-category-editor-button-label-clear-all": "Poista kaikki"
+	"bs-insertcategory-category-editor-button-label-clear-all": "Poista kaikki",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "muokkaa",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Muokkaa sivun luokkia",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Muokkaa sivun luokkia"
 }
