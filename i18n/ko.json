@@ -19,5 +19,7 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "모두 제거",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "편집",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "이 문서의 분류를 편집합니다"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
+	"bs-insertcategory-desc": "분류 링크 입력 대화 상자",
+	"bs-insertcategory-pref-withparents": "부모 분류와 함께 분류 추가"
 }
