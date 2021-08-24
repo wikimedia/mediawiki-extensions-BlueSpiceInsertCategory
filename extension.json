@@ -94,6 +94,32 @@
 				"ext.bluespice.insertcategory.styles",
 				"ext.bluespice.insertcategory"
 			]
+		},
+		"ext.bluespice.insertcategory.editor.dialog.bootstrap": {
+			"scripts": [
+				"bluespice.insertCategoryEditor.js"
+			]
+		},
+		"ext.bluespice.insertcategory.editor.dialog.scripts": {
+			"scripts": [
+				"ui/dialog/CategoryEditor.js"
+			],
+			"messages": [
+				"bs-insertcategory-edit-dialog-title",
+				"bs-insertcategory-edit-dialog-button-submit",
+				"bs-insertcategory-edit-dialog-button-cancel",
+				"bs-insertcategory-edit-dialog-input-label",
+				"bs-insertcategory-edit-dialog-implicit-categories-label",
+				"bs-insertcategory-edit-dialog-implicit-categories-help",
+				"bs-insertcategory-edit-dialog-page-categories-get-error-message"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"mediawiki.api",
+				"oojs",
+				"oojs-ui",
+				"ext.oOJSPlus.widgets"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -111,12 +137,18 @@
 			"descriptionmsg": "bs-insertcategory-pref-uploadpanelintegration"
 		}
 	},
+	"HookHandlers": {
+		"toolaftercontent": {
+			"class": "\\BlueSpice\\InsertCategory\\HookHandler\\AddToolAfterContent"
+		}
+	},
 	"Hooks": {
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\InsertCategory\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
 		],
 		"SkinTemplateNavigation::Universal": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigationUniversal\\AddInsertCategoryAction::callback",
-		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback"
+		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"MWStakeCommonUIRegisterSkinSlotComponents": "toolaftercontent"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
