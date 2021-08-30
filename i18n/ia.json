@@ -9,6 +9,7 @@
 	"bs-insertcategory-insertcat": "Inserer categoria",
 	"prefs-insertcategory": "Inserer categoria",
 	"bs-insertcategory-pref-withparents": "Inserer categoria con su genitores",
+	"bs-insertcategory-pref-uploadpanelintegration": "Fixar le categorias de paginas como predefinite in le dialogo de incargamento",
 	"bs-insertcategory-title": "Inserer categoria",
 	"bs-insertcategory-cat-label": "Assignate:",
 	"bs-insertcategory-success": "Le categoria ha essite addite",
@@ -17,5 +18,9 @@
 	"bs-insertcategory-panel-title": "Categorias",
 	"bs-insertcategory-category-editor-title": "Categorias",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorias implicite",
-	"bs-insertcategory-category-editor-implicit-categories-help": "Iste categorias non es definite in le wikitexto del pagina. Probabilemente illos proveni de un patrono includite."
+	"bs-insertcategory-category-editor-implicit-categories-help": "Iste categorias non es definite in le wikitexto del pagina. Probabilemente illos proveni de un patrono includite.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Remover totes",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "modificar",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Modificar le categorias de iste pagina",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Modificar le categorias de iste pagina"
 }
