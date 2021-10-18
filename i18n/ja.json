@@ -18,5 +18,7 @@
 	"bs-insertcategory-panel-title": "カテゴリ",
 	"bs-insertcategory-category-editor-title": "カテゴリ",
 	"bs-insertcategory-category-editor-button-label-clear-all": "すべて削除",
-	"bs-insertcategory-category-editor-explicit-categories-edit-label": "編集"
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "編集",
+	"bs-insertcategory-edit-dialog-button-submit": "完了",
+	"bs-insertcategory-edit-dialog-button-cancel": "キャンセル"
 }

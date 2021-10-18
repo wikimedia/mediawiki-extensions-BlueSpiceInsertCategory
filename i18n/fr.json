@@ -25,5 +25,10 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Supprimer tout",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "modifier",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Modifier les catégories de cette page",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Modifier les catégories de cette page"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Modifier les catégories de cette page",
+	"bs-insertcategory-edit-dialog-title": "Modifier les catégories",
+	"bs-insertcategory-edit-dialog-button-submit": "Fait",
+	"bs-insertcategory-edit-dialog-button-cancel": "Annuler",
+	"bs-insertcategory-edit-dialog-input-label": "Catégories attribuées",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Catégories implicites"
 }

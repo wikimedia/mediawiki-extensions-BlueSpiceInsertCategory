@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Movses",
 			"Piramidion",
 			"Viiictorrr",
@@ -24,5 +25,14 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Вилучити всі",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "редагувати",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Редагувати категорії сторінки",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Редагування категорій цієї сторінки"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Редагування категорій цієї сторінки",
+	"bs-insertcategory-edit-dialog-button-tooltip": "Відредагуйте категорії цієї сторінки",
+	"bs-insertcategory-edit-dialog-button-aria-label": "Відкрити діалогове вікно для редагування категорій цієї сторінки",
+	"bs-insertcategory-edit-dialog-title": "Редагувати категорії",
+	"bs-insertcategory-edit-dialog-button-submit": "Готово",
+	"bs-insertcategory-edit-dialog-button-cancel": "Скасувати",
+	"bs-insertcategory-edit-dialog-input-label": "Призначені категорії",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Неявні категорії",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ці категорії не визначені у вмісті сторінки у вікітексті. Швидше за все, вони встановлюються всередині шаблону.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Категорії сторінок з якоїсь причини не були відновлені"
 }
