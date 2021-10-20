@@ -21,5 +21,10 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "모두 제거",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "편집",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "이 문서의 분류를 편집합니다"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
+	"bs-insertcategory-edit-dialog-button-tooltip": "이 문서의 분류 편집",
+	"bs-insertcategory-edit-dialog-title": "분류 편집",
+	"bs-insertcategory-edit-dialog-button-submit": "완료",
+	"bs-insertcategory-edit-dialog-button-cancel": "취소",
+	"bs-insertcategory-edit-dialog-input-label": "할당된 분류"
 }

@@ -26,9 +26,13 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "modifier",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Modifier les catégories de cette page",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Modifier les catégories de cette page",
+	"bs-insertcategory-edit-dialog-button-tooltip": "Modifier les catégories de cette page",
+	"bs-insertcategory-edit-dialog-button-aria-label": "Ouvrir le dialogue pour modifier les catégories de cette page",
 	"bs-insertcategory-edit-dialog-title": "Modifier les catégories",
 	"bs-insertcategory-edit-dialog-button-submit": "Fait",
 	"bs-insertcategory-edit-dialog-button-cancel": "Annuler",
 	"bs-insertcategory-edit-dialog-input-label": "Catégories attribuées",
-	"bs-insertcategory-edit-dialog-implicit-categories-label": "Catégories implicites"
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Catégories implicites",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu wikitexte de la page. Très vraisemblablement, elles sont définies depuis un modèle.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Les catégories de la page, pour une raison quelconque, n’ont pas été récupérées"
 }
