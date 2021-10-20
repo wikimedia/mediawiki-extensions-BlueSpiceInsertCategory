@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bashir Gwanki"
+		]
+	},
+	"bs-insertcategory-edit-dialog-button-tooltip": "gyara jerin abubuwan wannan shafi",
+	"bs-insertcategory-edit-dialog-button-aria-label": "bude dialog domin gyara abubuwan wannan shafi",
+	"bs-insertcategory-edit-dialog-title": "Shirya rukuni",
+	"bs-insertcategory-edit-dialog-button-submit": "Kammala",
+	"bs-insertcategory-edit-dialog-button-cancel": "Katsewa",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Ƙungiyoyin da ba a bayyana ba",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ba a ayyana waɗancan rukunin ba a cikin abubuwan wikitext na shafin. Mai yiwuwa an saita su daga cikin samfuri.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Ba a dawo da rukunin shafuka saboda wani dalili ba"
+}

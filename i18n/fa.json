@@ -22,5 +22,13 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "ویرایش رده‌های این صفحه",
 	"bs-insertcategory-category-editor-implicit-categories-title": "رده‌های الزامی",
 	"bs-insertcategory-category-editor-implicit-categories-help": "این رده‌ها در داخل ویکی‌متن محتوای صفحه تعریف نشده‌اند. احتمال می‌رود که در داخل یک الگو تعریف شده‌باشند.",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "ویرایش رده‌های این صفحه"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "ویرایش رده‌های این صفحه",
+	"bs-insertcategory-edit-dialog-button-tooltip": "ویرایش رده‌های این صفحه",
+	"bs-insertcategory-edit-dialog-button-aria-label": "برای ویرایش رده‌های این صفحه، جعبه را باز کنید",
+	"bs-insertcategory-edit-dialog-title": "ویرایش رده‌ها",
+	"bs-insertcategory-edit-dialog-button-submit": "انجام شد",
+	"bs-insertcategory-edit-dialog-button-cancel": "لغو",
+	"bs-insertcategory-edit-dialog-input-label": "رده‌های اختصاص‌یافته",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "رده‌های ضمنی",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "رده‌های صفحه به دلیلی واکشی نشدند"
 }

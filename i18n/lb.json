@@ -16,5 +16,8 @@
 	"bs-insertcategory-category-editor-implicit-categories-title": "Implizit Kategorien",
 	"bs-insertcategory-category-editor-button-label-clear-all": "All ewechhuelen",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "änneren",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "D'Kategorie vun dëser Säit änneren"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "D'Kategorie vun dëser Säit änneren",
+	"bs-insertcategory-edit-dialog-title": "Kategorien änneren",
+	"bs-insertcategory-edit-dialog-button-submit": "Fäerdeg",
+	"bs-insertcategory-edit-dialog-button-cancel": "Ofbriechen"
 }
