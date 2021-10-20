@@ -8,5 +8,7 @@
 	},
 	"bs-insertcategory-success": "Kategoriy debyayê",
 	"bs-insertcategory-panel-title": "Kategoriyi",
-	"bs-insertcategory-failure": "Xeta"
+	"bs-insertcategory-failure": "Xeta",
+	"bs-insertcategory-edit-dialog-button-submit": "Temam",
+	"bs-insertcategory-edit-dialog-button-cancel": "Bıtexelne"
 }
