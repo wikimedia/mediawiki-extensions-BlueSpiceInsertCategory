@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"KediÇobanı",
+			"Melissadilara",
 			"Sayginer"
 		]
 	},
@@ -23,5 +24,9 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Hepsini kaldır",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "düzenle",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bu sayfanın kategorilerini düzenle",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Bu sayfanın kategorilerini düzenle"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Bu sayfanın kategorilerini düzenle",
+	"bs-insertcategory-edit-dialog-button-tooltip": "Bu sayfanın kategorilerini düzenle",
+	"bs-insertcategory-edit-dialog-title": "Kategorileri düzenle",
+	"bs-insertcategory-edit-dialog-button-cancel": "İptal",
+	"bs-insertcategory-edit-dialog-input-label": "Atanmış kategoriler"
 }

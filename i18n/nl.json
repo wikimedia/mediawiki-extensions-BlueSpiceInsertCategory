@@ -4,6 +4,7 @@
 			"Esketti",
 			"Jeroen N",
 			"Mainframe98",
+			"McDutchie",
 			"Ndecouck",
 			"SPQRobin",
 			"Siebrand",
@@ -25,5 +26,7 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Bewerken",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bewerk de categorieën van deze pagina",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Bewerk de categorieën van deze pagina"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Bewerk de categorieën van deze pagina",
+	"bs-insertcategory-pref-uploadpanelintegration": "Paginacategorieën als standaard instellen in het uploadvenster",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Die categorieën zijn niet gedefinieerd in de wikitekstinhoud van de pagina. Hoogstwaarschijnlijk worden ze ingesteld vanuit een sjabloon."
 }
