@@ -3,6 +3,7 @@
 		"authors": [
 			"Agusbou2015",
 			"Fitoschido",
+			"Jakeukalane",
 			"Macofe",
 			"Madamebiblio",
 			"Themasterriot"
@@ -24,5 +25,8 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar las categorías de esta página"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar las categorías de esta página",
+	"bs-insertcategory-edit-dialog-button-tooltip": "Editar las categorías de esta página",
+	"bs-insertcategory-edit-dialog-button-submit": "Hecho",
+	"bs-insertcategory-edit-dialog-button-cancel": "Cancelar"
 }
