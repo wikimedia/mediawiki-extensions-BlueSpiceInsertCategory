@@ -120,6 +120,11 @@
 				"oojs-ui",
 				"ext.oOJSPlus.widgets"
 			]
+		},
+		"ext.bluespice.insertcategory.discovery.styles": {
+			"styles": [
+				"bluespice.insertcategory.discovery.css"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {

@@ -79,6 +79,7 @@ class InsertCategoryTool extends Literal {
 		$html = '<div class="bs-insert-category-tool">';
 		$html .= $this->makeIconButton( $title, $context );
 		$html .= $this->makeList( $title, $context );
+		$html .= $this->makeEditLink( $context );
 		$html .= '</div>';
 		return $html;
 	}
@@ -119,26 +120,64 @@ class InsertCategoryTool extends Literal {
 		$categoryNames = $context->getSkin()->getOutput()->getCategories( 'all' );
 		krsort( $categoryNames, SORT_NATURAL );
 
-		$html = '<ul>';
-		foreach ( $categoryNames as $name ) {
-			$title = Title::makeTitle( NS_CATEGORY, $name );
-			if ( !$title ) {
-				continue;
-			}
-			$categoryLink = Html::element(
-				'a',
+		if ( empty( $categoryNames ) ) {
+			$html = Html::element(
+				'span',
 				[
-					'title' => $title->getPrefixedText(),
-					'aria-label' => $title->getPrefixedText(),
-					'href' => $title->getLocalURL(),
-					'role' => 'link'
+					'class' => 'bs-category-label'
 				],
-				$name
+				Message::newFromKey( 'bs-insertcategory-no-categories' )->text()
 			);
+		} else {
+			$html = '<ul>';
+			foreach ( $categoryNames as $name ) {
+				$title = Title::makeTitle( NS_CATEGORY, $name );
+				if ( !$title ) {
+					continue;
+				}
+				$categoryLink = Html::element(
+					'a',
+					[
+						'title' => $title->getPrefixedText(),
+						'aria-label' => $title->getPrefixedText(),
+						'href' => $title->getLocalURL(),
+						'role' => 'link'
+					],
+					$name
+				);
 
-			$html .= '<li>' . $categoryLink . '</li> ';
+				$html .= '<li>' . $categoryLink . '</li> ';
+			}
+			$html .= '</ul>';
 		}
-		$html .= '</ul>';
 		return $html;
+	}
+
+	/**
+	 *
+	 * @param Context $context
+	 * @return string
+	 */
+	private function makeEditLink( $context ): string {
+		$editLink = Html::element(
+			'a',
+			[
+				'id' => 'bs-category-link-edit',
+				'title' => Message::newFromKey( 'bs-insertcategory-page-header-categories-edit-tooltip' )->text(),
+				'role' => 'button',
+				'aria-label' => Message::newFromKey( 'bs-insertcategory-edit-dialog-button-aria-label' )->text(),
+				'href' => ''
+			],
+			Message::newFromKey( 'bs-insertcategory-edit-dialog-button-label' )->text()
+		);
+		return $editLink;
+	}
+
+	/**
+	 *
+	 * @inheritDoc
+	 */
+	public function getRequiredRLStyles() : array {
+		return [ 'ext.bluespice.insertcategory.discovery.styles' ];
 	}
 }
