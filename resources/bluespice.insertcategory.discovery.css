@@ -1,0 +1,17 @@
+.bs-insert-category-tool {
+	font-size: 14px;
+}
+
+.bs-category-label {
+	padding: 0 1rem;
+}
+
+#bs-category-link-edit {
+	font-size: 0.7rem;
+	line-height: 24px;
+	visibility: hidden;
+}
+
+.bs-insert-category-tool:hover > #bs-category-link-edit {
+	visibility: visible;
+}

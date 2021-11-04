@@ -1,4 +1,4 @@
-$( document ).on( 'click', '#ca-insert_category, #bs-insert-category', function( e ) {
+$( document ).on( 'click', '#ca-insert_category, #bs-insert-category, #bs-category-link-edit', function( e ) {
 	e.preventDefault();
 
 	mw.loader.using( 'ext.bluespice.insertcategory.editor.dialog.scripts' ).done( function() {
