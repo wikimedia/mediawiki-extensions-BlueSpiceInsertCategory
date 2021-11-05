@@ -33,10 +33,6 @@ class InsertCategoryTool extends Literal {
 	 *
 	 */
 	public function __construct() {
-		parent::__construct(
-			'bs-category-inline-editor',
-			$this->getCategoryEditorHtml()
-		);
 		$this->services = MediaWikiServices::getInstance();
 		$this->permissionManager = $this->services->getPermissionManager();
 		/** @var RequestContext */
@@ -47,7 +43,12 @@ class InsertCategoryTool extends Literal {
 		$title = $context->getTitle();
 
 		$this->btnDisabled = !$this->permissionManager
-			->userCan( 'edit', $context->getUser(), $title );
+			->userCan( 'edit', $user, $title );
+
+		parent::__construct(
+			'bs-category-inline-editor',
+			$this->getCategoryEditorHtml()
+		);
 	}
 
 	/**
@@ -93,7 +94,7 @@ class InsertCategoryTool extends Literal {
 	private function makeIconButton( $title, $context ): string {
 		$class = 'icon-category-tag-outline';
 		if ( $this->btnDisabled ) {
-			$class .= ' disabled';
+			$class .= ' isDisabled';
 		}
 
 		$html = Html::element(
@@ -159,10 +160,16 @@ class InsertCategoryTool extends Literal {
 	 * @return string
 	 */
 	private function makeEditLink( $context ): string {
+		$class = '';
+		if ( $this->btnDisabled ) {
+			$class = 'isDisabled';
+		}
+
 		$editLink = Html::element(
 			'a',
 			[
 				'id' => 'bs-category-link-edit',
+				'class' => $class,
 				'title' => Message::newFromKey( 'bs-insertcategory-page-header-categories-edit-tooltip' )->text(),
 				'role' => 'button',
 				'aria-label' => Message::newFromKey( 'bs-insertcategory-edit-dialog-button-aria-label' )->text(),
