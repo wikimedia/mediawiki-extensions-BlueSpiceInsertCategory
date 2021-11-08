@@ -22,7 +22,7 @@
 .icon-category-tag-outline.isDisabled,
 .icon-category-tag-outline.isDisabled:hover {
 	color: currentColor;
-	cursor: not-allowed;
+	pointer-events: none;
 	opacity: 0.8;
 	text-decoration: none;
 }
