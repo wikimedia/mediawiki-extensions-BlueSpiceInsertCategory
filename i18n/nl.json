@@ -28,5 +28,12 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Bewerken",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bewerk de categorieën van deze pagina",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Bewerk de categorieën van deze pagina"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Bewerk de categorieën van deze pagina",
+	"bs-insertcategory-edit-dialog-button-label": "Bewerken",
+	"bs-insertcategory-edit-dialog-title": "Categorieën bewerken",
+	"bs-insertcategory-edit-dialog-button-submit": "Afgerond",
+	"bs-insertcategory-edit-dialog-button-cancel": "Annuleren",
+	"bs-insertcategory-edit-dialog-input-label": "Toegewezen categorieën",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Impliciete categorieën",
+	"bs-insertcategory-no-categories": "Geen categorieën toegewezen"
 }
