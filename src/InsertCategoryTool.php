@@ -133,8 +133,13 @@ class InsertCategoryTool extends Literal {
 			$html = '<ul>';
 			foreach ( $categoryNames as $name ) {
 				$title = Title::makeTitle( NS_CATEGORY, $name );
+				$classes = [];
+
 				if ( !$title ) {
 					continue;
+				}
+				if ( !$title->exists() ) {
+					$classes[] = 'new';
 				}
 				$categoryLink = Html::element(
 					'a',
@@ -142,7 +147,8 @@ class InsertCategoryTool extends Literal {
 						'title' => $title->getPrefixedText(),
 						'aria-label' => $title->getPrefixedText(),
 						'href' => $title->getLocalURL(),
-						'role' => 'link'
+						'role' => 'link',
+						'class' => $classes
 					],
 					$name
 				);
