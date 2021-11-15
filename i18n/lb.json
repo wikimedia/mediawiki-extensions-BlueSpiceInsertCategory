@@ -19,5 +19,7 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "D'Kategorie vun dëser Säit änneren",
 	"bs-insertcategory-edit-dialog-title": "Kategorien änneren",
 	"bs-insertcategory-edit-dialog-button-submit": "Fäerdeg",
-	"bs-insertcategory-edit-dialog-button-cancel": "Ofbriechen"
+	"bs-insertcategory-edit-dialog-button-cancel": "Ofbriechen",
+	"bs-insertcategory-edit-dialog-button-label": "Änneren",
+	"bs-insertcategory-no-categories": "Keng Kategorie zougewisen"
 }

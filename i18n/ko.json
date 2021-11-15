@@ -26,5 +26,7 @@
 	"bs-insertcategory-edit-dialog-title": "분류 편집",
 	"bs-insertcategory-edit-dialog-button-submit": "완료",
 	"bs-insertcategory-edit-dialog-button-cancel": "취소",
-	"bs-insertcategory-edit-dialog-input-label": "할당된 분류"
+	"bs-insertcategory-edit-dialog-input-label": "할당된 분류",
+	"bs-insertcategory-edit-dialog-button-label": "편집",
+	"bs-insertcategory-no-categories": "할당된 분류 없음"
 }

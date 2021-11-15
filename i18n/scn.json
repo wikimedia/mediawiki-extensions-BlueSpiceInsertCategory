@@ -17,5 +17,6 @@
 	"bs-insertcategory-category-editor-title": "Catigurìi",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "cancia",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Cancia li catigurìi di sta pàggina",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "Cancia li catigurìi di sta pàggina"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Cancia li catigurìi di sta pàggina",
+	"bs-insertcategory-edit-dialog-button-label": "Cancia"
 }

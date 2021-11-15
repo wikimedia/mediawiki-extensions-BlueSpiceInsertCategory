@@ -29,5 +29,6 @@
 	"bs-insertcategory-category-editor-implicit-categories-help": "Эти категории отсутствуют в викитексте страницы. Скорее всего они прописаны в шаблоне.",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Измените категории этой страницы",
 	"bs-insertcategory-edit-dialog-button-submit": "Готово",
-	"bs-insertcategory-edit-dialog-button-cancel": "Отменить"
+	"bs-insertcategory-edit-dialog-button-cancel": "Отменить",
+	"bs-insertcategory-edit-dialog-button-label": "Править"
 }
