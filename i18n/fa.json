@@ -25,6 +25,7 @@
 	"bs-insertcategory-page-header-categories-edit-tooltip": "ویرایش رده‌های این صفحه",
 	"bs-insertcategory-edit-dialog-button-tooltip": "ویرایش رده‌های این صفحه",
 	"bs-insertcategory-edit-dialog-button-aria-label": "برای ویرایش رده‌های این صفحه، جعبه را باز کنید",
+	"bs-insertcategory-edit-dialog-button-label": "ویرایش",
 	"bs-insertcategory-edit-dialog-title": "ویرایش رده‌ها",
 	"bs-insertcategory-edit-dialog-button-submit": "انجام شد",
 	"bs-insertcategory-edit-dialog-button-cancel": "لغو",
