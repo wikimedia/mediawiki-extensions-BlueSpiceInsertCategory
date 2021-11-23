@@ -34,5 +34,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Призначені категорії",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Неявні категорії",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ці категорії не визначені у вмісті сторінки у вікітексті. Швидше за все, вони встановлюються всередині шаблону.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Категорії сторінок з якоїсь причини не були відновлені"
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Категорії сторінок з якоїсь причини не були відновлені",
+	"bs-insertcategory-edit-dialog-button-label": "Редагувати",
+	"bs-insertcategory-no-categories": "Нема призначених категорій"
 }

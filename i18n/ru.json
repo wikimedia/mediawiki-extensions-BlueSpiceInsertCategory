@@ -29,5 +29,6 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Править категории на этой странице",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Измените категории этой страницы",
 	"bs-insertcategory-edit-dialog-button-submit": "Готово",
-	"bs-insertcategory-edit-dialog-button-cancel": "Отменить"
+	"bs-insertcategory-edit-dialog-button-cancel": "Отменить",
+	"bs-insertcategory-edit-dialog-button-label": "Править"
 }

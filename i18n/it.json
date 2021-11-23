@@ -26,5 +26,7 @@
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Modifica le categorie di questa pagina",
 	"bs-insertcategory-edit-dialog-title": "Modifica le categorie",
 	"bs-insertcategory-edit-dialog-button-submit": "Fatto",
-	"bs-insertcategory-edit-dialog-button-cancel": "Annulla"
+	"bs-insertcategory-edit-dialog-button-cancel": "Annulla",
+	"bs-insertcategory-edit-dialog-button-label": "Modifica",
+	"bs-insertcategory-no-categories": "Nessuna categoria assegnata"
 }

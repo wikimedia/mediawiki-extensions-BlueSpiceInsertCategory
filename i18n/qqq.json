@@ -28,7 +28,7 @@
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Tooltip for link in page headerthat shows category editor of a page next to this button",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Tooltip for button to open a category editor dialog",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Aria-label for button to open a category editor dialog",
-	"bs-insertcategory-edit-dialog-button-label": "Label for button to open a category editor dialog",
+	"bs-insertcategory-edit-dialog-button-label": "Label for button to open a category editor dialog\n\n{{Identical|Edit}}",
 	"bs-insertcategory-edit-dialog-title": "Title for categories dialog",
 	"bs-insertcategory-edit-dialog-button-submit": "Text for submit button of categories dialog\n\n{{Identical|Done}}",
 	"bs-insertcategory-edit-dialog-button-cancel": "Text for cancel button of categories dialog\n\n{{Identical|Cancel}}",

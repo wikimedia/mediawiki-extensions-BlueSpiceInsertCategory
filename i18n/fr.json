@@ -34,5 +34,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Catégories attribuées",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Catégories implicites",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu wikitexte de la page. Très vraisemblablement, elles sont définies depuis un modèle.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Les catégories de la page, pour une raison quelconque, n’ont pas été récupérées"
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Les catégories de la page, pour une raison quelconque, n’ont pas été récupérées",
+	"bs-insertcategory-edit-dialog-button-label": "Modifier",
+	"bs-insertcategory-no-categories": "Aucune catégorie affectée"
 }
