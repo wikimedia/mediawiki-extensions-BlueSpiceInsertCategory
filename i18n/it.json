@@ -28,5 +28,7 @@
 	"bs-insertcategory-edit-dialog-button-submit": "Fatto",
 	"bs-insertcategory-edit-dialog-button-cancel": "Annulla",
 	"bs-insertcategory-edit-dialog-button-label": "Modifica",
-	"bs-insertcategory-no-categories": "Nessuna categoria assegnata"
+	"bs-insertcategory-no-categories": "Nessuna categoria assegnata",
+	"bs-insertcategory-edit-dialog-input-label": "Categorie assegnate",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorie implicite"
 }
