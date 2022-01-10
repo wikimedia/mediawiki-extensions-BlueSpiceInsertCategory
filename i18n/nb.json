@@ -22,6 +22,8 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "rediger",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Rediger kategoriene til denne siden",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Rediger kategoriene til denne siden",
+	"bs-insertcategory-edit-dialog-button-tooltip": "Rediger kategoriene til denne siden",
+	"bs-insertcategory-edit-dialog-button-aria-label": "Åpne en dialog for å redigere kategoriene til denne siden",
 	"bs-insertcategory-edit-dialog-button-label": "Rediger",
 	"bs-insertcategory-edit-dialog-title": "Rediger kategorier",
 	"bs-insertcategory-edit-dialog-button-submit": "Ferdig",
