@@ -5,6 +5,7 @@
 			"Hwangjy9",
 			"Tyey",
 			"Ykhwong",
+			"Yunbj",
 			"아라"
 		]
 	},
@@ -13,6 +14,7 @@
 	"prefs-insertcategory": "분류 넣기",
 	"bs-insertcategory-pref-withparents": "부모 분류와 함께 분류 추가",
 	"bs-insertcategory-title": "분류 넣기",
+	"bs-insertcategory-cat-label": "할당됨:",
 	"bs-insertcategory-success": "카테고리가 추가되었습니다.",
 	"bs-insertcategory-failure": "오류",
 	"bs-insertcategory-panel-title": "분류",
