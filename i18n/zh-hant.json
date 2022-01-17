@@ -5,6 +5,7 @@
 			"EagerLin",
 			"Kly",
 			"LNDDYL",
+			"Tranve",
 			"Winston Sung"
 		]
 	},
@@ -21,7 +22,7 @@
 	"bs-insertcategory-panel-title": "分類",
 	"bs-insertcategory-category-editor-title": "分類",
 	"bs-insertcategory-category-editor-implicit-categories-title": "固有分類",
-	"bs-insertcategory-category-editor-implicit-categories-help": "這些分類尚未以頁面的 wiki 語法內容定義。它們有可能是從模版所設定。",
+	"bs-insertcategory-category-editor-implicit-categories-help": "這些分類尚未以頁面的 wikitext 內容定義。它們有可能是從模版所設定。",
 	"bs-insertcategory-category-editor-button-label-clear-all": "全部移除",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "編輯",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "編輯此頁面的分類",
@@ -33,7 +34,7 @@
 	"bs-insertcategory-edit-dialog-button-cancel": "取消",
 	"bs-insertcategory-edit-dialog-input-label": "已分配的分類",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "固有分類",
-	"bs-insertcategory-edit-dialog-implicit-categories-help": "這些分類尚未以頁面的 wiki 語法內容定義。它們有可能是從模版所設定。",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "這些分類尚未以頁面的 wikitext 內容定義。它們有可能是從模版所設定。",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "出於某些因素，未能檢索出頁面分類",
 	"bs-insertcategory-edit-dialog-button-label": "編輯"
 }
