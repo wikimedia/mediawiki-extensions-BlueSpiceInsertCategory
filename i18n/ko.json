@@ -5,12 +5,16 @@
 			"Hwangjy9",
 			"Tyey",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Yunbj"
 		]
 	},
+	"bs-insertcategory-desc": "분류 링크 입력 대화 상자",
 	"bs-insertcategory-insertcat": "분류 넣기",
 	"prefs-insertcategory": "분류 넣기",
+	"bs-insertcategory-pref-withparents": "부모 분류와 함께 분류 추가",
 	"bs-insertcategory-title": "분류 넣기",
+	"bs-insertcategory-cat-label": "할당됨:",
 	"bs-insertcategory-success": "카테고리가 추가되었습니다.",
 	"bs-insertcategory-failure": "오류",
 	"bs-insertcategory-panel-title": "분류",
@@ -20,13 +24,11 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "편집",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
-	"bs-insertcategory-desc": "분류 링크 입력 대화 상자",
-	"bs-insertcategory-pref-withparents": "부모 분류와 함께 분류 추가",
 	"bs-insertcategory-edit-dialog-button-tooltip": "이 문서의 분류 편집",
+	"bs-insertcategory-edit-dialog-button-label": "편집",
 	"bs-insertcategory-edit-dialog-title": "분류 편집",
 	"bs-insertcategory-edit-dialog-button-submit": "완료",
 	"bs-insertcategory-edit-dialog-button-cancel": "취소",
 	"bs-insertcategory-edit-dialog-input-label": "할당된 분류",
-	"bs-insertcategory-edit-dialog-button-label": "편집",
 	"bs-insertcategory-no-categories": "할당된 분류 없음"
 }
