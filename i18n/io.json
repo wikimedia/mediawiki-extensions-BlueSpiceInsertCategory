@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joao Xavier"
+			"Joao Xavier",
+			"JSantos"
 		]
 	},
-	"bs-insertcategory-failure": "Eroro"
+	"bs-insertcategory-failure": "Eroro",
+	"bs-insertcategory-panel-title": "Kategorii"
 }

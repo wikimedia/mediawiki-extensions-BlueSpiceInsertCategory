@@ -8,5 +8,7 @@
 	},
 	"bs-insertcategory-success": "Kategoriy debyayê",
 	"bs-insertcategory-failure": "Xeta",
-	"bs-insertcategory-panel-title": "Kategoriyi"
+	"bs-insertcategory-panel-title": "Kategoriyi",
+	"bs-insertcategory-category-editor-title": "Kategoriyi",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "bıvurne"
 }
