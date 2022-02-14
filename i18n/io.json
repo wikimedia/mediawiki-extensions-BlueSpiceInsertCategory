@@ -6,6 +6,7 @@
 		]
 	},
 	"bs-insertcategory-failure": "Eroro",
+	"bs-insertcategory-panel-title": "Kategorii",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Apertez dialogo-buxo por redaktar la kategorii di ca pagino",
 	"bs-insertcategory-edit-dialog-title": "Redaktar kategorii",
 	"bs-insertcategory-edit-dialog-button-submit": "Facita",
