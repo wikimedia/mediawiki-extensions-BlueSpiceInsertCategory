@@ -111,14 +111,16 @@
 				"bs-insertcategory-edit-dialog-input-label",
 				"bs-insertcategory-edit-dialog-implicit-categories-label",
 				"bs-insertcategory-edit-dialog-implicit-categories-help",
-				"bs-insertcategory-edit-dialog-page-categories-get-error-message"
+				"bs-insertcategory-edit-dialog-page-categories-get-error-message",
+				"bs-insertcategory-edit-dialog-tree-view"
 			],
 			"dependencies": [
 				"ext.bluespice",
 				"mediawiki.api",
 				"oojs",
 				"oojs-ui",
-				"ext.oOJSPlus.widgets"
+				"ext.oOJSPlus.widgets",
+				"ext.oOJSPlus.data"
 			]
 		},
 		"ext.bluespice.insertcategory.discovery.styles": {
