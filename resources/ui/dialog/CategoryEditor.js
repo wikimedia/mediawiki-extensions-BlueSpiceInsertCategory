@@ -38,6 +38,7 @@
 			this.selector.setDisabled( false );
 			this.selector.focus();
 			this.addImplicitCategorySection( implicit );
+			this.addCategoryTree();
 			this.updateSize();
 		}.bind( this ) ).fail( function() {
 			this.popPending();
@@ -50,6 +51,7 @@
 			);
 			this.showErrors( error );
 		}.bind( this ) );
+
 	};
 
 	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getPageCategories = function() {
@@ -172,6 +174,66 @@
 
 	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getBodyHeight = function() {
 		return this.$body.outerHeight( true ) + 30;
+	};
+
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.onTreeItemSelected = function( item ) {
+		var text = item.label,
+			value = this.selector.getValue();
+
+ 		if ( value.indexOf( text ) !== -1 ) {
+ 			value.splice( value.indexOf( text ), 1 );
+		} else {
+ 			value.push( text );
+		}
+		this.selector.setValue( value );
+	};
+
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addCategoryTree = function() {
+		this.categoryTree = new OOJSPlus.ui.data.StoreTree(
+			{
+				store: {
+					action: 'bs-category-treestore',
+					rootNode: 'src'
+				}
+			}
+		);
+		this.categoryTree.connect( this, {
+			loaded: function() {
+				this.updateSize();
+			},
+			'collapse-expand': function() {
+				this.updateSize();
+			},
+			itemSelected: function( item ) {
+				this.onTreeItemSelected( item );
+			}
+		} );
+		this.categoryTree.$element.hide();
+		this.categoryTree.$element.css( {
+			'max-height': '500px',
+			'padding-left': '20px',
+			'overflow-y': 'auto'
+		} );
+
+		var expander = new OO.ui.ButtonWidget( {
+			label: mw.message( 'bs-insertcategory-edit-dialog-tree-view' ).text(),
+			framed: false,
+			flags: [ 'primary', 'progressive' ]
+		} );
+		expander.connect( this, {
+			click: function() {
+				this.categoryTree.$element.toggle();
+				this.updateSize();
+			}
+		} );
+
+		this.$body.append( $( '<div>' ).css( {
+			padding: '10px',
+			margin: '0 0 0 10px'
+		} ).append(
+			expander.$element,
+			this.categoryTree.$element
+		) );
 	};
 } )( jQuery, blueSpice, mediaWiki );
 
