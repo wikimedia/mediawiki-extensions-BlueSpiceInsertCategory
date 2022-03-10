@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"bs-insertcategory-failure": "Feilâ",
 	"bs-insertcategory-panel-title": "Luokah"
 }
