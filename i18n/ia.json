@@ -33,5 +33,6 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Iste categorias non es definite in le wikitexto del pagina. Probabilemente illos proveni de un patrono includite.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Le categorias del pagina non ha essite recuperate pro un ration incognite",
 	"bs-insertcategory-edit-dialog-button-label": "Modificar",
-	"bs-insertcategory-no-categories": "Nulle categoria assignate"
+	"bs-insertcategory-no-categories": "Nulle categoria assignate",
+	"bs-insertcategory-edit-dialog-tree-view": "Monstrar tote le categorias"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Juan90264"
 		]
 	},
 	"bs-insertcategory-desc": "Campo para digitar um link de categoria",
@@ -32,5 +33,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Categorias atribuídas",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorias implícitas",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Essas categorias não estão definidas no conteúdo do wikitext da página. O mais provável é que eles sejam definidos dentro de um modelo.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Categorias de página por algum motivo não foram recuperadas"
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Categorias de página por algum motivo não foram recuperadas",
+	"bs-insertcategory-edit-dialog-button-label": "Editar",
+	"bs-insertcategory-no-categories": "Nenhuma categoria atribuída"
 }
