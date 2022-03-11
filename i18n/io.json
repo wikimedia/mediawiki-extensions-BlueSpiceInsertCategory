@@ -11,5 +11,6 @@
 	"bs-insertcategory-edit-dialog-button-submit": "Facita",
 	"bs-insertcategory-edit-dialog-button-cancel": "Nuligar",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implicita kategorii",
-	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ca kategorii ne definesas en la kontenajo dil texto di ca pagino. Posible li inkluzesis en ula shablono."
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ca kategorii ne definesas en la kontenajo dil texto di ca pagino. Posible li inkluzesis en ula shablono.",
+	"bs-insertcategory-panel-title": "Kategorii"
 }

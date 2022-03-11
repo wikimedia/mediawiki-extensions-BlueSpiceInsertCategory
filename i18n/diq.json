@@ -10,5 +10,9 @@
 	"bs-insertcategory-panel-title": "Kategoriyi",
 	"bs-insertcategory-failure": "Xeta",
 	"bs-insertcategory-edit-dialog-button-submit": "Temam",
-	"bs-insertcategory-edit-dialog-button-cancel": "Bıtexelne"
+	"bs-insertcategory-edit-dialog-button-cancel": "Bıtexelne",
+	"bs-insertcategory-category-editor-title": "Kategoriyi",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "bıvurne",
+	"bs-insertcategory-edit-dialog-button-label": "Bıvurne",
+	"bs-insertcategory-edit-dialog-title": "Kategoriyan bıvurne"
 }

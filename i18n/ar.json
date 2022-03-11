@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -23,5 +24,7 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "تعديل",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
-	"bs-insertcategory-edit-dialog-button-label": "عدل"
+	"bs-insertcategory-edit-dialog-button-label": "عدل",
+	"bs-insertcategory-edit-dialog-button-submit": "تم",
+	"bs-insertcategory-edit-dialog-button-cancel": "إلغاء"
 }
