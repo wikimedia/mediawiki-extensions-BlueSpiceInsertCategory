@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Veeven"
+			"Veeven",
+			"Chaduvari"
 		]
 	},
 	"bs-insertcategory-panel-title": "వర్గాలు",
-	"bs-insertcategory-category-editor-title": "వర్గాలు"
+	"bs-insertcategory-category-editor-title": "వర్గాలు",
+	"bs-insertcategory-edit-dialog-tree-view": "వర్గాలన్నిటినీ చూపించు"
 }

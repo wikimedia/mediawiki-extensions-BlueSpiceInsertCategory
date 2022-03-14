@@ -9,6 +9,7 @@
 	"bs-insertcategory-insertcat": "Inserer categoria",
 	"prefs-insertcategory": "Inserer categoria",
 	"bs-insertcategory-pref-withparents": "Inserer categoria con su genitores",
+	"bs-insertcategory-pref-uploadpanelintegration": "Fixar le categorias de paginas como predefinite in le dialogo de incargamento",
 	"bs-insertcategory-title": "Inserer categoria",
 	"bs-insertcategory-cat-label": "Assignate:",
 	"bs-insertcategory-success": "Le categoria ha essite addite",
@@ -18,13 +19,13 @@
 	"bs-insertcategory-category-editor-title": "Categorias",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorias implicite",
 	"bs-insertcategory-category-editor-implicit-categories-help": "Iste categorias non es definite in le wikitexto del pagina. Probabilemente illos proveni de un patrono includite.",
-	"bs-insertcategory-pref-uploadpanelintegration": "Fixar le categorias de paginas como predefinite in le dialogo de incargamento",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Remover totes",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "modificar",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Modificar le categorias de iste pagina",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Modificar le categorias de iste pagina",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Modificar le categorias de iste pagina",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Aperir dialogo pro modificar le categorias de iste pagina",
+	"bs-insertcategory-edit-dialog-button-label": "Modificar",
 	"bs-insertcategory-edit-dialog-title": "Modificar categorias",
 	"bs-insertcategory-edit-dialog-button-submit": "Facite",
 	"bs-insertcategory-edit-dialog-button-cancel": "Cancellar",
@@ -32,6 +33,6 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorias implicite",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Iste categorias non es definite in le wikitexto del pagina. Probabilemente illos proveni de un patrono includite.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Le categorias del pagina non ha essite recuperate pro un ration incognite",
-	"bs-insertcategory-edit-dialog-button-label": "Modificar",
-	"bs-insertcategory-no-categories": "Nulle categoria assignate"
+	"bs-insertcategory-no-categories": "Nulle categoria assignate",
+	"bs-insertcategory-edit-dialog-tree-view": "Monstrar tote le categorias"
 }
