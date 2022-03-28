@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"Skalcaa"
 		]
 	},
@@ -14,5 +15,6 @@
 	"bs-insertcategory-success": "Dodali smo kategorijo",
 	"bs-insertcategory-failure": "Napaka",
 	"bs-insertcategory-hint": "Opomba: za dodajanje kategorije pritisnite tipko enter.",
-	"bs-insertcategory-panel-title": "Kategorije"
+	"bs-insertcategory-panel-title": "Kategorije",
+	"bs-insertcategory-edit-dialog-button-cancel": "Prekliči"
 }
