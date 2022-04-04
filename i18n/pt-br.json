@@ -4,7 +4,8 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Felipe L. Ewald",
-			"Juan90264"
+			"Juan90264",
+			"YuriNikolai"
 		]
 	},
 	"bs-insertcategory-desc": "Campo para digitar um link de categoria",
@@ -35,5 +36,6 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorias implícitas",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Essas categorias não estão definidas no conteúdo do wikitext da página. O mais provável é que eles sejam definidos dentro de um modelo.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Categorias de página por algum motivo não foram recuperadas",
-	"bs-insertcategory-no-categories": "Nenhuma categoria atribuída"
+	"bs-insertcategory-no-categories": "Nenhuma categoria atribuída",
+	"bs-insertcategory-edit-dialog-tree-view": "Mostrar todas as categorias"
 }
