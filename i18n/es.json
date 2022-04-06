@@ -5,7 +5,9 @@
 			"Fitoschido",
 			"Macofe",
 			"Madamebiblio",
-			"Themasterriot"
+			"Themasterriot",
+			"DiegoAmbrocio",
+			"Jakeukalane"
 		]
 	},
 	"bs-insertcategory-desc": "Cuadro de diálogo para escribir un enlace a categoría",
@@ -21,6 +23,7 @@
 	"bs-insertcategory-panel-title": "Categorías",
 	"bs-insertcategory-category-editor-title": "Categorías",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorías implícitas",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Esas categorías no están definidas dentro del contenido del wikitexto de la página. Lo más probable es que se establezcan desde una plantilla.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página",
