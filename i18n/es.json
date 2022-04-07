@@ -6,7 +6,8 @@
 			"Jakeukalane",
 			"Macofe",
 			"Madamebiblio",
-			"Themasterriot"
+			"Themasterriot",
+			"DiegoAmbrocio"
 		]
 	},
 	"bs-insertcategory-desc": "Cuadro de diálogo para escribir un enlace a categoría",
@@ -22,11 +23,21 @@
 	"bs-insertcategory-panel-title": "Categorías",
 	"bs-insertcategory-category-editor-title": "Categorías",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Categorías implícitas",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Esas categorías no están definidas dentro del contenido del wikitexto de la página. Lo más probable es que se establezcan desde una plantilla.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar las categorías de esta página",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Editar las categorías de esta página",
+	"bs-insertcategory-edit-dialog-button-aria-label": "Abrir diálogo para editar las categorías de esta página",
+	"bs-insertcategory-edit-dialog-button-label": "Editar",
+	"bs-insertcategory-edit-dialog-title": "Editar categorías",
 	"bs-insertcategory-edit-dialog-button-submit": "Hecho",
-	"bs-insertcategory-edit-dialog-button-cancel": "Cancelar"
+	"bs-insertcategory-edit-dialog-button-cancel": "Cancelar",
+	"bs-insertcategory-edit-dialog-input-label": "Categorías asignadas",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorías implícitas",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Esas categorías no están definidas dentro del contenido del wikitexto de la página. Lo más probable es que se establezcan desde una plantilla.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Las categorías de las páginas por alguna razón no fueron recuperadas",
+	"bs-insertcategory-no-categories": "No hay categorías asignadas",
+	"bs-insertcategory-edit-dialog-tree-view": "Mostrar todas las categorías"
 }

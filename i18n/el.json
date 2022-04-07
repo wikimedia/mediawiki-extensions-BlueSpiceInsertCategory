@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"NikosLikomitros",
-			"Nikosgranturismogt"
+			"Nikosgranturismogt",
+			"Norhorn"
 		]
 	},
 	"bs-insertcategory-desc": "Διάλογος για να μπει σε σύνδεσμο κατηγορίας",
@@ -18,5 +19,6 @@
 	"bs-insertcategory-panel-title": "Κατηγορίες",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Αφαίρεση Όλων",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "επεξεργασία",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Επεξεργαστείτε τις κατηγορίες αυτής της σελίδας"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Επεξεργαστείτε τις κατηγορίες αυτής της σελίδας",
+	"bs-insertcategory-edit-dialog-tree-view": "Εμφάνιση όλων των κατηγοριών"
 }
