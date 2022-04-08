@@ -21,7 +21,7 @@
 	"bs-insertcategory-panel-title": "Catégories",
 	"bs-insertcategory-category-editor-title": "Catégories",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Catégories implicites",
-	"bs-insertcategory-category-editor-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu wikitexte de la page. Très vraisemblablement, elles sont déclarées depuis un modèle.",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu en wikicode de la page. Très vraisemblablement, elles sont définies depuis un modèle.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Supprimer tout",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "modifier",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Modifier les catégories de cette page",
@@ -34,7 +34,7 @@
 	"bs-insertcategory-edit-dialog-button-cancel": "Annuler",
 	"bs-insertcategory-edit-dialog-input-label": "Catégories attribuées",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Catégories implicites",
-	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu wikitexte de la page. Très vraisemblablement, elles sont définies depuis un modèle.",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ces catégories ne sont pas définies dans le contenu en wikicode de la page. Très vraisemblablement, elles sont définies depuis un modèle.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Les catégories de la page, pour une raison quelconque, n’ont pas été récupérées",
 	"bs-insertcategory-no-categories": "Aucune catégorie affectée",
 	"bs-insertcategory-edit-dialog-tree-view": "Afficher toutes les catégories"
