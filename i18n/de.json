@@ -6,7 +6,8 @@
 			"Mglaser",
 			"Pwirth",
 			"Seewolf",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Mschlindwein"
 		]
 	},
 	"bs-insertcategory-desc": "Über ein Dialogfeld lassen sich Kategorien in eine Wikiseite einfügen",
@@ -27,15 +28,16 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "bearbeiten",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Die Kategorien dieser Seite bearbeiten",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Die Kategorien dieser Seite bearbeiten",
-	"bs-insertcategory-edit-dialog-button-cancel": "Abbrechen",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Die Kategorien dieser Seite bearbeiten",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Öffne einen Dialog um die Kategorien dieser Seite zu bearbeiten",
 	"bs-insertcategory-edit-dialog-button-label": "Bearbeiten",
 	"bs-insertcategory-edit-dialog-title": "Kategorien bearbeiten",
 	"bs-insertcategory-edit-dialog-button-submit": "Fertig",
+	"bs-insertcategory-edit-dialog-button-cancel": "Abbrechen",
 	"bs-insertcategory-edit-dialog-input-label": "Vergebene Kategorien",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implizite Kategorien",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Die Kategorien der Seite konnten aus verschiedenen Gründen nicht abgerufen werden.",
-	"bs-insertcategory-no-categories": "Keine Kategorien vergeben"
+	"bs-insertcategory-no-categories": "Keine Kategorien vergeben",
+	"bs-insertcategory-edit-dialog-tree-view": "Alle Kategorien anzeigen"
 }
