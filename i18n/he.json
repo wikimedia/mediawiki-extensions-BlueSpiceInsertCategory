@@ -4,7 +4,8 @@
 			"Erelon",
 			"Guycn2",
 			"Steeve815",
-			"Amire80"
+			"Amire80",
+			"Ex-Diktator"
 		]
 	},
 	"bs-insertcategory-desc": "תיבת דו־שיח להוספת קישורים לקטגוריות",
@@ -24,5 +25,6 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "להסיר הכול",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "עריכה",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "עריכת הקטגוריות של הדף",
-	"bs-insertcategory-page-header-categories-edit-tooltip": "עריכת הקטגוריות של הדף"
+	"bs-insertcategory-page-header-categories-edit-tooltip": "עריכת הקטגוריות של הדף",
+	"bs-insertcategory-edit-dialog-button-cancel": "ביטול"
 }
