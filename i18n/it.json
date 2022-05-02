@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Beta16",
+			"GpieroMW",
 			"Macofe",
 			"PeppeAeco",
 			"Selven"
@@ -30,5 +31,6 @@
 	"bs-insertcategory-edit-dialog-button-cancel": "Annulla",
 	"bs-insertcategory-edit-dialog-input-label": "Categorie assegnate",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorie implicite",
-	"bs-insertcategory-no-categories": "Nessuna categoria assegnata"
+	"bs-insertcategory-no-categories": "Nessuna categoria assegnata",
+	"bs-insertcategory-edit-dialog-tree-view": "Mostrare tutte le categorie"
 }
