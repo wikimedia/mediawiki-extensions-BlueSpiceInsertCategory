@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Beta16",
+			"GpieroMW",
 			"Macofe",
 			"PeppeAeco",
 			"Selven"
@@ -30,5 +31,7 @@
 	"bs-insertcategory-edit-dialog-button-label": "Modifica",
 	"bs-insertcategory-no-categories": "Nessuna categoria assegnata",
 	"bs-insertcategory-edit-dialog-input-label": "Categorie assegnate",
-	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorie implicite"
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorie implicite",
+	"bs-insertcategory-edit-dialog-button-tooltip": "Modifica le categorie di questa pagina",
+	"bs-insertcategory-edit-dialog-tree-view": "Mostrare tutte le categorie"
 }
