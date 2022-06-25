@@ -35,7 +35,7 @@
 namespace BlueSpice\InsertCategory;
 
 use IContextSource;
-use WikiPage;
+use MediaWiki\MediaWikiServices;
 use WikiTextContent;
 
 /**
@@ -52,7 +52,7 @@ class Extension extends \BlueSpice\Extension {
 		if ( !$context->getTitle() || !$context->getTitle()->exists() ) {
 			return false;
 		}
-		$wikiPage = WikiPage::factory( $context->getTitle() );
+		$wikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $context->getTitle() );
 		if ( !$wikiPage ) {
 			return false;
 		}
