@@ -5,6 +5,8 @@
 		]
 	},
 	"bs-insertcategory-panel-title": "Kategoriji",
+	"bs-insertcategory-category-editor-title": "Kategoriji",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Kategoriji impliċiti",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Immodifika l-kategoriji fuq din il-paġna"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Immodifika l-kategoriji fuq din il-paġna",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Immodifika l-kategoriji ta' din il-paġna"
 }
