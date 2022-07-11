@@ -31,7 +31,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Assigned categories",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implicit categories",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Those categories are not defined within the wikitext content of the page. Most likely they are set from within a template.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Page categories by some reason were not retrieved",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Cannot retrieve page categories",
 	"bs-insertcategory-no-categories": "No categories assigned",
 	"bs-insertcategory-edit-dialog-tree-view": "Show all categories"
 }
