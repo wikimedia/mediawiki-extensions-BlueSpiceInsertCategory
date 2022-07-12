@@ -4,6 +4,9 @@
 			"ToniSant"
 		]
 	},
+	"prefs-insertcategory": "Daħħal kategorija",
+	"bs-insertcategory-title": "Daħħal kategorija",
+	"bs-insertcategory-success": "Il-kategorija ġiet miżjuda",
 	"bs-insertcategory-panel-title": "Kategoriji",
 	"bs-insertcategory-category-editor-title": "Kategoriji",
 	"bs-insertcategory-category-editor-implicit-categories-title": "Kategoriji impliċiti",
