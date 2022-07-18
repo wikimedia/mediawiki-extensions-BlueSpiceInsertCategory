@@ -31,7 +31,7 @@
 	"bs-insertcategory-edit-dialog-button-cancel": "لغو",
 	"bs-insertcategory-edit-dialog-input-label": "رده‌های اختصاص‌یافته",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "رده‌های ضمنی",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "رده‌های صفحه به دلیلی واکشی نشدند",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "ناتوان در واکشی رده‌های صفحه",
 	"bs-insertcategory-no-categories": "هیچ رده‌ای معین نشده‌است",
 	"bs-insertcategory-edit-dialog-tree-view": "نمایش همهٔ رده‌ها"
 }
