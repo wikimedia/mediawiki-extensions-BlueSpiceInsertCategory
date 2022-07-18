@@ -5,7 +5,9 @@
 			"D41D8CD98F",
 			"Liuxinyu970226",
 			"Tranve",
-			"落花有意12138"
+			"落花有意12138",
+			"Diskdance",
+			"沈澄心"
 		]
 	},
 	"bs-insertcategory-desc": "对话框中输入分类链接",
@@ -26,6 +28,8 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "编辑",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "编辑此页面的分类",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "编辑此页面的分类",
+	"bs-insertcategory-edit-dialog-button-tooltip": "编辑此页面的分类",
+	"bs-insertcategory-edit-dialog-button-aria-label": "打开对话框以编辑此页面的分类",
 	"bs-insertcategory-edit-dialog-button-label": "编辑",
 	"bs-insertcategory-edit-dialog-title": "编辑分类",
 	"bs-insertcategory-edit-dialog-button-submit": "完成",
@@ -33,5 +37,6 @@
 	"bs-insertcategory-edit-dialog-input-label": "分配的分类",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "隐藏分类",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "这些分类尚未在页面的wikitext内容中定义。它们很可能在模板中设置。",
-	"bs-insertcategory-no-categories": "没有分类分配"
+	"bs-insertcategory-no-categories": "没有分类分配",
+	"bs-insertcategory-edit-dialog-tree-view": "显示所有分类"
 }

@@ -30,6 +30,7 @@
 	"bs-insertcategory-edit-dialog-button-submit": "완료",
 	"bs-insertcategory-edit-dialog-button-cancel": "취소",
 	"bs-insertcategory-edit-dialog-input-label": "할당된 분류",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "문서 분류를 검색할 수 없습니다",
 	"bs-insertcategory-no-categories": "할당된 분류 없음",
 	"bs-insertcategory-edit-dialog-tree-view": "모든 분류 보기"
 }
