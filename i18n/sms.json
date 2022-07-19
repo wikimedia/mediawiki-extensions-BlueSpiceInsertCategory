@@ -9,5 +9,7 @@
 	"bs-insertcategory-title": "Lââʹzzet kategoria",
 	"bs-insertcategory-failure": "Vââʹǩǩ",
 	"bs-insertcategory-panel-title": "Kategoria",
-	"bs-insertcategory-category-editor-title": "Kategoria"
+	"bs-insertcategory-category-editor-title": "Kategoria",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Muuʹtt tän seeid kategoriaid",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Muuʹtt tän seeid kategoriaid"
 }
