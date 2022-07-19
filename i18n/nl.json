@@ -35,5 +35,6 @@
 	"bs-insertcategory-edit-dialog-button-cancel": "Annuleren",
 	"bs-insertcategory-edit-dialog-input-label": "Toegewezen categorieën",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Impliciete categorieën",
-	"bs-insertcategory-no-categories": "Geen categorieën toegewezen"
+	"bs-insertcategory-no-categories": "Geen categorieën toegewezen",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Kan paginacategorieën niet ophalen"
 }
