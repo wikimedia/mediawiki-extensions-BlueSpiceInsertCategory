@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Felipe L. Ewald",
@@ -35,7 +36,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Categorias atribuídas",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorias implícitas",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Essas categorias não estão definidas no conteúdo do wikitext da página. O mais provável é que eles sejam definidos dentro de um modelo.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Categorias de página por algum motivo não foram recuperadas",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Não é possível recuperar categorias de página",
 	"bs-insertcategory-no-categories": "Nenhuma categoria atribuída",
 	"bs-insertcategory-edit-dialog-tree-view": "Mostrar todas as categorias"
 }
