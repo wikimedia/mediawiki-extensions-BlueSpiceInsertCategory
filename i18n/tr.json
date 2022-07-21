@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Can",
+			"Hedda",
 			"KediÇobanı",
 			"Melissadilara",
 			"Sayginer"
@@ -33,5 +34,6 @@
 	"bs-insertcategory-edit-dialog-button-submit": "Tamam",
 	"bs-insertcategory-edit-dialog-button-cancel": "İptal",
 	"bs-insertcategory-edit-dialog-input-label": "Atanmış kategoriler",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Sayfa kategorileri alınamıyor",
 	"bs-insertcategory-no-categories": "Atanmış kategori yok"
 }
