@@ -37,7 +37,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Vergebene Kategorien",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implizite Kategorien",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Die Kategorien der Seite konnten aus verschiedenen Gründen nicht abgerufen werden.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Die Kategorien der Seite können nicht abgerufen werden.",
 	"bs-insertcategory-no-categories": "Keine Kategorien vergeben",
 	"bs-insertcategory-edit-dialog-tree-view": "Alle Kategorien anzeigen"
 }
