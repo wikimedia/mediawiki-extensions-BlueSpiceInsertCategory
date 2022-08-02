@@ -34,5 +34,9 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorie implicite",
 	"bs-insertcategory-no-categories": "Nessuna categoria assegnata",
 	"bs-insertcategory-edit-dialog-tree-view": "Mostrare tutte le categorie",
-	"bs-insertcategory-pref-uploadpanelintegration": "Imposta le categorie di pagina come predefinite nella finestra di dialogo di caricamento"
+	"bs-insertcategory-pref-uploadpanelintegration": "Imposta le categorie di pagina come predefinite nella finestra di dialogo di caricamento",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Queste categorie non sono definite nel contenuto del wikitesto della pagina. Molto probabilmente sono impostate all'interno di un template.",
+	"bs-insertcategory-edit-dialog-button-aria-label": "Aprire la finestra di dialogo per modificare le categorie di questa pagina",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Queste categorie non sono definite nel contenuto del wikitesto della pagina. Molto probabilmente sono impostate all'interno di un template.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Impossibile recuperare le categorie delle pagine"
 }
