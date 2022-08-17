@@ -16,5 +16,6 @@
 	"bs-insertcategory-failure": "Napaka",
 	"bs-insertcategory-hint": "Opomba: za dodajanje kategorije pritisnite tipko enter.",
 	"bs-insertcategory-panel-title": "Kategorije",
+	"bs-insertcategory-edit-dialog-button-submit": "Končano",
 	"bs-insertcategory-edit-dialog-button-cancel": "Prekliči"
 }
