@@ -118,7 +118,7 @@ class InsertCategoryTool extends Literal {
 	 * @return string
 	 */
 	private function makeList( $title, RequestContext $context ): string {
-		$categoryNames = $context->getSkin()->getOutput()->getCategories( 'all' );
+		$categoryNames = $this->getCategoriesFromPreference( $context );
 		krsort( $categoryNames, SORT_NATURAL );
 
 		if ( empty( $categoryNames ) ) {
@@ -158,6 +158,26 @@ class InsertCategoryTool extends Literal {
 			$html .= '</ul>';
 		}
 		return $html;
+	}
+
+	/**
+	 *
+	 * @param RequestContext $context
+	 * @return array
+	 */
+	private function getCategoriesFromPreference( $context ): array {
+		$user = $context->getUser();
+		$showHiddenCategories = MediaWikiServices::getInstance()
+		->getUserOptionsLookup()
+		->getBoolOption( $user, 'showhiddencats' );
+
+		$categoryRequestType = 'normal';
+		if ( $showHiddenCategories ) {
+			$categoryRequestType = 'all';
+		}
+
+		$categories = $context->getSkin()->getOutput()->getCategories( $categoryRequestType );
+		return $categories;
 	}
 
 	/**
