@@ -194,7 +194,10 @@
 				store: {
 					action: 'bs-category-treestore',
 					rootNode: 'src'
-				}
+				},
+				expanded: false,
+				id: 'category-editor-tree',
+				labelledby: 'bs-insertcategory-edit-dialog-tree-view-tgl'
 			}
 		);
 		this.categoryTree.connect( this, {
@@ -218,7 +221,8 @@
 		var expander = new OO.ui.ButtonWidget( {
 			label: mw.message( 'bs-insertcategory-edit-dialog-tree-view' ).text(),
 			framed: false,
-			flags: [ 'primary', 'progressive' ]
+			flags: [ 'primary', 'progressive' ],
+			id: 'bs-insertcategory-edit-dialog-tree-view-tgl'
 		} );
 		expander.connect( this, {
 			click: function() {
