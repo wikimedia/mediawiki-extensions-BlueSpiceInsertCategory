@@ -36,5 +36,9 @@
 	"bs-insertcategory-edit-dialog-input-label": "Toegewezen categorieën",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Impliciete categorieën",
 	"bs-insertcategory-no-categories": "Geen categorieën toegewezen",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Kan paginacategorieën niet ophalen"
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Kan paginacategorieën niet ophalen",
+	"bs-insertcategory-edit-dialog-button-tooltip": "De categorieën van deze pagina bewerken",
+	"bs-insertcategory-edit-dialog-button-aria-label": "Dialoogvenster openen om de categorieën van deze pagina te bewerken",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "Die categorieën zijn niet opgegeven in de wikitekstinhoud van de pagina. Waarschijnlijk worden ze vanuit een sjabloon ingesteld.",
+	"bs-insertcategory-edit-dialog-tree-view": "Alle categorieën weergeven"
 }
