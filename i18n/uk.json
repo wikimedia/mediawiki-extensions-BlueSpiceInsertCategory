@@ -6,7 +6,8 @@
 			"Movses",
 			"Piramidion",
 			"Viiictorrr",
-			"Ата"
+			"Ата",
+			"Пан Хаунд"
 		]
 	},
 	"bs-insertcategory-desc": "Діалог введення посилання на категорію",
@@ -37,5 +38,6 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Неявні категорії",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ці категорії не визначені у вмісті сторінки у вікітексті. Швидше за все, вони встановлюються всередині шаблону.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Не вдається отримати категорії сторінок",
-	"bs-insertcategory-no-categories": "Нема призначених категорій"
+	"bs-insertcategory-no-categories": "Нема призначених категорій",
+	"bs-insertcategory-edit-dialog-tree-view": "Показати всі категорії"
 }

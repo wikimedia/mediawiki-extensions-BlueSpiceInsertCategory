@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"EdoAug",
 			"Jon Harald Søby"
 		]
 	},
@@ -28,5 +29,8 @@
 	"bs-insertcategory-edit-dialog-title": "Rediger kategorier",
 	"bs-insertcategory-edit-dialog-button-submit": "Ferdig",
 	"bs-insertcategory-edit-dialog-button-cancel": "Avbryt",
-	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implisitte kategorier"
+	"bs-insertcategory-edit-dialog-input-label": "Tildelte kategorier",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implisitte kategorier",
+	"bs-insertcategory-no-categories": "Ingen kategorier tildelt",
+	"bs-insertcategory-edit-dialog-tree-view": "Vis alle kategorier"
 }
