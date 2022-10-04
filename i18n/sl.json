@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Skalcaa"
+			"Skalcaa",
+			"Eleassar"
 		]
 	},
 	"bs-insertcategory-desc": "Pogovorno okno za vnos povezave kategorije",
@@ -11,8 +12,8 @@
 	"bs-insertcategory-pref-withparents": "Vstavi kategorijo skupaj s starši",
 	"bs-insertcategory-title": "Vstavljanje kategorije",
 	"bs-insertcategory-cat-label": "Dodeljeno:",
-	"bs-insertcategory-success": "Dodali smo kategorijo",
+	"bs-insertcategory-success": "Kategorija je bila dodana",
 	"bs-insertcategory-failure": "Napaka",
-	"bs-insertcategory-hint": "Opomba: za dodajanje kategorije pritisnite tipko enter.",
+	"bs-insertcategory-hint": "Opomba: za dodajanje kategorije pritisnite vnašalko (enter).",
 	"bs-insertcategory-panel-title": "Kategorije"
 }
