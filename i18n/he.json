@@ -21,11 +21,21 @@
 	"bs-insertcategory-panel-title": "קטגוריות",
 	"bs-insertcategory-category-editor-title": "קטגוריות",
 	"bs-insertcategory-category-editor-implicit-categories-title": "קטגוריות מובנות",
-	"bs-insertcategory-category-editor-implicit-categories-help": "קטגוריות אלו אינן מוגדרות בטקסט הוויקי של הדף. כנראה שהן מוגדרות בתבנית.",
+	"bs-insertcategory-category-editor-implicit-categories-help": "הקטגוריות האלו אינן מוגדרות בקוד הוויקי של הדף. הן כנראה מוגדרות בתבנית.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "להסיר הכול",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "עריכה",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "עריכת הקטגוריות של הדף",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "עריכת הקטגוריות של הדף",
+	"bs-insertcategory-edit-dialog-button-tooltip": "עריכת הקטגוריות של הדף",
+	"bs-insertcategory-edit-dialog-button-aria-label": "פתיחת תיבת דו־שיח לעריכת הקטגוריות של הדף הזה",
+	"bs-insertcategory-edit-dialog-button-label": "עריכה",
 	"bs-insertcategory-edit-dialog-title": "עריכת קטגוריות",
-	"bs-insertcategory-edit-dialog-button-cancel": "ביטול"
+	"bs-insertcategory-edit-dialog-button-submit": "בוצע",
+	"bs-insertcategory-edit-dialog-button-cancel": "ביטול",
+	"bs-insertcategory-edit-dialog-input-label": "הקטגוריות שהוקצו",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "קטגוריות משתמעות",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "הקטגוריות האלו אינן מוגדרות בקוד הוויקי של הדף. הן כנראה מוגדרות בתבנית.",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "לא ניתן לאחזר את קטגוריות הדף",
+	"bs-insertcategory-no-categories": "אין קטגוריות משויכות",
+	"bs-insertcategory-edit-dialog-tree-view": "הצגת כל הקטגוריות"
 }
