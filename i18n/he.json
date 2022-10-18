@@ -4,7 +4,8 @@
 			"Erelon",
 			"Guycn2",
 			"Steeve815",
-			"Amire80"
+			"Amire80",
+			"Ex-Diktator"
 		]
 	},
 	"bs-insertcategory-desc": "תיבת דו־שיח להוספת קישורים לקטגוריות",
@@ -20,7 +21,7 @@
 	"bs-insertcategory-panel-title": "קטגוריות",
 	"bs-insertcategory-category-editor-title": "קטגוריות",
 	"bs-insertcategory-category-editor-implicit-categories-title": "קטגוריות מובנות",
-	"bs-insertcategory-category-editor-implicit-categories-help": "קטגוריות אלו אינן מוגדרות בטקסט הוויקי של הדף. כנראה שהן מוגדרות בתבנית.",
+	"bs-insertcategory-category-editor-implicit-categories-help": "הקטגוריות האלו אינן מוגדרות בקוד הוויקי של הדף. הן כנראה מוגדרות בתבנית.",
 	"bs-insertcategory-category-editor-button-label-clear-all": "להסיר הכול",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "עריכה",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "עריכת הקטגוריות של הדף",
