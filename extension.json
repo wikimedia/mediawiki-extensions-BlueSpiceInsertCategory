@@ -147,13 +147,16 @@
 	"HookHandlers": {
 		"toolaftercontent": {
 			"class": "\\BlueSpice\\InsertCategory\\HookHandler\\AddToolAfterContent"
+		},
+		"addInsertCategoryAction": {
+			"class": "\\BlueSpice\\InsertCategory\\HookHandler\\AddInsertCategoryAction"
 		}
 	},
 	"Hooks": {
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\InsertCategory\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
 		],
-		"SkinTemplateNavigation::Universal": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigationUniversal\\AddInsertCategoryAction::callback",
+		"SkinTemplateNavigation::Universal": "addInsertCategoryAction",
 		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback",
 		"MWStakeCommonUIRegisterSkinSlotComponents": "toolaftercontent"
 	},
