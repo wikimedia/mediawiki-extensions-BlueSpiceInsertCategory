@@ -3,7 +3,9 @@
 		"authors": [
 			"FiberAhmed",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Meno25",
+			"أَحمد"
 		]
 	},
 	"bs-insertcategory-desc": "مربع حوار لإدخال رابط تصنيف",
@@ -24,7 +26,15 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "تعديل",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
+	"bs-insertcategory-edit-dialog-button-tooltip": "تحرير فئات هذه الصفحة",
+	"bs-insertcategory-edit-dialog-button-aria-label": "فتح الحوار لتحرير فئات هذه الصفحة",
 	"bs-insertcategory-edit-dialog-button-label": "عدل",
+	"bs-insertcategory-edit-dialog-title": "تحرير الفئات",
 	"bs-insertcategory-edit-dialog-button-submit": "تم",
-	"bs-insertcategory-edit-dialog-button-cancel": "إلغاء"
+	"bs-insertcategory-edit-dialog-button-cancel": "إلغاء",
+	"bs-insertcategory-edit-dialog-input-label": "الفئات المعينة",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "الفئات الضمنية",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "لم يتم تحديد هذه الفئات في محتوى نص ويكي للصفحة. على الأرجح تم تعيينهم من داخل قالب.",
+	"bs-insertcategory-no-categories": "لم يتم تعيين فئات",
+	"bs-insertcategory-edit-dialog-tree-view": "عرض كل الفئات"
 }
