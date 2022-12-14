@@ -8,7 +8,8 @@
 			"LNDDYL",
 			"Tranve",
 			"Willy1018",
-			"Winston Sung"
+			"Winston Sung",
+			"捍粵者"
 		]
 	},
 	"bs-insertcategory-desc": "對話方塊中輸入分類連結",
@@ -39,6 +40,6 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "固有分類",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "這些分類尚未以頁面的 wikitext 內容定義。它們有可能是從模版所設定。",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "無法檢索頁面分類",
-	"bs-insertcategory-no-categories": "沒有分類被分配",
+	"bs-insertcategory-no-categories": "沒有分配分類",
 	"bs-insertcategory-edit-dialog-tree-view": "顯示所有分類"
 }
