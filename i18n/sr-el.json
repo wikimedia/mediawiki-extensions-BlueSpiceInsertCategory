@@ -15,5 +15,7 @@
 	"bs-insertcategory-category-editor-implicit-categories-title": "Implicitne kategorije",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Ukloni sve",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "uredi",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Uredite kategorije ove stranice"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Uredite kategorije ove stranice",
+	"bs-insertcategory-edit-dialog-button-submit": "Gotovo",
+	"bs-insertcategory-edit-dialog-button-cancel": "Otkaži"
 }
