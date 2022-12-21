@@ -3,7 +3,8 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Milicevic01"
 		]
 	},
 	"bs-insertcategory-desc": "Дијалог за уношење линка ка категорији",
@@ -19,5 +20,7 @@
 	"bs-insertcategory-category-editor-implicit-categories-title": "Имплицитне категорије",
 	"bs-insertcategory-category-editor-button-label-clear-all": "Уклони све",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "уреди",
-	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уредите категорије ове странице"
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уредите категорије ове странице",
+	"bs-insertcategory-edit-dialog-button-submit": "Готово",
+	"bs-insertcategory-edit-dialog-button-cancel": "Откажи"
 }
