@@ -16,6 +16,7 @@
 	"bs-insertcategory-failure": "Napaka",
 	"bs-insertcategory-hint": "Opomba: za dodajanje kategorije pritisnite vnašalko (enter).",
 	"bs-insertcategory-panel-title": "Kategorije",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Te kategorije niso opredeljene v vikibesedilni vsebini strani. Najverjetneje so nastavljene znotraj predloge.",
 	"bs-insertcategory-edit-dialog-button-submit": "Končano",
 	"bs-insertcategory-edit-dialog-button-cancel": "Prekliči"
 }
