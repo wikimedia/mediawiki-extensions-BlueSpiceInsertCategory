@@ -29,5 +29,10 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpiceInsertCategory"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
