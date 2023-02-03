@@ -6,6 +6,7 @@ class AddResources extends \BlueSpice\Hook\BeforePageDisplay {
 
 	protected function doProcess() {
 		$this->out->addModuleStyles( 'ext.bluespice.insertcategory.styles' );
+		$this->out->addModuleStyles( 'ext.bluespice.insertcategory.discovery.styles' );
 		$this->out->addModules( [
 			'ext.bluespice.insertcategory',
 			'ext.bluespice.insertcategory.editor.dialog.bootstrap',
