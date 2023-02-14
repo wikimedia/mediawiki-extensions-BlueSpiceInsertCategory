@@ -40,6 +40,13 @@
 					"skip-callback": "\\BlueSpice\\InsertCategory\\Extension::flyoutModuleSkip"
 				}
 			}
+		},
+		"BlueSpiceDiscovery": {
+			"MetaItemProviderRegistry": {
+				"categories": {
+					"class": "\\BlueSpice\\InsertCategory\\MetaItemProvider\\Categories"
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -144,18 +151,12 @@
 			"descriptionmsg": "bs-insertcategory-pref-uploadpanelintegration"
 		}
 	},
-	"HookHandlers": {
-		"toolaftercontent": {
-			"class": "\\BlueSpice\\InsertCategory\\HookHandler\\AddToolAfterContent"
-		}
-	},
 	"Hooks": {
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\InsertCategory\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
 		],
 		"SkinTemplateNavigation::Universal": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigationUniversal\\AddInsertCategoryAction::callback",
-		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback",
-		"MWStakeCommonUIRegisterSkinSlotComponents": "toolaftercontent"
+		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
