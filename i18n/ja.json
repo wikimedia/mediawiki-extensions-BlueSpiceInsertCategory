@@ -4,7 +4,8 @@
 			"A2y4",
 			"MathXplore",
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"もなー(偽物)"
 		]
 	},
 	"bs-insertcategory-desc": "カテゴリのリンクを入力するダイアログ",
@@ -20,7 +21,10 @@
 	"bs-insertcategory-category-editor-title": "カテゴリ",
 	"bs-insertcategory-category-editor-button-label-clear-all": "すべて削除",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "編集",
+	"bs-insertcategory-edit-dialog-button-label": "編集",
+	"bs-insertcategory-edit-dialog-title": "カテゴリを編集",
 	"bs-insertcategory-edit-dialog-button-submit": "完了",
 	"bs-insertcategory-edit-dialog-button-cancel": "キャンセル",
+	"bs-insertcategory-edit-dialog-input-label": "割り当てられたカテゴリ",
 	"bs-insertcategory-edit-dialog-tree-view": "全てのカテゴリを表示する"
 }
