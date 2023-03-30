@@ -26,3 +26,34 @@
 	opacity: 0.8;
 	text-decoration: none;
 }
+
+.bs-insert-category-tool {
+	display: flex;
+}
+
+.bs-insert-category-tool > a,
+.bs-insert-category-tool > a:hover {
+	text-decoration: none;
+}
+
+.bs-insert-category-tool > a::before {
+	line-height: 1.5em;
+}
+
+.bs-insert-category-tool > ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.bs-insert-category-tool > ul > li {
+	padding-right: 1em;
+}
+
+/* HACK: this is generally true, and should go to skin or somewhere global*/
+.oo-ui-defaultOverlay .oo-ui-menuSelectWidget {
+	z-index: 99999;
+}
