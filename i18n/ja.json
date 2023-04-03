@@ -26,5 +26,6 @@
 	"bs-insertcategory-edit-dialog-tree-view": "全てのカテゴリを表示する",
 	"bs-insertcategory-edit-dialog-button-label": "編集",
 	"bs-insertcategory-edit-dialog-title": "カテゴリを編集",
-	"bs-insertcategory-edit-dialog-input-label": "割り当てられたカテゴリ"
+	"bs-insertcategory-edit-dialog-input-label": "割り当てられたカテゴリ",
+	"bs-insertcategory-edit-dialog-button-tooltip": "このページのカテゴリを編集"
 }
