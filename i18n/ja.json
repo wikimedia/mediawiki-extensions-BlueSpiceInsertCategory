@@ -27,5 +27,9 @@
 	"bs-insertcategory-edit-dialog-button-submit": "完了",
 	"bs-insertcategory-edit-dialog-button-cancel": "キャンセル",
 	"bs-insertcategory-edit-dialog-input-label": "割り当てられたカテゴリ",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "暗黙のカテゴリ",
+	"bs-insertcategory-edit-dialog-implicit-categories-help": "これらのカテゴリは、ページのウィキテキスト コンテンツ内では定義されていません。ほとんどの場合、テンプレート内から設定されます。",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "ページ カテゴリを取得できません",
+	"bs-insertcategory-no-categories": "カテゴリが割り当てられていません",
 	"bs-insertcategory-edit-dialog-tree-view": "全てのカテゴリを表示する"
 }
