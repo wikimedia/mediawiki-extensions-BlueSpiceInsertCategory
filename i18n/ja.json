@@ -5,7 +5,8 @@
 			"MathXplore",
 			"Otokoume",
 			"Shirayuki",
-			"もなー(偽物)"
+			"もなー(偽物)",
+			"背番号4のエース"
 		]
 	},
 	"bs-insertcategory-desc": "カテゴリのリンクを入力するダイアログ",
@@ -31,5 +32,11 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "暗黙のカテゴリ",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "これらのカテゴリは、ページのウィキテキスト コンテンツ内では定義されていません。ほとんどの場合、テンプレート内から設定されます。",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "ページ カテゴリを取得できません",
-	"bs-insertcategory-no-categories": "カテゴリが割り当てられていません"
+	"bs-insertcategory-no-categories": "カテゴリが割り当てられていません",
+	"bs-insertcategory-pref-uploadpanelintegration": "アップロードダイアログでページカテゴリをデフォルトとして設定する",
+	"bs-insertcategory-category-editor-implicit-categories-title": "暗黙のカテゴリ",
+	"bs-insertcategory-category-editor-implicit-categories-help": "これらのカテゴリは、ページのウィキテキスト コンテンツ内では定義されていません。ほとんどの場合、テンプレート内から設定されます。",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "このページのカテゴリを編集",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "このページのカテゴリを編集",
+	"bs-insertcategory-edit-dialog-button-aria-label": "このページのカテゴリを編集するためのダイアログを開く"
 }
