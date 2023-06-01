@@ -54,6 +54,13 @@
 
 	};
 
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getReadyProcess = function() {
+		return ext.InsertCategory.ui.dialog.CategoryEditor.parent.prototype.getReadyProcess.call( this )
+		.next( function () {
+			this.selector.focus();
+		}, this );
+	};
+
 	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getPageCategories = function() {
 		this.pushPending();
 		var dfd = $.Deferred();
