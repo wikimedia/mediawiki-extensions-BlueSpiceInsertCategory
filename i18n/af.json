@@ -5,5 +5,6 @@
 		]
 	},
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "wysig",
-	"bs-insertcategory-edit-dialog-title": "Wysig kategorieë"
+	"bs-insertcategory-edit-dialog-title": "Wysig kategorieë",
+	"bs-insertcategory-success": "Die kategorie is bygevoeg"
 }
