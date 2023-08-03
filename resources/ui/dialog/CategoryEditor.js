@@ -102,7 +102,7 @@
 	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addSelector = function() {
 		this.selector = new OOJSPlus.ui.widget.CategoryMultiSelectWidget( {
 			allowArbitrary: true,
-			$overlay: true,
+			$overlay: this.$overlay,
 			disabled: true
 		} );
 
