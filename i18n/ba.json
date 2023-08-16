@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sagan"
+			"Sagan",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"bs-insertcategory-desc": "Категорияға һылтанма керетеү диалогы",
@@ -12,6 +13,6 @@
 	"bs-insertcategory-cat-label": "Тәғәйенләнеше:",
 	"bs-insertcategory-success": "Категория өҫтәлде",
 	"bs-insertcategory-failure": "Хата",
-	"bs-insertcategory-hint": "Иҫкәрмә: категория өҫтәү өсөн enter клавишаһына баҫырға һәм яҙма аҙағында өтөр ҡуйырға.",
+	"bs-insertcategory-hint": "Иҫкәрмә: категория өҫтәү өсөн enter клавишаһына баҫырға кәрәк.",
 	"bs-insertcategory-panel-title": "Категориялар"
 }
