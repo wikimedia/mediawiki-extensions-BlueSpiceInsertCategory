@@ -6,6 +6,7 @@
 			"Diskdance",
 			"Liuxinyu970226",
 			"Tranve",
+			"Vikarna",
 			"沈澄心",
 			"落花有意12138"
 		]
@@ -37,6 +38,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "分配的分类",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "隐藏分类",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "这些分类尚未在页面的wikitext内容中定义。它们很可能在模板中设置。",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "无法检索页面分类",
 	"bs-insertcategory-no-categories": "没有分类分配",
 	"bs-insertcategory-edit-dialog-tree-view": "显示所有分类"
 }
