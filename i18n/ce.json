@@ -8,5 +8,13 @@
 	"prefs-insertcategory": "ТӀетоха категори",
 	"bs-insertcategory-title": "ТӀетоха категори",
 	"bs-insertcategory-failure": "ГӀалат",
-	"bs-insertcategory-panel-title": "Категореш"
+	"bs-insertcategory-panel-title": "Категореш",
+	"bs-insertcategory-category-editor-title": "Категореш",
+	"bs-insertcategory-category-editor-button-label-clear-all": "ДӀайаха йерриге",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "нисйе",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "ХӀокху агӀонан тӀера категореш нисйе",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "ХӀокху агӀонан тӀера категореш хийца",
+	"bs-insertcategory-edit-dialog-button-label": "Нисйе",
+	"bs-insertcategory-edit-dialog-button-submit": "Кийчча йу",
+	"bs-insertcategory-edit-dialog-button-cancel": "Йухайаккха"
 }
