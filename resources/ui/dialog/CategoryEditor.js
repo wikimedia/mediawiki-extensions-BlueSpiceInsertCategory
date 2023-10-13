@@ -201,6 +201,10 @@
 				store: {
 					action: 'bs-category-treestore',
 					rootNode: 'src'
+				},
+				style: {
+					IconExpand: 'next',
+					IconCollapse: 'expand'
 				}
 			}
 		);
