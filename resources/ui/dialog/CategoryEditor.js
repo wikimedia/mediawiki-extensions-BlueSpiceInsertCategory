@@ -204,7 +204,11 @@
 				},
 				expanded: false,
 				id: 'category-editor-tree',
-				labelledby: 'bs-insertcategory-edit-dialog-tree-view-tgl'
+				labelledby: 'bs-insertcategory-edit-dialog-tree-view-tgl',
+				style: {
+					IconExpand: 'next',
+					IconCollapse: 'expand'
+				}
 			}
 		);
 		this.categoryTree.connect( this, {
