@@ -31,7 +31,7 @@
 	"bs-insertcategory-edit-dialog-button-tooltip": "עריכת הקטגוריות של הדף",
 	"bs-insertcategory-edit-dialog-button-aria-label": "פתיחת תיבת דו־שיח לעריכת הקטגוריות של הדף הזה",
 	"bs-insertcategory-edit-dialog-button-label": "עריכה",
-	"bs-insertcategory-edit-dialog-button-submit": "בוצע",
+	"bs-insertcategory-edit-dialog-button-submit": "סיום",
 	"bs-insertcategory-edit-dialog-input-label": "הקטגוריות שהוקצו",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "קטגוריות משתמעות",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "הקטגוריות האלו אינן מוגדרות בקוד הוויקי של הדף. הן כנראה מוגדרות בתבנית.",
