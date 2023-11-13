@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fohanno",
 			"Huñvreüs"
 		]
@@ -11,5 +12,12 @@
 	"bs-insertcategory-cat-label": "Deverket :",
 	"bs-insertcategory-success": "Ouzhpennet eo bet ar rummad",
 	"bs-insertcategory-failure": "Fazi",
-	"bs-insertcategory-panel-title": "Rummadoù"
+	"bs-insertcategory-panel-title": "Rummadoù",
+	"bs-insertcategory-category-editor-title": "Rummadoù",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Lemel pep tra",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "kemmañ",
+	"bs-insertcategory-edit-dialog-button-label": "Kemmañ",
+	"bs-insertcategory-edit-dialog-title": "Kemmañ ar rummadoù",
+	"bs-insertcategory-edit-dialog-button-submit": "Graet",
+	"bs-insertcategory-edit-dialog-button-cancel": "Nullañ"
 }
