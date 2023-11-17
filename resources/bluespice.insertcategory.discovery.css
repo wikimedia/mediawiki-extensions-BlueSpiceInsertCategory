@@ -6,6 +6,10 @@
 	padding: 0 1rem;
 }
 
+#bs-insert-category:focus {
+	border: 1px solid grey;
+}
+
 #bs-category-link-edit {
 	font-size: 0.7rem;
 	line-height: 24px;
@@ -15,6 +19,7 @@
 .bs-insert-category-tool:hover > #bs-category-link-edit {
 	visibility: visible;
 }
+
 .bs-insert-category-tool:hover > #bs-category-link-edit.isDisabled {
 	visibility: hidden;
 }
