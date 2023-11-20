@@ -21,6 +21,12 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Уклони све",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "уреди",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уредите категорије ове странице",
+	"bs-insertcategory-edit-dialog-button-label": "Уреди",
+	"bs-insertcategory-edit-dialog-title": "Уреди категорије",
 	"bs-insertcategory-edit-dialog-button-submit": "Готово",
-	"bs-insertcategory-edit-dialog-button-cancel": "Откажи"
+	"bs-insertcategory-edit-dialog-button-cancel": "Откажи",
+	"bs-insertcategory-edit-dialog-input-label": "Додељене категорије",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Подразумеване категорије",
+	"bs-insertcategory-no-categories": "Нема додељених категорија",
+	"bs-insertcategory-edit-dialog-tree-view": "Прикажи све категорије"
 }

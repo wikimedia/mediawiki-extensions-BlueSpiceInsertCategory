@@ -16,6 +16,12 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Ukloni sve",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "uredi",
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Uredite kategorije ove stranice",
+	"bs-insertcategory-edit-dialog-button-label": "Uredi",
+	"bs-insertcategory-edit-dialog-title": "Izmeni kategorije",
 	"bs-insertcategory-edit-dialog-button-submit": "Gotovo",
-	"bs-insertcategory-edit-dialog-button-cancel": "Otkaži"
+	"bs-insertcategory-edit-dialog-button-cancel": "Otkaži",
+	"bs-insertcategory-edit-dialog-input-label": "Dodeljene kategorije",
+	"bs-insertcategory-edit-dialog-implicit-categories-label": "Implicitne kategorije",
+	"bs-insertcategory-no-categories": "Nema dodeljenih kategorija",
+	"bs-insertcategory-edit-dialog-tree-view": "Prikaži sve kategorije"
 }
