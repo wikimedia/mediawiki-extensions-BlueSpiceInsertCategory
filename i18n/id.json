@@ -3,7 +3,8 @@
 		"authors": [
 			"Arifin.wijaya",
 			"Diki Ananta",
-			"Sumbukompor"
+			"Sumbukompor",
+			"Veracious"
 		]
 	},
 	"bs-insertcategory-desc": "Dialog untuk memasukkan pranala kategori",
@@ -13,7 +14,13 @@
 	"bs-insertcategory-title": "Masukkan kategori",
 	"bs-insertcategory-cat-label": "Ditetapkan:",
 	"bs-insertcategory-success": "Kategori telah ditambahkan",
-	"bs-insertcategory-failure": "Kesalahan",
+	"bs-insertcategory-failure": "Galat",
 	"bs-insertcategory-hint": "Catatan: untuk menambahkan kategori, Anda harus tekan enter.",
-	"bs-insertcategory-panel-title": "Kategori"
+	"bs-insertcategory-panel-title": "Kategori",
+	"bs-insertcategory-category-editor-title": "Kategori",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "sunting",
+	"bs-insertcategory-edit-dialog-button-label": "Sunting",
+	"bs-insertcategory-edit-dialog-title": "Sunting kategori",
+	"bs-insertcategory-edit-dialog-button-submit": "Berhasil",
+	"bs-insertcategory-edit-dialog-button-cancel": "Batal"
 }
