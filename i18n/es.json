@@ -37,7 +37,7 @@
 	"bs-insertcategory-edit-dialog-input-label": "Categorías asignadas",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorías implícitas",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Esas categorías no están definidas dentro del contenido del wikitexto de la página. Lo más probable es que se establezcan desde una plantilla.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Las categorías de las páginas por alguna razón no fueron recuperadas",
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "No se pueden recuperar las categorías de las páginas",
 	"bs-insertcategory-no-categories": "No hay categorías asignadas",
 	"bs-insertcategory-edit-dialog-tree-view": "Mostrar todas las categorías"
 }
