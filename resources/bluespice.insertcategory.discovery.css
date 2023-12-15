@@ -9,6 +9,9 @@
 #bs-insert-category:focus {
 	border: 1px solid grey;
 }
+#bs-insert-category.isDisabled:focus {
+	border: 0;
+}
 
 #bs-category-link-edit {
 	font-size: 0.7rem;
