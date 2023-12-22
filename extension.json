@@ -32,15 +32,6 @@
 				"pageheader-category": "\\BlueSpice\\InsertCategory\\Renderer\\PageHeader\\Category::factory"
 			}
 		},
-		"BlueSpiceArticleInfo": {
-			"FlyoutModules": {
-				"insert_category": {
-					"module": "ext.bluespice.insertcategory.flyout",
-					"make-items-callback": "bs.insertcategory.flyout.makeItems",
-					"skip-callback": "\\BlueSpice\\InsertCategory\\Extension::flyoutModuleSkip"
-				}
-			}
-		},
 		"BlueSpiceDiscovery": {
 			"MetaItemProviderRegistry": {
 				"categories": {
@@ -74,31 +65,11 @@
 				"ext.bluespice"
 			]
 		},
-		"ext.bluespice.insertcategory.styles": {
-			"styles": [
-				"bluespice.insertCategory.less"
-			]
-		},
 		"ext.bluespice.insertCategory.uploadPanelIntegration": {
 			"scripts": [
 				"bluespice.insertCategory.uploadPanelIntegration.js"
 			],
 			"dependencies": [
-				"ext.bluespice.insertcategory"
-			]
-		},
-		"ext.bluespice.insertcategory.flyout": {
-			"scripts": "bluespice.insertcategory.flyout.js",
-			"messages": [
-				"bs-insertcategory-category-editor-title",
-				"bs-insertcategory-category-editor-implicit-categories-title",
-				"bs-insertcategory-category-editor-implicit-categories-help",
-				"bs-insertcategory-category-editor-explicit-categories-edit-label",
-				"bs-insertcategory-category-editor-explicit-categories-edit-tooltip",
-				"bs-insertcategory-category-editor-button-label-clear-all"
-			],
-			"dependencies": [
-				"ext.bluespice.insertcategory.styles",
 				"ext.bluespice.insertcategory"
 			]
 		},
