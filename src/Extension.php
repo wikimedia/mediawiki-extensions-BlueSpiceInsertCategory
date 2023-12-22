@@ -34,31 +34,9 @@
 
 namespace BlueSpice\InsertCategory;
 
-use IContextSource;
-use MediaWiki\MediaWikiServices;
-use WikiTextContent;
-
 /**
  * Class for category management assistent
  * @package BlueSpiceInsertCategory
  */
 class Extension extends \BlueSpice\Extension {
-	/**
-	 *
-	 * @param IContextSource $context
-	 * @return bool
-	 */
-	public static function flyoutModuleSkip( IContextSource $context ) {
-		if ( !$context->getTitle() || !$context->getTitle()->exists() ) {
-			return false;
-		}
-		$wikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $context->getTitle() );
-		if ( !$wikiPage ) {
-			return false;
-		}
-		if ( !$wikiPage->getContent() ) {
-			return false;
-		}
-		return $wikiPage->getContent() instanceof WikiTextContent;
-	}
 }
