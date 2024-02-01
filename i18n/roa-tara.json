@@ -24,11 +24,14 @@
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Cange le categorije de sta pàgene",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Cange le categorije de sta pàgene",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Iapre 'na fenestre de dialoghe pe cangià le categorije de sta pàgene",
+	"bs-insertcategory-edit-dialog-button-label": "Cange",
 	"bs-insertcategory-edit-dialog-title": "Cange le categorije",
 	"bs-insertcategory-edit-dialog-button-submit": "Fatte",
 	"bs-insertcategory-edit-dialog-button-cancel": "Annulle",
 	"bs-insertcategory-edit-dialog-input-label": "Categorije assegnate",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "Categorije implicite",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Ste categorije non g'avenene definite jndr'à 'u uicchi teste ca ste jndr'à pàgene. Normalmende stonne jndr'à 'nu template.",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Le categorije d'a pàgene non ge s'onne putute recuperà"
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Non ge se ponne pigghià le categorije de le pàggene",
+	"bs-insertcategory-no-categories": "Nisciuna categorije assegnate",
+	"bs-insertcategory-edit-dialog-tree-view": "Fà 'ndrucà tutte le categorije"
 }
