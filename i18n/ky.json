@@ -8,5 +8,6 @@
 	"bs-insertcategory-edit-dialog-button-submit": "Даяр",
 	"bs-insertcategory-insertcat": "Категория кошуу",
 	"prefs-insertcategory": "Категория кошуу",
-	"bs-insertcategory-title": "Категория кошуу"
+	"bs-insertcategory-title": "Категория кошуу",
+	"bs-insertcategory-failure": "Ката"
 }
