@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
+			"Ebraminio",
 			"FarsiNevis",
 			"Jeeputer"
 		]
@@ -32,6 +33,6 @@
 	"bs-insertcategory-edit-dialog-input-label": "رده‌های اختصاص‌یافته",
 	"bs-insertcategory-edit-dialog-implicit-categories-label": "رده‌های ضمنی",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "ناتوان در واکشی رده‌های صفحه",
-	"bs-insertcategory-no-categories": "هیچ رده‌ای معین نشده‌است",
+	"bs-insertcategory-no-categories": "هیچ رده‌ای معین نشده است",
 	"bs-insertcategory-edit-dialog-tree-view": "نمایش همهٔ رده‌ها"
 }
