@@ -27,9 +27,6 @@
 			"ConfigDefinitionRegistry": {
 				"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
 				"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
-			},
-			"RendererRegistry": {
-				"pageheader-category": "\\BlueSpice\\InsertCategory\\Renderer\\PageHeader\\Category::factory"
 			}
 		},
 		"BlueSpiceDiscovery": {
