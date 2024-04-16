@@ -128,9 +128,6 @@
 		}
 	},
 	"Hooks": {
-		"ChameleonSkinTemplateOutputPageBeforeExec": [
-			"\\BlueSpice\\InsertCategory\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
-		],
 		"SkinTemplateNavigation::Universal": "addInsertCategoryAction",
 		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback"
 	},
