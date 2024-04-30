@@ -4,10 +4,10 @@
 			"Bosogo"
 		]
 	},
-	"bs-insertcategory-edit-dialog-button-cancel": "\u0416\u043e\u043a\u043a\u043e \u0447\u044b\u0433\u0430\u0440\u0443\u0443",
-	"bs-insertcategory-edit-dialog-button-submit": "\u0414\u0430\u044f\u0440",
-	"bs-insertcategory-insertcat": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043a\u043e\u0448\u0443\u0443",
-	"prefs-insertcategory": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043a\u043e\u0448\u0443\u0443",
-	"bs-insertcategory-title": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043a\u043e\u0448\u0443\u0443",
-	"bs-insertcategory-failure": "\u041a\u0430\u0442\u0430"
+	"bs-insertcategory-edit-dialog-button-cancel": "Жокко чыгаруу",
+	"bs-insertcategory-edit-dialog-button-submit": "Даяр",
+	"bs-insertcategory-insertcat": "Категория кошуу",
+	"prefs-insertcategory": "Категория кошуу",
+	"bs-insertcategory-title": "Категория кошуу",
+	"bs-insertcategory-failure": "Ката"
 }
