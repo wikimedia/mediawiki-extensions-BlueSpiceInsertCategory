@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kimberli M\u00e4k\u00e4r\u00e4inen (WMNO)",
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
 	"bs-insertcategory-panel-title": "Kategoriijat",
-	"bs-insertcategory-failure": "Meatt\u00e1hus",
+	"bs-insertcategory-failure": "Meattáhus",
 	"bs-insertcategory-category-editor-explicit-categories-edit-label": "rievdat",
 	"bs-insertcategory-edit-dialog-button-label": "Rievdat",
 	"bs-insertcategory-edit-dialog-button-cancel": "Gaskkalduhte"
