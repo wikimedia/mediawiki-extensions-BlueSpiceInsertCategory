@@ -9,7 +9,8 @@
 			"Movses",
 			"Okras",
 			"StarryFairy",
-			"Vlad5250"
+			"Vlad5250",
+			"Yurina Tatiana"
 		]
 	},
 	"bs-insertcategory-desc": "Диалог ввода ссылки на категорию",
@@ -33,5 +34,6 @@
 	"bs-insertcategory-edit-dialog-button-label": "Править",
 	"bs-insertcategory-edit-dialog-button-submit": "Готово",
 	"bs-insertcategory-edit-dialog-button-cancel": "Отменить",
-	"bs-insertcategory-edit-dialog-tree-view": "Показать все категории"
+	"bs-insertcategory-edit-dialog-tree-view": "Показать все категории",
+	"bs-insertcategory-edit-dialog-title": "Изменить категории"
 }
