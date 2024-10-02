@@ -6,11 +6,22 @@
 	padding: 0 1rem;
 }
 
+#bs-insert-category {
+	background: none;
+	border: none;
+	color: var(--aftercontent-tools-fg);
+}
+
+#bs-insert-category:hover {
+	color: var(--content-fg-primary);
+}
+
 #bs-insert-category:focus {
 	border: 1px solid grey;
 }
-#bs-insert-category.isDisabled:focus {
-	border: 0;
+
+#bs-insert-category:disabled {
+	pointer-events: none;
 }
 
 #bs-category-link-edit {
@@ -25,14 +36,6 @@
 
 .bs-insert-category-tool:hover > #bs-category-link-edit.isDisabled {
 	visibility: hidden;
-}
-
-.icon-category-tag-outline.isDisabled,
-.icon-category-tag-outline.isDisabled:hover {
-	color: currentColor;
-	pointer-events: none;
-	opacity: 0.8;
-	text-decoration: none;
 }
 
 .bs-insert-category-tool {
