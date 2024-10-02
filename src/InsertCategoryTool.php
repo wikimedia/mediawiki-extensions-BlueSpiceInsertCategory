@@ -92,20 +92,15 @@ class InsertCategoryTool extends Literal {
 	 * @return string
 	 */
 	private function makeIconButton( $title, $context ): string {
-		$class = 'icon-category-tag-outline';
-		if ( $this->btnDisabled ) {
-			$class .= ' isDisabled';
-		}
-
 		$html = Html::element(
-			'a',
+			'button',
 			[
-				'id' => "bs-insert-category",
-				'class' => $class,
+				'id' => 'bs-insert-category',
+				'class' => 'icon-category-tag-outline',
 				'title' => Message::newFromKey( 'bs-insertcategory-edit-dialog-button-tooltip' )->text(),
 				'aria-label' => Message::newFromKey( 'bs-insertcategory-edit-dialog-button-aria-label' )->text(),
 				'role' => 'button',
-				'href' => ''
+				'disabled' => $this->btnDisabled ? 'disabled' : null
 			]
 		);
 		return $html;
