@@ -4,10 +4,10 @@
 			"Bosogo"
 		]
 	},
-	"bs-insertcategory-edit-dialog-button-cancel": "Жокко чыгаруу",
-	"bs-insertcategory-edit-dialog-button-submit": "Даяр",
 	"bs-insertcategory-insertcat": "Категория кошуу",
 	"prefs-insertcategory": "Категория кошуу",
 	"bs-insertcategory-title": "Категория кошуу",
-	"bs-insertcategory-failure": "Ката"
+	"bs-insertcategory-failure": "Ката",
+	"bs-insertcategory-edit-dialog-button-submit": "Даяр",
+	"bs-insertcategory-edit-dialog-button-cancel": "Жокко чыгаруу"
 }
