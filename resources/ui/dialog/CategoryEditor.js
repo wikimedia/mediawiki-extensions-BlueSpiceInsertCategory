@@ -68,7 +68,7 @@
 		new mw.Api().get( {
 			action: 'bs-categorylinks-store',
 			start: 0,
-			limit: 25,
+			limit: 999,
 			filter: JSON.stringify( [ {
 				type: 'numeric',
 				operator: 'eq',
