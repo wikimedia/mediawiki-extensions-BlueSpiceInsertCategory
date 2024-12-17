@@ -2,12 +2,14 @@
 
 namespace BlueSpice\InsertCategory;
 
-use Html;
+use MediaWiki\Content\WikitextContent;
+use MediaWiki\Context\RequestContext;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
-use Message;
+use MediaWiki\Message\Message;
+use MediaWiki\Page\WikiPageFactory;
+use MediaWiki\Title\Title;
 use MWStake\MediaWiki\Component\CommonUserInterface\Component\Literal;
-use RequestContext;
-use Title;
 
 class InsertCategoryTool extends Literal {
 
@@ -29,12 +31,17 @@ class InsertCategoryTool extends Literal {
 	 */
 	private $permissionManager = null;
 
+	/** @var WikiPageFactory */
+	private $wikiPageFactory = null;
+
 	/**
 	 *
 	 */
 	public function __construct() {
 		$this->services = MediaWikiServices::getInstance();
 		$this->permissionManager = $this->services->getPermissionManager();
+		$this->wikiPageFactory = $this->services->getWikiPageFactory();
+
 		/** @var RequestContext */
 		$context = RequestContext::getMain();
 		$user = $context->getUser();
@@ -59,6 +66,11 @@ class InsertCategoryTool extends Literal {
 	public function shouldRender( $context ): bool {
 		$title = $context->getTitle();
 		if ( !$title || $title->isSpecialPage() ) {
+			return false;
+		}
+		$wikipage = $this->wikiPageFactory->newFromTitle( $title );
+		$content = $wikipage->getContent();
+		if ( !$content instanceof WikitextContent ) {
 			return false;
 		}
 		return true;
