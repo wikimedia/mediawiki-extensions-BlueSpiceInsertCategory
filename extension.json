@@ -121,7 +121,8 @@
 	},
 	"HookHandlers": {
 		"addInsertCategoryAction": {
-			"class": "\\BlueSpice\\InsertCategory\\HookHandler\\AddInsertCategoryAction"
+			"class": "\\BlueSpice\\InsertCategory\\HookHandler\\AddInsertCategoryAction",
+			"services": [ "PermissionManager", "WikiPageFactory" ]
 		}
 	},
 	"Hooks": {
