@@ -32,4 +32,12 @@ class WithParents extends \BlueSpice\ConfigDefinition\BooleanSetting {
 	public function isRLConfigVar() {
 		return true;
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	public function getHelpMessageKey() {
+		return 'bs-insertcategory-pref-withparents-help';
+	}
 }
