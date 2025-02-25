@@ -17,7 +17,6 @@
 	"bs-insertcategory-insertcat": "Добавить категорию",
 	"prefs-insertcategory": "Добавить категорию",
 	"bs-insertcategory-pref-withparents": "Вставить категорию с её родительскими категориями",
-	"bs-insertcategory-pref-uploadpanelintegration": "Набор категорий по умолчанию в диалоговом окне загрузки",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Измените категории этой страницы",
 	"bs-insertcategory-edit-dialog-button-label": "Править",
 	"bs-insertcategory-edit-dialog-title": "Изменить категории",

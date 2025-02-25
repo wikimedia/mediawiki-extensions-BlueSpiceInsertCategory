@@ -9,7 +9,6 @@
 	"bs-insertcategory-insertcat": "Sett inn kategori",
 	"prefs-insertcategory": "Sett inn kategori",
 	"bs-insertcategory-pref-withparents": "Sett inn kategori med dens overordnede kategorier",
-	"bs-insertcategory-pref-uploadpanelintegration": "Sett sidekategorier som standard i opplastingsdialogvindu",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Rediger kategoriene til denne siden",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Rediger kategoriene til denne siden",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Åpne en dialog for å redigere kategoriene til denne siden",

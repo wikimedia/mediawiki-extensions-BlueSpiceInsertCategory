@@ -13,7 +13,6 @@
 	"bs-insertcategory-insertcat": "カテゴリを挿入",
 	"prefs-insertcategory": "カテゴリの挿入",
 	"bs-insertcategory-pref-withparents": "親カテゴリも含めてカテゴリを挿入",
-	"bs-insertcategory-pref-uploadpanelintegration": "アップロードダイアログでページカテゴリをデフォルトとして設定する",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "このページのカテゴリを編集",
 	"bs-insertcategory-edit-dialog-button-tooltip": "このページのカテゴリを編集",
 	"bs-insertcategory-edit-dialog-button-aria-label": "このページのカテゴリを編集するためのダイアログを開く",

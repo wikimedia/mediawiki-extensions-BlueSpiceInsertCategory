@@ -14,7 +14,6 @@
 	"bs-insertcategory-insertcat": "Insertar categoría",
 	"prefs-insertcategory": "Insertar categoría",
 	"bs-insertcategory-pref-withparents": "Insertar categoría con sus padres",
-	"bs-insertcategory-pref-uploadpanelintegration": "Establecer categorías de páginas como predeterminadas en el cuadro de diálogo de carga",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar las categorías de esta página",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Editar las categorías de esta página",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Abrir diálogo para editar las categorías de esta página",
