@@ -24,5 +24,6 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "הקטגוריות האלו אינן מוגדרות בקוד הוויקי של הדף. הן כנראה מוגדרות בתבנית.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "לא ניתן לאחזר את קטגוריות הדף",
 	"bs-insertcategory-no-categories": "אין קטגוריות משויכות",
-	"bs-insertcategory-edit-dialog-tree-view": "הצגת כל הקטגוריות"
+	"bs-insertcategory-edit-dialog-tree-view": "הצגת כל הקטגוריות",
+	"bs-insertcategory-pref-withparents-help": "הוספת הקטגוריה עצמה וגם קטגוריות ההורה שלה"
 }
