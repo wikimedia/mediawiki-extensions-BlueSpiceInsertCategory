@@ -11,9 +11,7 @@ class AddResources extends \BlueSpice\Hook\BeforePageDisplay {
 		] );
 
 		if ( $this->getConfig()->get( 'InsertCategoryUploadPanelIntegration' ) ) {
-			$this->out->addModules(
-				'ext.bluespice.insertCategory.uploadPanelIntegration'
-			);
+			$this->out->addJsConfigVars( 'bsgInsertCategoryUploadPanelIntegration', true );
 		}
 	}
 

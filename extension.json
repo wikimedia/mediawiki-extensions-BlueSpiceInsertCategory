@@ -46,11 +46,6 @@
 		"BlueSpice\\InsertCategory\\": "src/"
 	},
 	"ResourceModules": {
-		"ext.bluespice.insertCategory.uploadPanelIntegration": {
-			"scripts": [
-				"bluespice.insertCategory.uploadPanelIntegration.js"
-			]
-		},
 		"ext.bluespice.insertcategory.editor.dialog.bootstrap": {
 			"scripts": [
 				"bluespice.insertCategoryEditor.js"
