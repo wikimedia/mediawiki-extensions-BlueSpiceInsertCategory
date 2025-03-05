@@ -126,7 +126,7 @@ class InsertCategoryTool extends Literal {
 	 */
 	private function makeList( $title, RequestContext $context ): string {
 		$categoryNames = $this->getCategoriesFromPreference( $context );
-		krsort( $categoryNames, SORT_NATURAL );
+		sort( $categoryNames, SORT_NATURAL );
 
 		if ( empty( $categoryNames ) ) {
 			$html = Html::element(
