@@ -28,5 +28,4 @@
 	"bs-insertcategory-pref-withparents-help": "Description for config variable \"BlueSpiceInsertCategoryWithParents\"",
 	"bs-insertcategory-pref-uploadintegration": "Label for config variable \"BlueSpiceInsertCategoryUploadPanelIntegration\" at [[Special:BlueSpiceConfigManager]]",
 	"bs-insertcategory-pref-uploadintegration-help": "Description for config variable \"BlueSpiceInsertCategoryUploadPanelIntegration\""
-
 }
