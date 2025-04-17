@@ -1,5 +1,5 @@
 .bs-insert-category-tool {
-	font-size: 14px;
+	font-size: 14px; /* stylelint-disable-line declaration-property-unit-disallowed-list */
 }
 
 .bs-category-label {
@@ -8,12 +8,12 @@
 
 #bs-insert-category {
 	background: none;
-	border: none;
-	color: var(--aftercontent-tools-fg);
+	border: none; /* stylelint-disable-line declaration-property-value-disallowed-list */
+	color: var( --aftercontent-tools-fg );
 }
 
 #bs-insert-category:hover {
-	color: var(--content-fg-primary);
+	color: var( --content-fg-primary );
 }
 
 #bs-insert-category:focus {
@@ -26,7 +26,7 @@
 
 #bs-category-link-edit {
 	font-size: 0.7rem;
-	line-height: 24px;
+	line-height: 24px; /* stylelint-disable-line declaration-property-unit-disallowed-list */
 	visibility: hidden;
 }
 
@@ -63,7 +63,7 @@
 	padding-right: 1em;
 }
 
-/* HACK: this is generally true, and should go to skin or somewhere global*/
+/* HACK: this is generally true, and should go to skin or somewhere global */
 .oo-ui-defaultOverlay .oo-ui-menuSelectWidget {
 	z-index: 99999;
 }
