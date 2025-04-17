@@ -45,6 +45,9 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\InsertCategory\\": "src/"
 	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\InsertCategory\\Tests\\": "tests/phpunit/"
+	},
 	"ResourceModules": {
 		"ext.bluespice.insertcategory.editor.dialog.bootstrap": {
 			"scripts": [
