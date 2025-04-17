@@ -1,8 +1,8 @@
-( function( $, bs, mw ){
+( function ( $, bs, mw ) {
 	bs.util.registerNamespace( 'ext.InsertCategory.ui.dialog' );
 
-	ext.InsertCategory.ui.dialog.CategoryEditor = function( config ){
-		ext.InsertCategory.ui.dialog.CategoryEditor.parent.call( this, $.extend( {
+	ext.InsertCategory.ui.dialog.CategoryEditor = function ( config ) {
+		ext.InsertCategory.ui.dialog.CategoryEditor.parent.call( this, Object.assign( {
 			size: 'large'
 		}, config ) );
 
@@ -28,11 +28,11 @@
 		}
 	];
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.initialize = function() {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.initialize = function () {
 		ext.InsertCategory.ui.dialog.CategoryEditor.parent.prototype.initialize.call( this );
 
 		this.addSelector();
-		this.getPageCategories().done( function( selected, implicit ) {
+		this.getPageCategories().done( ( selected, implicit ) => {
 			this.popPending();
 			this.selector.setValue( selected );
 			this.selector.setDisabled( false );
@@ -40,30 +40,30 @@
 			this.addImplicitCategorySection( implicit );
 			this.addCategoryTree();
 			this.updateSize();
-		}.bind( this ) ).fail( function() {
+		} ).fail( () => {
 			this.popPending();
 
-			var error = new OO.ui.Error(
+			const error = new OO.ui.Error(
 				mw.message( 'bs-insertcategory-edit-dialog-page-categories-get-error-message' ).text(),
 				{
 					recoverable: false
 				}
 			);
 			this.showErrors( error );
-		}.bind( this ) );
+		} );
 
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getReadyProcess = function() {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getReadyProcess = function () {
 		return ext.InsertCategory.ui.dialog.CategoryEditor.parent.prototype.getReadyProcess.call( this )
-		.next( function () {
-			this.selector.focus();
-		}, this );
+			.next( function () {
+				this.selector.focus();
+			}, this );
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getPageCategories = function() {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getPageCategories = function () {
 		this.pushPending();
-		var dfd = $.Deferred();
+		const dfd = $.Deferred();
 
 		new mw.Api().get( {
 			action: 'bs-categorylinks-store',
@@ -75,14 +75,13 @@
 				property: 'page_id',
 				value: this.pageId
 			} ] )
-		} ).done( function( response ) {
-			var selected = [], implicit = [];
-			for ( var i = 0; i < response.results.length; i++ ) {
-				var result = response.results[i];
+		} ).done( ( response ) => {
+			const selected = [], implicit = [];
+			for ( let i = 0; i < response.results.length; i++ ) {
+				const result = response.results[ i ];
 				if ( result.category_is_explicit === true ) {
 					selected.push( result.category_title );
-				}
-				else {
+				} else {
 					implicit.push( {
 						title: result.category_title,
 						href: result.category_link
@@ -91,22 +90,22 @@
 			}
 
 			dfd.resolve( selected, implicit );
-		} ).fail( function( error ) {
-			console.log( error );
+		} ).fail( ( error ) => {
+			console.log( error ); // eslint-disable-line no-console
 			dfd.reject();
 		} );
 
 		return dfd.promise();
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addSelector = function() {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addSelector = function () {
 		this.selector = new OOJSPlus.ui.widget.CategoryMultiSelectWidget( {
 			allowArbitrary: true,
 			$overlay: this.$overlay,
 			disabled: true
 		} );
 
-		var selectorLayout = new OO.ui.FieldLayout( this.selector, {
+		const selectorLayout = new OO.ui.FieldLayout( this.selector, {
 			label: mw.message( 'bs-insertcategory-edit-dialog-input-label' ).text(),
 			align: 'top'
 		} );
@@ -118,27 +117,27 @@
 		} ).$element );
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addImplicitCategorySection = function( implicit ) {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addImplicitCategorySection = function ( implicit ) {
 		if ( implicit.length === 0 ) {
 			return;
 		}
 
-		var implicitCatLayout = new OO.ui.FieldsetLayout( {
-			label:  mw.message( 'bs-insertcategory-edit-dialog-implicit-categories-label' ).text(),
-			help: mw.message( 'bs-insertcategory-edit-dialog-implicit-categories-help' ).text()
-		} ),
-		implicitCatTextLayout = new OO.ui.HorizontalLayout();
+		const implicitCatLayout = new OO.ui.FieldsetLayout( {
+				label: mw.message( 'bs-insertcategory-edit-dialog-implicit-categories-label' ).text(),
+				help: mw.message( 'bs-insertcategory-edit-dialog-implicit-categories-help' ).text()
+			} ),
+			implicitCatTextLayout = new OO.ui.HorizontalLayout();
 
-		var html = '';
-		for ( var i = 0; i < implicit.length; i++ ) {
-			html = html + '<span class="oo-ui-tagItemWidget">' + implicit[i]['title'] + '</span>';
+		let html = '';
+		for ( let i = 0; i < implicit.length; i++ ) {
+			html = html + '<span class="oo-ui-tagItemWidget">' + implicit[ i ].title + '</span>';
 		}
 
-		var htmlSnippet = new OO.ui.HtmlSnippet( html );
+		const htmlSnippet = new OO.ui.HtmlSnippet( html );
 
-		implicitCatText = new OO.ui.Element( {
+		const implicitCatText = new OO.ui.Element( {
 			content: [ htmlSnippet ]
-	 	} );
+		} );
 
 		implicitCatTextLayout.addItems( [ implicitCatText ] );
 		implicitCatLayout.addItems( [ implicitCatTextLayout ] );
@@ -150,52 +149,52 @@
 		} ).$element );
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getActionProcess = function( action ) {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getActionProcess = function ( action ) {
 		if ( action === 'submit' ) {
-			return new OO.ui.Process( function () {
-				var categories = this.selector.getValue();
+			return new OO.ui.Process( () => {
+				const categories = this.selector.getValue();
 
 				bs.api.tasks.exec( 'wikipage', 'setCategories', {
-					page_id: this.pageId,
+					page_id: this.pageId, // eslint-disable-line camelcase
 					categories: categories
 				} )
-				.done( function() {
-					window.location.reload();
-				} )
-				.fail( function( result ) {
-					console.dir( result );
-				} );
+					.done( () => {
+						window.location.reload();
+					} )
+					.fail( ( result ) => {
+						console.dir( result ); // eslint-disable-line no-console
+					} );
 
 				this.close();
-			}.bind( this ) );
+			} );
 		}
 
 		if ( action === 'cancel' ) {
-			return new OO.ui.Process( function () {
+			return new OO.ui.Process( () => {
 				this.close();
-			}.bind( this ) );
+			} );
 		}
 
 		return ext.InsertCategory.ui.dialog.CategoryEditor.parent.prototype.getActionProcess.call( this, action );
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getBodyHeight = function() {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.getBodyHeight = function () {
 		return this.$body.outerHeight( true ) + 30;
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.onTreeItemSelected = function( item ) {
-		var text = item.label,
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.onTreeItemSelected = function ( item ) {
+		const text = item.label,
 			value = this.selector.getValue();
 
- 		if ( value.indexOf( text ) !== -1 ) {
- 			value.splice( value.indexOf( text ), 1 );
+		if ( value.indexOf( text ) !== -1 ) {
+			value.splice( value.indexOf( text ), 1 );
 		} else {
- 			value.push( text );
+			value.push( text );
 		}
 		this.selector.setValue( value );
 	};
 
-	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addCategoryTree = function() {
+	ext.InsertCategory.ui.dialog.CategoryEditor.prototype.addCategoryTree = function () {
 		this.categoryTree = new OOJSPlus.ui.data.StoreTree(
 			{
 				store: {
@@ -212,13 +211,13 @@
 			}
 		);
 		this.categoryTree.connect( this, {
-			loaded: function() {
+			loaded: function () {
 				this.updateSize();
 			},
-			'collapse-expand': function() {
+			'collapse-expand': function () {
 				this.updateSize();
 			},
-			itemSelected: function( item ) {
+			itemSelected: function ( item ) {
 				this.onTreeItemSelected( item );
 			}
 		} );
@@ -229,14 +228,14 @@
 			'overflow-y': 'auto'
 		} );
 
-		var expander = new OO.ui.ButtonWidget( {
+		const expander = new OO.ui.ButtonWidget( {
 			label: mw.message( 'bs-insertcategory-edit-dialog-tree-view' ).text(),
 			framed: false,
 			flags: [ 'primary', 'progressive' ],
 			id: 'bs-insertcategory-edit-dialog-tree-view-tgl'
 		} );
 		expander.connect( this, {
-			click: function() {
+			click: function () {
 				this.categoryTree.$element.toggle();
 				this.updateSize();
 			}
@@ -250,5 +249,4 @@
 			this.categoryTree.$element
 		) );
 	};
-} )( jQuery, blueSpice, mediaWiki );
-
+}( jQuery, blueSpice, mediaWiki ) );
