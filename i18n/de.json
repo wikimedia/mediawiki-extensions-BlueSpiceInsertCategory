@@ -39,5 +39,8 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Die Kategorien der Seite können nicht abgerufen werden.",
 	"bs-insertcategory-no-categories": "Keine Kategorien vergeben",
-	"bs-insertcategory-edit-dialog-tree-view": "Alle Kategorien anzeigen"
+	"bs-insertcategory-edit-dialog-tree-view": "Alle Kategorien anzeigen",
+	"bs-insertcategory-pref-withparents-help": "Fügt automatisch die übergeordneten Kategorien der Kategorie mit ein",
+	"bs-insertcategory-pref-uploadintegration": "Seitenkategorien im Hochladedialog verwenden",
+	"bs-insertcategory-pref-uploadintegration-help": "Legt die Seitenkategorien als Standardoption im Hochladedialog fest"
 }
