@@ -25,7 +25,6 @@
 				}
 			},
 			"ConfigDefinitionRegistry": {
-				"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
 				"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
 			}
 		},
@@ -89,10 +88,6 @@
 	},
 	"config_prefix": "bsg",
 	"config": {
-		"InsertCategoryWithParents": {
-			"value": false,
-			"descriptionmsg": "bs-insertcategory-pref-withparents"
-		},
 		"InsertCategoryUploadPanelIntegration": {
 			"value": false,
 			"descriptionmsg": "bs-insertcategory-pref-uploadpanelintegration"
