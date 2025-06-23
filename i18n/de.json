@@ -13,7 +13,6 @@
 	"bs-insertcategory-desc": "Über ein Dialogfeld lassen sich Kategorien in eine Wikiseite einfügen",
 	"bs-insertcategory-insertcat": "Kategorie einfügen",
 	"prefs-insertcategory": "Kategorie einfügen",
-	"bs-insertcategory-pref-withparents": "Kategorie mit ihren übergeordneten Kategorien einfügen",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Die Kategorien dieser Seite bearbeiten",
 	"bs-insertcategory-edit-dialog-button-tooltip": "Die Kategorien dieser Seite bearbeiten",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Öffne einen Dialog um die Kategorien dieser Seite zu bearbeiten",
@@ -27,7 +26,6 @@
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Die Kategorien der Seite können nicht abgerufen werden.",
 	"bs-insertcategory-no-categories": "Keine Kategorien vergeben",
 	"bs-insertcategory-edit-dialog-tree-view": "Alle Kategorien anzeigen",
-	"bs-insertcategory-pref-withparents-help": "Fügt automatisch die übergeordneten Kategorien der Kategorie mit ein",
 	"bs-insertcategory-pref-uploadintegration": "Seitenkategorien im Hochladedialog verwenden",
 	"bs-insertcategory-pref-uploadintegration-help": "Legt die Seitenkategorien als Standardoption im Hochladedialog fest"
 }
