@@ -3,6 +3,7 @@
 		"authors": [
 			"FiberAhmed",
 			"Meno25",
+			"Mohammed Qays",
 			"أَحمد",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -27,7 +28,7 @@
 	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
 	"bs-insertcategory-edit-dialog-button-label": "عدل",
-	"bs-insertcategory-edit-dialog-button-submit": "تم",
+	"bs-insertcategory-edit-dialog-button-submit": "نُفّذ",
 	"bs-insertcategory-edit-dialog-button-cancel": "إلغاء",
 	"bs-insertcategory-edit-dialog-button-tooltip": "تحرير فئات هذه الصفحة",
 	"bs-insertcategory-edit-dialog-button-aria-label": "فتح الحوار لتحرير فئات هذه الصفحة",
