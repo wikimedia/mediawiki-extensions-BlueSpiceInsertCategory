@@ -8,7 +8,8 @@
 			"Ndecouck",
 			"SPQRobin",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"HanV"
 		]
 	},
 	"bs-insertcategory-desc": "Het dialoogvenster voor het invoeren van een categoriekoppeling",
@@ -28,5 +29,7 @@
 	"bs-insertcategory-no-categories": "Geen categorieën toegewezen",
 	"bs-insertcategory-edit-dialog-tree-view": "Alle categorieën weergeven",
 	"bs-insertcategory-pref-uploadintegration": "Paginacategorieën in de uploaddialoog gebruiken",
-	"bs-insertcategory-pref-uploadintegration-help": "Stelt de paginacategorieën in als de standaardoptie in het uploaddialoogvenster"
+	"bs-insertcategory-pref-uploadintegration-help": "Stelt de paginacategorieën in als de standaardoptie in het uploaddialoogvenster",
+	"bs-insertcategory-set-categories-summary": "Bijgewerkte paginacategorieën",
+	"bs-insertcategory-set-categories-error": "Instellen categorieën mislukt"
 }
