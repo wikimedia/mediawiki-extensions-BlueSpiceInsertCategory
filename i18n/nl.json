@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Esketti",
+			"HanV",
 			"Jeroen N",
 			"Mainframe98",
 			"McDutchie",
@@ -40,5 +41,9 @@
 	"bs-insertcategory-edit-dialog-button-tooltip": "De categorieën van deze pagina bewerken",
 	"bs-insertcategory-edit-dialog-button-aria-label": "Dialoogvenster openen om de categorieën van deze pagina te bewerken",
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Die categorieën zijn niet opgegeven in de wikitekstinhoud van de pagina. Waarschijnlijk worden ze vanuit een sjabloon ingesteld.",
-	"bs-insertcategory-edit-dialog-tree-view": "Alle categorieën weergeven"
+	"bs-insertcategory-edit-dialog-tree-view": "Alle categorieën weergeven",
+	"bs-insertcategory-pref-uploadintegration": "Paginacategorieën in de uploaddialoog gebruiken",
+	"bs-insertcategory-pref-uploadintegration-help": "Stelt de paginacategorieën in als de standaardoptie in het uploaddialoogvenster",
+	"bs-insertcategory-set-categories-summary": "Bijgewerkte paginacategorieën",
+	"bs-insertcategory-set-categories-error": "Instellen categorieën mislukt"
 }

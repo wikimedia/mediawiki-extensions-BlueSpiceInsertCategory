@@ -3,7 +3,8 @@
 		"authors": [
 			"Chrumps",
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"WaldiSt"
 		]
 	},
 	"bs-insertcategory-insertcat": "Wstaw kategorię",
@@ -16,5 +17,7 @@
 	"bs-insertcategory-category-editor-button-label-clear-all": "Usuń wszystkie",
 	"bs-insertcategory-page-header-categories-edit-tooltip": "Edytuj kategorie na tej stronie",
 	"bs-insertcategory-edit-dialog-button-cancel": "Anuluj",
-	"bs-insertcategory-edit-dialog-tree-view": "Pokaż wszystkie kategorie"
+	"bs-insertcategory-edit-dialog-tree-view": "Pokaż wszystkie kategorie",
+	"bs-insertcategory-edit-dialog-button-submit": "Gotowe",
+	"bs-insertcategory-edit-dialog-input-label": "Przydzielone kategorie"
 }

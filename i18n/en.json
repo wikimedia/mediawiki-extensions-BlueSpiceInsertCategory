@@ -33,5 +33,9 @@
 	"bs-insertcategory-edit-dialog-implicit-categories-help": "Those categories are not defined within the wikitext content of the page. Most likely they are set from within a template.",
 	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "Cannot retrieve page categories",
 	"bs-insertcategory-no-categories": "No categories assigned",
-	"bs-insertcategory-edit-dialog-tree-view": "Show all categories"
+	"bs-insertcategory-edit-dialog-tree-view": "Show all categories",
+	"bs-insertcategory-pref-uploadintegration": "Use page categories in upload dialog",
+	"bs-insertcategory-pref-uploadintegration-help": "Sets the page categories as the default option in the upload dialog",
+	"bs-insertcategory-set-categories-summary": "Updated page categories",
+	"bs-insertcategory-set-categories-error": "Failed to set categories"
 }

@@ -5,6 +5,8 @@
 			"D41D8CD98F",
 			"Diskdance",
 			"Liuxinyu970226",
+			"Ouclie",
+			"Peterxy12",
 			"Tranve",
 			"Vikarna",
 			"沈澄心",
@@ -40,5 +42,8 @@
 	"bs-insertcategory-edit-dialog-button-tooltip": "编辑此页面的分类",
 	"bs-insertcategory-edit-dialog-button-aria-label": "打开对话框以编辑此页面的分类",
 	"bs-insertcategory-edit-dialog-tree-view": "显示所有分类",
-	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "无法检索页面分类"
+	"bs-insertcategory-edit-dialog-page-categories-get-error-message": "无法检索页面分类",
+	"bs-insertcategory-pref-uploadintegration": "在上传对话框中使用页面分类",
+	"bs-insertcategory-pref-uploadintegration-help": "将页面分类设置成上传对话框中的默认选项",
+	"bs-insertcategory-set-categories-error": "设置分类失败"
 }
