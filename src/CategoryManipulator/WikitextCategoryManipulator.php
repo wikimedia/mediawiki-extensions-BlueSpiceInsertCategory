@@ -56,11 +56,11 @@ class WikitextCategoryManipulator implements ICategoryManipulator, LoggerAwareIn
 	 */
 	public function setCategories( PageIdentity $pageIdentity, array $categoryTitles, Authority $actor ): bool {
 		$content = $this->getContent( $pageIdentity );
-		$wikitext = $content?->getText();
-		if ( !$wikitext ) {
-			$this->logger->warning( 'No wikitext found for page', [ 'page' => $pageIdentity->getFullText() ] );
+		if ( !$content ) {
+			$this->logger->warning( 'No wikitext found for page', [ 'page' => $pageIdentity->getDBkey() ] );
 			return false;
 		}
+		$wikitext = $content->getText();
 
 		$current = $this->getCategoriesFromWikitext( $wikitext );
 		$toRemove = array_merge( [], $current );
