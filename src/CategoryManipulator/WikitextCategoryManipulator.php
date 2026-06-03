@@ -164,7 +164,7 @@ class WikitextCategoryManipulator implements ICategoryManipulator, LoggerAwareIn
 		preg_match_all( $pattern, $wikitext, $matches );
 		foreach ( $matches[2] as $index => $categoryName ) {
 			$title = $this->titleFactory->newFromText( $categoryName );
-			if ( $title->getNamespace() !== NS_CATEGORY ) {
+			if ( !$title || $title->getNamespace() !== NS_CATEGORY ) {
 				continue;
 			}
 			if ( !isset( $categories[$title->getText()] ) ) {
