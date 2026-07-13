@@ -203,7 +203,7 @@
 		const text = item.label,
 			value = this.selector.getValue();
 
-		if ( value.indexOf( text ) !== -1 ) {
+		if ( value.indexOf( text ) !== -1 ) { // eslint-disable-line unicorn/prefer-includes
 			value.splice( value.indexOf( text ), 1 );
 		} else {
 			value.push( text );

@@ -5,6 +5,9 @@
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
+	"parserOptions": {
+		"sourceType": "commonjs"
+	},
 	"globals": {
 		"blueSpice": "readonly",
 		"ext": "readonly",
@@ -14,6 +17,7 @@
 	},
 	"rules": {
 		"max-len": "off",
-		"no-jquery/no-class-state": "off"
+		"no-jquery/no-class-state": "off",
+		"no-jquery/no-done-fail": "warn"
 	}
 }
