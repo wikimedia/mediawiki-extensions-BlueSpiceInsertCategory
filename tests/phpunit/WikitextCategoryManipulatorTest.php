@@ -6,6 +6,7 @@ use BlueSpice\InsertCategory\CategoryManipulator\WikitextCategoryManipulator;
 use MediaWiki\Content\WikitextContent;
 use MediaWiki\Content\WikitextContentHandler;
 use MediaWiki\Page\PageIdentity;
+use MediaWiki\Page\WikiPage;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Permissions\Authority;
 use MediaWiki\Revision\RevisionLookup;
@@ -75,7 +76,7 @@ WIKITEXT;
 			SlotRecord::MAIN, new WikitextContent( $modifiedText )
 		);
 
-		$wikiPage = $this->createMock( \WikiPage::class );
+		$wikiPage = $this->createMock( WikiPage::class );
 		$wikiPage->method( 'newPageUpdater' )->willReturn( $updater );
 		$wikiPageFactory = $this->createMock( WikiPageFactory::class );
 		$wikiPageFactory->method( 'newFromTitle' )->willReturn( $wikiPage );
