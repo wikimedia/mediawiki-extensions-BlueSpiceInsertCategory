@@ -27,5 +27,7 @@
 	"bs-insertcategory-no-categories": "Keine Kategorien vergeben",
 	"bs-insertcategory-edit-dialog-tree-view": "Alle Kategorien anzeigen",
 	"bs-insertcategory-pref-uploadintegration": "Seitenkategorien im Hochladedialog verwenden",
-	"bs-insertcategory-pref-uploadintegration-help": "Legt die Seitenkategorien als Standardoption im Hochladedialog fest"
+	"bs-insertcategory-pref-uploadintegration-help": "Legt die Seitenkategorien als Standardoption im Hochladedialog fest",
+	"bs-insertcategory-set-categories-summary": "Aktualisierte Seitenkategorien",
+	"bs-insertcategory-set-categories-error": "Kategorien konnten nicht festgelegt werden"
 }
