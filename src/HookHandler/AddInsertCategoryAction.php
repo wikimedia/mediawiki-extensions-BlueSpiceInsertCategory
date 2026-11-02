@@ -6,7 +6,7 @@ use MediaWiki\Content\WikitextContent;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Permissions\PermissionManager;
-use SkinTemplate;
+use MediaWiki\Skin\SkinTemplate;
 
 class AddInsertCategoryAction implements SkinTemplateNavigation__UniversalHook {
 
